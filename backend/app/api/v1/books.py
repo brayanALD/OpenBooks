@@ -14,9 +14,6 @@ Catalog = Annotated[CatalogService, Depends(get_catalog_service)]
 Orders = Annotated[OrderService, Depends(get_order_service)]
 OptionalUser = Annotated[User | None, Depends(get_current_user_optional)]
 
-# Un pedido cuenta como "comprado" desde que se pagó, siga o no en camino.
-_PURCHASED_STATUSES = {"paid", "shipped", "delivered"}
-
 
 @router.get("", response_model=Page[BookSummary])
 def list_books(
@@ -65,11 +62,7 @@ def recommended_books(
 ) -> list[BookSummary]:
     """Portada: sin sesión, o con sesión pero sin compras pagadas, da lo mismo que a un cliente nuevo.
     Con compras pagadas, se recomienda por afinidad a ellas. Va antes de `/{slug}` para no chocar con esa ruta."""
-    purchased_ids: set[str] = set()
-    if user is not None:
-        for order in orders.list_for_user(user.id):
-            if order.status in _PURCHASED_STATUSES:
-                purchased_ids.update(item.book_id for item in order.items)
+    purchased_ids = {item.book_id for item in orders.owned_book_items(user.id)} if user is not None else set()
     return catalog.recommended_books(purchased_ids, limit)
 
 

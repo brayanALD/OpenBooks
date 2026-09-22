@@ -100,6 +100,18 @@ export default async function AccountPage() {
         </div>
         <p className="mt-2 text-brand-800">Los libros que guardaste con el corazón para verlos más tarde.</p>
       </section>
+
+      <section aria-labelledby="librero" className="rounded-2xl bg-card p-6 shadow-card">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 id="librero" className="text-2xl font-bold">
+            Mi librero
+          </h2>
+          <Link href="/cuenta/librero" className="text-sm font-semibold text-accent underline underline-offset-4">
+            Ver mi librero
+          </Link>
+        </div>
+        <p className="mt-2 text-brand-800">Los libros que has comprado, todos en un mismo lugar.</p>
+      </section>
     </div>
   );
 }

@@ -15,6 +15,9 @@ log = logging.getLogger(__name__)
 
 PAYMENT_ERROR = "No se pudo procesar el pago. Inténtalo de nuevo."
 
+# Un pedido cuenta como "comprado" desde que se pagó, siga o no en camino.
+PURCHASED_STATUSES = {"paid", "shipped", "delivered"}
+
 
 class CheckoutError(Exception):
     """El pedido no se puede crear tal como llegó. `code` lo traduce la API a un mensaje para el usuario."""
@@ -65,6 +68,18 @@ class OrderService:
         """Solo devuelve pedidos propios: para cualquier otro es como si no existiera."""
         order = self._orders.get(order_id)
         return order if order and order.user_id == user_id else None
+
+    def owned_book_items(self, user_id: str) -> list[OrderItem]:
+        """Un OrderItem por libro comprado (pagado, enviado o entregado), sin duplicar; si se compró
+        más de una vez, se queda con el del pedido más reciente. `list_for_user` ya viene ordenado
+        del más reciente al más antiguo."""
+        seen: dict[str, OrderItem] = {}
+        for order in self.list_for_user(user_id):
+            if order.status not in PURCHASED_STATUSES:
+                continue
+            for item in order.items:
+                seen.setdefault(item.book_id, item)
+        return list(seen.values())
 
     # -- compra ----------------------------------------------------------------------------------
 

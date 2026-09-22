@@ -28,7 +28,9 @@ export function Logo({ className }: { className?: string }) {
     <Link
       href="/"
       aria-label={`${SITE.name}, ir al inicio`}
-      className={cn("inline-flex items-center gap-2.5", className)}
+      // Color de marca fijo (el mismo en claro y oscuro): no usa `text-brand-900`, que el modo oscuro
+      // reasigna a un tono claro para el resto del texto.
+      className={cn("inline-flex items-center gap-2.5 text-[#2e1708]", className)}
     >
       <LogoMark />
       <span className="whitespace-nowrap font-display text-2xl font-bold leading-none tracking-tight">

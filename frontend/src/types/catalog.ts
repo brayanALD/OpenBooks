@@ -30,6 +30,7 @@ export type BookSummary = {
 };
 
 export type BookDetail = BookSummary & {
+  isbn: string;
   publisher: string | null;
   pages: number | null;
   language: string | null;

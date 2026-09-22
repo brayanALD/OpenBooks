@@ -21,6 +21,7 @@ class BookFields(BaseModel):
     title: Annotated[Text, Field(min_length=1, max_length=200)]
     author_name: Annotated[Text, Field(min_length=2, max_length=100)]
     category_ids: Annotated[list[str], Field(min_length=1, max_length=6)]
+    isbn: Annotated[Text, Field(min_length=10, max_length=20)]
     publisher: Annotated[Text, Field(max_length=100)] | None = None
     pages: Annotated[int, Field(ge=1, le=20_000)] | None = None
     language: Annotated[Text, Field(max_length=40)] | None = None
@@ -67,6 +68,7 @@ class BookUpdateIn(BaseModel):
     title: Annotated[Text, Field(min_length=1, max_length=200)] | None = None
     author_name: Annotated[Text, Field(min_length=2, max_length=100)] | None = None
     category_ids: Annotated[list[str], Field(min_length=1, max_length=6)] | None = None
+    isbn: Annotated[Text, Field(min_length=10, max_length=20)] | None = None
     publisher: Annotated[Text, Field(max_length=100)] | None = None
     pages: Annotated[int, Field(ge=1, le=20_000)] | None = None
     language: Annotated[Text, Field(max_length=40)] | None = None
@@ -97,6 +99,7 @@ class AdminBookOut(BaseModel):
     title: str
     author_name: str
     category_ids: list[str]
+    isbn: str
     publisher: str | None
     pages: int | None
     language: str | None

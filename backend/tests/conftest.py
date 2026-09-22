@@ -7,6 +7,7 @@ from app.core import deps
 from app.domain.models import Author, Book, Category, Review
 from app.repositories.memory_repo import InMemoryRepository
 from app.services.catalog_service import CatalogService
+from scripts.catalog_rules import isbn_for
 
 NOW = datetime(2025, 1, 1, tzinfo=timezone.utc)
 
@@ -16,6 +17,7 @@ def make_book(id: str, title: str, author_id: str, category_ids: list[str], **ov
         id=id,
         slug=title.lower().replace(" ", "-"),
         title=title,
+        isbn=isbn_for(id, None),
         author_id=author_id,
         category_ids=category_ids,
         price_cop=50_000,

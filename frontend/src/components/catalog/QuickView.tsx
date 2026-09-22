@@ -34,7 +34,12 @@ export function QuickView({ book }: { book: BookSummary }) {
 
   const detail = state.status === "ready" ? state.detail : null;
   const facts = detail
-    ? [detail.publisher && `Editorial: ${detail.publisher}`, detail.pages && `${detail.pages} páginas`, detail.language && `Idioma: ${detail.language}`].filter(Boolean)
+    ? [
+        detail.publisher && `Editorial: ${detail.publisher}`,
+        detail.pages && `${detail.pages} páginas`,
+        detail.language && `Idioma: ${detail.language}`,
+        detail.isbn && `ISBN: ${detail.isbn}`,
+      ].filter(Boolean)
     : [];
 
   return (

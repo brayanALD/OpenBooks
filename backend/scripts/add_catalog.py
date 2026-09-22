@@ -7,7 +7,11 @@ Uso (desde backend/, con conexión a internet):
   (https://openlibrary.org); si un libro no tiene portada allí se omite y se avisa al final.
 - Precio, envío y stock son inventados y deterministas (como en el resto del catálogo de desarrollo).
 - Es idempotente: un libro cuyo slug ya existe se salta, así que se puede repetir tras un fallo de red.
-- Escribe en backend/data (books/authors/categories.json) y en frontend/public/covers, igual que import_legacy.
+- Escribe en backend/data (books/authors/categories/reviews.json) y en frontend/public/covers, igual que import_legacy.
+- Cada libro añadido recibe un ISBN inventado, envío calculado por precio y páginas, algunos (deterministamente)
+  destacado o más vendido, y unas pocas reseñas de muestra genéricas: ver scripts/catalog_rules.py y
+  scripts/generic_reviews.py. El descuento NO se asigna aquí (depende del catálogo completo):
+  corre scripts/enrich_catalog.py después.
   Si repites `import_legacy --force`, el catálogo vuelve a los 37 libros originales: ejecuta este script después.
 """
 
@@ -28,7 +32,9 @@ from PIL import Image
 
 from app.config import settings
 from app.core.text import slugify
-from app.domain.models import Author, Book, Category, Entity
+from app.domain.models import Author, Book, Category, Entity, Review
+from scripts.catalog_rules import extra_flags, isbn_for, shipping_for
+from scripts.generic_reviews import build_generic_reviews
 from scripts.process_images import process_cover
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -239,36 +245,55 @@ def main(dry_run: bool = False) -> int:
 
             h = zlib.crc32(row.slug.encode())
             pages = doc.get("number_of_pages_median")
+            pages = pages if isinstance(pages, int) and 16 <= pages <= 3000 else None
             publishers = doc.get("publisher") or []
+            price = 25_000 + (h % 71) * 1_000
             book = Book(
                 id=f"bk_{len(books) + len(added) + 1:03d}",
                 slug=row.slug,
                 title=row.title,
+                isbn=isbn_for(row.slug, "Español"),
                 author_id=author.id,
                 category_ids=[by_slug[row.category].id],
                 publisher=publishers[0] if publishers else None,
-                pages=pages if isinstance(pages, int) and 16 <= pages <= 3000 else None,
+                pages=pages,
                 language="Español",
                 description=row.description,
-                price_cop=25_000 + (h % 71) * 1_000,
-                shipping_cost_cop=0 if h % 3 == 0 else 5_000,
+                price_cop=price,
+                shipping_cost_cop=shipping_for(price, pages),
                 stock=STOCK_MIN + h % STOCK_SPAN,
                 cover=f"/covers/{row.slug}.webp",
                 cover_width=width,
                 cover_height=height,
                 cover_blur=blur,
                 created_at=now,
+                **extra_flags(row.slug),
             )
             added.append(book)
             used_slugs.add(row.slug)
             print(f"[{i}/{len(rows)}] ok {row.title}")
 
+    review_count = 0
     if not dry_run:
         dump(data / "categories.json", categories)
         dump(data / "authors.json", authors)
         dump(data / "books.json", complete([*books, *added]))
 
-    print(f"\nLibros añadidos: {len(added)} · autores nuevos: {len(authors) - authors_before}")
+        reviews_path = data / "reviews.json"
+        reviews = [Review(**r) for r in json.loads(reviews_path.read_text(encoding="utf-8"))] if reviews_path.exists() else []
+        next_id = max((int(r.id[3:]) for r in reviews if r.id.startswith("rv_") and r.id[3:].isdigit()), default=0) + 1
+        anchor = datetime(2025, 3, 1, 9, tzinfo=timezone.utc)  # fecha fija en el pasado, no la de hoy
+        new_reviews: list[Review] = []
+        for book in added:
+            bonus = 2 if book.featured or book.bestseller else 0
+            generated = build_generic_reviews(book_id=book.id, slug=book.slug, start_id=next_id, start_date=anchor, bonus=bonus)
+            next_id += len(generated)
+            new_reviews.extend(generated)
+        if new_reviews:
+            dump(reviews_path, [*reviews, *new_reviews])
+        review_count = len(new_reviews)
+
+    print(f"\nLibros añadidos: {len(added)} · autores nuevos: {len(authors) - authors_before} · reseñas de muestra nuevas: {review_count}")
     counts = {c.slug: sum(c.id in b.category_ids for b in [*books, *added]) for c in categories}
     for slug, n in counts.items():
         print(f"  {slug}: {n}{'' if n == TARGET_PER_CATEGORY else '  <-- no llega a 20' if n < TARGET_PER_CATEGORY else '  <-- pasa de 20'}")

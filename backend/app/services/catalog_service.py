@@ -202,6 +202,7 @@ class CatalogService:
         summary = self._summary(book, authors, categories, ratings)
         return BookDetail(
             **summary.model_dump(),
+            isbn=book.isbn,
             publisher=book.publisher,
             pages=book.pages,
             language=book.language,

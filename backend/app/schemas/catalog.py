@@ -54,6 +54,7 @@ class BookSummary(BaseModel):
 
 
 class BookDetail(BookSummary):
+    isbn: str
     publisher: str | None
     pages: int | None
     language: str | None

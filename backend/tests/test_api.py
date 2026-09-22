@@ -146,7 +146,9 @@ def test_cart_validate_prices_and_totals(client):
     ).json()
     assert [l["unit_price_cop"] for l in body["lines"]] == [38_250, 12_750]  # con el 15 % de descuento
     assert body["subtotal_cop"] == 2 * 38_250 + 12_750
-    assert body["shipping_cop"] == 0 and body["total_cop"] == body["subtotal_cop"]
+    # Ambos libros cuestan menos de $70.000 y tienen más de 150 páginas: envío 10.000 cada uno,
+    # y el pedido cobra el envío más caro entre los libros, no la suma.
+    assert body["shipping_cop"] == 10_000 and body["total_cop"] == body["subtotal_cop"] + 10_000
     assert body["item_count"] == 3 and body["has_issues"] is False
     assert body["lines"][0]["book"]["title"] == "Crimen y Castigo"
 

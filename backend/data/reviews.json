@@ -7,7 +7,8 @@
     "rating": 5,
     "comment": "Una distopía que sigue vigente: la vigilancia constante y la Neolengua dan escalofríos. La edición en inglés de Penguin es cómoda de leer.",
     "is_demo": true,
-    "created_at": "2025-02-01T12:00:00Z"
+    "created_at": "2025-02-01T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_002",
@@ -17,7 +18,8 @@
     "rating": 4,
     "comment": "Pensé que sería una lectura densa y me enganchó enseguida. El final me dejó sin aliento, aunque el ritmo baja un poco a mitad del libro.",
     "is_demo": true,
-    "created_at": "2025-02-02T12:00:00Z"
+    "created_at": "2025-02-02T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_003",
@@ -27,7 +29,8 @@
     "rating": 5,
     "comment": "Un relato reflexivo y sincero de su camino a la presidencia y su primer mandato. Está en inglés, pero su prosa es clara y accesible.",
     "is_demo": true,
-    "created_at": "2025-02-03T12:00:00Z"
+    "created_at": "2025-02-03T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_004",
@@ -37,7 +40,8 @@
     "rating": 4,
     "comment": "Extenso y detallado; hay capítulos muy políticos, pero las anécdotas personales lo hacen muy humano.",
     "is_demo": true,
-    "created_at": "2025-02-04T12:00:00Z"
+    "created_at": "2025-02-04T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_005",
@@ -47,7 +51,8 @@
     "rating": 5,
     "comment": "Violet y el Colegio de Guerra de Basgiath me tuvieron leyendo hasta la madrugada. Los dragones y la tensión romántica están muy bien llevados, y la tapa dura es preciosa.",
     "is_demo": true,
-    "created_at": "2025-02-05T12:00:00Z"
+    "created_at": "2025-02-05T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_006",
@@ -57,7 +62,8 @@
     "rating": 4,
     "comment": "Muy entretenida y adictiva, aunque el sistema de magia se explica poco. Ideal si disfrutas la fantasía romántica.",
     "is_demo": true,
-    "created_at": "2025-02-06T12:00:00Z"
+    "created_at": "2025-02-06T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_007",
@@ -67,7 +73,8 @@
     "rating": 5,
     "comment": "Una obra maestra sobre el amor, la sociedad rusa y las consecuencias de las decisiones. Son más de mil páginas y valen cada una.",
     "is_demo": true,
-    "created_at": "2025-02-07T12:00:00Z"
+    "created_at": "2025-02-07T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_008",
@@ -77,7 +84,8 @@
     "rating": 4,
     "comment": "La historia de Levin y Kitty me gustó tanto como la de Anna. Es un libro pesado para cargar, pero la lectura lo compensa.",
     "is_demo": true,
-    "created_at": "2025-02-08T12:00:00Z"
+    "created_at": "2025-02-08T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_009",
@@ -87,7 +95,8 @@
     "rating": 4,
     "comment": "Interesante conocer la vida de Franklin en sus propias palabras, con su método de las trece virtudes.",
     "is_demo": true,
-    "created_at": "2025-02-09T12:00:00Z"
+    "created_at": "2025-02-09T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_010",
@@ -97,7 +106,8 @@
     "rating": 4,
     "comment": "Un clásico de la autobiografía con consejos que todavía sirven; el estilo del siglo XVIII cuesta un poco al principio.",
     "is_demo": true,
-    "created_at": "2025-02-10T12:00:00Z"
+    "created_at": "2025-02-10T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_011",
@@ -107,7 +117,8 @@
     "rating": 4,
     "comment": "Fábula corta y amena sobre liderazgo: usar cabeza, corazón y manos para transformarse. Se lee en una tarde.",
     "is_demo": true,
-    "created_at": "2025-02-11T12:00:00Z"
+    "created_at": "2025-02-11T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_012",
@@ -117,7 +128,8 @@
     "rating": 4,
     "comment": "La trama es sencilla, pero deja ideas prácticas para el trabajo en equipo. Buen regalo para alguien que empieza a liderar.",
     "is_demo": true,
-    "created_at": "2025-02-12T12:00:00Z"
+    "created_at": "2025-02-12T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_013",
@@ -127,7 +139,8 @@
     "rating": 5,
     "comment": "Macondo se queda contigo. La saga de los Buendía mezcla lo cotidiano y lo mágico con una naturalidad única. Un libro para releer.",
     "is_demo": true,
-    "created_at": "2025-02-13T12:00:00Z"
+    "created_at": "2025-02-13T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_014",
@@ -137,7 +150,8 @@
     "rating": 5,
     "comment": "Al principio me perdí entre tantos Aurelianos y José Arcadios; hacer un pequeño árbol genealógico ayuda. Termina siendo una experiencia inolvidable.",
     "is_demo": true,
-    "created_at": "2025-02-14T12:00:00Z"
+    "created_at": "2025-02-14T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_015",
@@ -147,7 +161,8 @@
     "rating": 5,
     "comment": "La angustia y la culpa de Raskólnikov están retratadas de forma magistral. Una novela psicológica que no ha envejecido.",
     "is_demo": true,
-    "created_at": "2025-02-15T12:00:00Z"
+    "created_at": "2025-02-15T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_016",
@@ -157,7 +172,8 @@
     "rating": 4,
     "comment": "Es intensa y algo densa en los diálogos filosóficos, pero el duelo con el investigador Porfirio es genial.",
     "is_demo": true,
-    "created_at": "2025-02-16T12:00:00Z"
+    "created_at": "2025-02-16T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_017",
@@ -167,7 +183,8 @@
     "rating": 5,
     "comment": "Repasa la historia de la humanidad desde una mirada distinta: las revoluciones cognitiva, agrícola y científica. Muy sugerente.",
     "is_demo": true,
-    "created_at": "2025-02-17T12:00:00Z"
+    "created_at": "2025-02-17T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_018",
@@ -177,7 +194,8 @@
     "rating": 4,
     "comment": "Entretenido y lleno de ideas provocadoras, aunque algunas generalizaciones son discutibles.",
     "is_demo": true,
-    "created_at": "2025-02-18T12:00:00Z"
+    "created_at": "2025-02-18T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_019",
@@ -187,7 +205,8 @@
     "rating": 5,
     "comment": "Las aventuras de don Quijote y Sancho contra los molinos de viento siguen siendo divertidísimas y profundas.",
     "is_demo": true,
-    "created_at": "2025-02-19T12:00:00Z"
+    "created_at": "2025-02-19T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_020",
@@ -197,7 +216,8 @@
     "rating": 4,
     "comment": "Una edición manejable de un clásico enorme. Recomendable para acercarse a Cervantes sin abrumarse.",
     "is_demo": true,
-    "created_at": "2025-02-20T12:00:00Z"
+    "created_at": "2025-02-20T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_021",
@@ -207,7 +227,8 @@
     "rating": 3,
     "comment": "Tiene buenas ideas para armar un jardín con intención, pero esperaba más guías prácticas de cultivo.",
     "is_demo": true,
-    "created_at": "2025-02-21T12:00:00Z"
+    "created_at": "2025-02-21T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_022",
@@ -217,7 +238,8 @@
     "rating": 2,
     "comment": "Interesante como introducción, aunque me pareció superficial en la parte de jardinería. Está más enfocado en la tradición esotérica que en cultivar.",
     "is_demo": true,
-    "created_at": "2025-02-22T12:00:00Z"
+    "created_at": "2025-02-22T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_023",
@@ -227,7 +249,8 @@
     "rating": 5,
     "comment": "Un homenaje conmovedor de Abad Faciolince a su padre, el médico Héctor Abad Gómez. Es difícil no emocionarse.",
     "is_demo": true,
-    "created_at": "2025-02-23T12:00:00Z"
+    "created_at": "2025-02-23T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_024",
@@ -237,7 +260,8 @@
     "rating": 5,
     "comment": "Combina la memoria familiar con la violencia de Colombia. Un libro que se queda para siempre.",
     "is_demo": true,
-    "created_at": "2025-02-24T12:00:00Z"
+    "created_at": "2025-02-24T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_025",
@@ -247,7 +271,8 @@
     "rating": 5,
     "comment": "Allende entrelaza la Viena de 1938 con la frontera de Estados Unidos en la actualidad. Emotiva y muy humana.",
     "is_demo": true,
-    "created_at": "2025-02-25T12:00:00Z"
+    "created_at": "2025-02-25T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_026",
@@ -257,7 +282,8 @@
     "rating": 4,
     "comment": "Personajes entrañables, aunque las dos historias tardan en encontrarse. Un mensaje muy actual sobre la migración.",
     "is_demo": true,
-    "created_at": "2025-02-26T12:00:00Z"
+    "created_at": "2025-02-26T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_027",
@@ -267,7 +293,8 @@
     "rating": 4,
     "comment": "Una novela breve y sensible sobre Ana Magdalena Bach y sus viajes anuales a la isla. Se siente como un regalo póstumo.",
     "is_demo": true,
-    "created_at": "2025-02-27T12:00:00Z"
+    "created_at": "2025-02-27T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_028",
@@ -277,7 +304,8 @@
     "rating": 4,
     "comment": "Corta y de lectura ligera; no es su obra más ambiciosa, pero conserva su prosa inconfundible.",
     "is_demo": true,
-    "created_at": "2025-02-28T12:00:00Z"
+    "created_at": "2025-02-28T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_029",
@@ -287,7 +315,8 @@
     "rating": 5,
     "comment": "Perfecto para releer la saga completa o para regalarla. Los siete libros llegaron bien protegidos dentro del estuche.",
     "is_demo": true,
-    "created_at": "2025-03-01T12:00:00Z"
+    "created_at": "2025-03-01T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_030",
@@ -297,7 +326,8 @@
     "rating": 5,
     "comment": "La mejor forma de tener toda la historia de Harry, Ron y Hermione en la biblioteca. Las ediciones de bolsillo son livianas.",
     "is_demo": true,
-    "created_at": "2025-03-02T12:00:00Z"
+    "created_at": "2025-03-02T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_031",
@@ -307,7 +337,8 @@
     "rating": 5,
     "comment": "Retrata a la sociedad rusa durante las guerras napoleónicas con personajes memorables como Pierre y Natasha. Larga, pero imperdible.",
     "is_demo": true,
-    "created_at": "2025-03-03T12:00:00Z"
+    "created_at": "2025-03-03T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_032",
@@ -317,7 +348,8 @@
     "rating": 4,
     "comment": "Requiere paciencia por su extensión y la cantidad de personajes, pero la recompensa es enorme. Muy buen precio para tantas páginas.",
     "is_demo": true,
-    "created_at": "2025-03-04T12:00:00Z"
+    "created_at": "2025-03-04T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_033",
@@ -327,7 +359,8 @@
     "rating": 5,
     "comment": "Intrigas, casas nobles y una guerra por el Trono de Hierro. No hay personajes intocables, y eso mantiene la tensión.",
     "is_demo": true,
-    "created_at": "2025-03-05T12:00:00Z"
+    "created_at": "2025-03-05T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_034",
@@ -337,7 +370,8 @@
     "rating": 4,
     "comment": "Un mundo muy trabajado. Al inicio cuesta ubicar tantas casas y nombres, pero después no puedes soltarlo.",
     "is_demo": true,
-    "created_at": "2025-03-06T12:00:00Z"
+    "created_at": "2025-03-06T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_035",
@@ -347,7 +381,8 @@
     "rating": 5,
     "comment": "Un thriller psicológico con un giro final que no vi venir. Alicia y su silencio te mantienen intrigado hasta la última página.",
     "is_demo": true,
-    "created_at": "2025-03-07T12:00:00Z"
+    "created_at": "2025-03-07T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_036",
@@ -357,7 +392,8 @@
     "rating": 4,
     "comment": "Adictivo y de lectura rápida. Algunos elementos son algo predecibles, pero el desenlace compensa.",
     "is_demo": true,
-    "created_at": "2025-03-08T12:00:00Z"
+    "created_at": "2025-03-08T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_037",
@@ -367,7 +403,8 @@
     "rating": 4,
     "comment": "Una novela de la Barcelona de 1917, con conflicto obrero y corrupción. Una intriga muy bien tejida.",
     "is_demo": true,
-    "created_at": "2025-03-09T12:00:00Z"
+    "created_at": "2025-03-09T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_038",
@@ -377,7 +414,8 @@
     "rating": 4,
     "comment": "Su estructura mezcla voces, cartas y testimonios. Exige atención, pero recompensa mucho.",
     "is_demo": true,
-    "created_at": "2025-03-10T12:00:00Z"
+    "created_at": "2025-03-10T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_039",
@@ -387,7 +425,8 @@
     "rating": 5,
     "comment": "Un clásico para entender la historia de la explotación de los recursos de la región. Prosa poderosa.",
     "is_demo": true,
-    "created_at": "2025-03-11T12:00:00Z"
+    "created_at": "2025-03-11T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_040",
@@ -397,7 +436,8 @@
     "rating": 4,
     "comment": "Es un ensayo con mucha postura; conviene leerlo junto con otras fuentes, pero sigue siendo influyente.",
     "is_demo": true,
-    "created_at": "2025-03-12T12:00:00Z"
+    "created_at": "2025-03-12T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_041",
@@ -407,7 +447,8 @@
     "rating": 5,
     "comment": "Una forma divertida de repasar la historia de Colombia, con humor y sin perder rigor.",
     "is_demo": true,
-    "created_at": "2025-03-13T12:00:00Z"
+    "created_at": "2025-03-13T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_042",
@@ -417,7 +458,8 @@
     "rating": 4,
     "comment": "Ideal para quien odiaba las clases de historia. Ágil y con muchas anécdotas.",
     "is_demo": true,
-    "created_at": "2025-03-14T12:00:00Z"
+    "created_at": "2025-03-14T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_043",
@@ -427,7 +469,8 @@
     "rating": 5,
     "comment": "Cuentos de terror con raíz en la realidad argentina. Inquietantes y muy bien escritos.",
     "is_demo": true,
-    "created_at": "2025-03-15T12:00:00Z"
+    "created_at": "2025-03-15T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_044",
@@ -437,7 +480,8 @@
     "rating": 4,
     "comment": "Relatos perturbadores; algunos me dejaron pensando varios días. No son para leer antes de dormir.",
     "is_demo": true,
-    "created_at": "2025-03-16T12:00:00Z"
+    "created_at": "2025-03-16T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_045",
@@ -447,7 +491,8 @@
     "rating": 5,
     "comment": "Una novela intensa sobre Alice Gould, que ingresa en un psiquiátrico para investigar. Te hace dudar de quién está cuerdo.",
     "is_demo": true,
-    "created_at": "2025-03-17T12:00:00Z"
+    "created_at": "2025-03-17T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_046",
@@ -457,7 +502,8 @@
     "rating": 4,
     "comment": "Ritmo ágil y ambientación muy lograda. Un clásico de la narrativa española del siglo XX.",
     "is_demo": true,
-    "created_at": "2025-03-18T12:00:00Z"
+    "created_at": "2025-03-18T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_047",
@@ -467,7 +513,8 @@
     "rating": 5,
     "comment": "Una novela cruda y poderosa sobre Adán Santana y sus fantasmas. Mendoza retrata Bogotá y a los marginados sin adornos.",
     "is_demo": true,
-    "created_at": "2025-03-19T12:00:00Z"
+    "created_at": "2025-03-19T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_048",
@@ -477,7 +524,8 @@
     "rating": 4,
     "comment": "Fuerte y muy bien escrita; no es una lectura ligera, pero deja huella.",
     "is_demo": true,
-    "created_at": "2025-03-20T12:00:00Z"
+    "created_at": "2025-03-20T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_049",
@@ -487,7 +535,8 @@
     "rating": 4,
     "comment": "El capitán Ahab es un personaje formidable. Los capítulos sobre cetología son largos, pero dan textura a la aventura.",
     "is_demo": true,
-    "created_at": "2025-03-21T12:00:00Z"
+    "created_at": "2025-03-21T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_050",
@@ -497,7 +546,8 @@
     "rating": 5,
     "comment": "Mucho más que la historia de una ballena: es una reflexión sobre la obsesión. La edición es muy legible.",
     "is_demo": true,
-    "created_at": "2025-03-22T12:00:00Z"
+    "created_at": "2025-03-22T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_051",
@@ -507,7 +557,8 @@
     "rating": 5,
     "comment": "Reúne relatos esenciales del horror cósmico. La edición de Valdemar es preciosa y muy completa.",
     "is_demo": true,
-    "created_at": "2025-03-23T12:00:00Z"
+    "created_at": "2025-03-23T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_052",
@@ -517,7 +568,8 @@
     "rating": 4,
     "comment": "Atmósfera opresiva y un horror que sugiere más de lo que muestra. El estilo es denso, pero perfecto para leer de noche.",
     "is_demo": true,
-    "created_at": "2025-03-24T12:00:00Z"
+    "created_at": "2025-03-24T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_053",
@@ -527,7 +579,8 @@
     "rating": 5,
     "comment": "El fundador de Nike cuenta sus inicios vendiendo zapatillas desde el maletero de su auto. Ágil, honesta y llena de aprendizajes.",
     "is_demo": true,
-    "created_at": "2025-03-25T12:00:00Z"
+    "created_at": "2025-03-25T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_054",
@@ -537,7 +590,8 @@
     "rating": 4,
     "comment": "Muy buena para emprendedores. Hacia el final se siente algo apresurada, pero los primeros años son fascinantes.",
     "is_demo": true,
-    "created_at": "2025-03-26T12:00:00Z"
+    "created_at": "2025-03-26T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_055",
@@ -547,7 +601,8 @@
     "rating": 5,
     "comment": "Elizabeth Bennet sigue siendo una protagonista genial. Ingenio, ironía social y una historia de amor perfecta.",
     "is_demo": true,
-    "created_at": "2025-03-27T12:00:00Z"
+    "created_at": "2025-03-27T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_056",
@@ -557,7 +612,8 @@
     "rating": 4,
     "comment": "Lectura ligera y elegante. Al principio la sociedad de la época se siente lejana, pero engancha rápido.",
     "is_demo": true,
-    "created_at": "2025-03-28T12:00:00Z"
+    "created_at": "2025-03-28T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_057",
@@ -567,7 +623,8 @@
     "rating": 5,
     "comment": "Impresionante material ilustrativo y muy riguroso sobre terópodos. Para apasionados de la paleontología es una joya.",
     "is_demo": true,
-    "created_at": "2025-03-29T12:00:00Z"
+    "created_at": "2025-03-29T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_058",
@@ -577,7 +634,8 @@
     "rating": 4,
     "comment": "Muy completo, con diagramas y reconstrucciones a todo color. Es un libro grande y técnico, más de consulta que de lectura seguida.",
     "is_demo": true,
-    "created_at": "2025-03-30T12:00:00Z"
+    "created_at": "2025-03-30T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_059",
@@ -587,7 +645,8 @@
     "rating": 3,
     "comment": "Tiene ideas útiles sobre motivación y comunicación, pero el tono es de autoayuda clásica y hay bastante repetición.",
     "is_demo": true,
-    "created_at": "2025-03-31T12:00:00Z"
+    "created_at": "2025-03-31T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_060",
@@ -597,7 +656,8 @@
     "rating": 2,
     "comment": "Esperaba más contenido práctico. Varios capítulos son motivacionales pero poco concretos.",
     "is_demo": true,
-    "created_at": "2025-04-01T12:00:00Z"
+    "created_at": "2025-04-01T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_061",
@@ -607,7 +667,8 @@
     "rating": 5,
     "comment": "Isaacson retrata a Jobs sin idealizarlo: su genio, su obsesión por el diseño y también su carácter difícil. Se lee como una novela.",
     "is_demo": true,
-    "created_at": "2025-04-02T12:00:00Z"
+    "created_at": "2025-04-02T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_062",
@@ -617,7 +678,8 @@
     "rating": 4,
     "comment": "Muy completa y bien documentada. Algunas partes sobre negociaciones empresariales se hacen largas, pero vale la pena.",
     "is_demo": true,
-    "created_at": "2025-04-03T12:00:00Z"
+    "created_at": "2025-04-03T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_063",
@@ -627,7 +689,8 @@
     "rating": 5,
     "comment": "Kobe explica su preparación, su análisis de video y su obsesión por mejorar. Inspirador incluso si no te gusta el baloncesto.",
     "is_demo": true,
-    "created_at": "2025-04-04T12:00:00Z"
+    "created_at": "2025-04-04T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_064",
@@ -637,7 +700,8 @@
     "rating": 4,
     "comment": "Con fotos y explicaciones sobre su técnica. Es más un manual de mentalidad que una biografía tradicional.",
     "is_demo": true,
-    "created_at": "2025-04-05T12:00:00Z"
+    "created_at": "2025-04-05T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_065",
@@ -647,7 +711,8 @@
     "rating": 5,
     "comment": "El sistema de magia de la alomancia es de lo mejor que he leído, y el giro final del primer libro es memorable. Tres libros en un solo estuche.",
     "is_demo": true,
-    "created_at": "2025-04-06T12:00:00Z"
+    "created_at": "2025-04-06T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_066",
@@ -657,7 +722,8 @@
     "rating": 5,
     "comment": "Vin y Kelsier son personajes inolvidables. La trilogía cierra de forma muy satisfactoria.",
     "is_demo": true,
-    "created_at": "2025-04-07T12:00:00Z"
+    "created_at": "2025-04-07T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_067",
@@ -667,7 +733,8 @@
     "rating": 4,
     "comment": "Un reto mayúsculo: un solo día de 1904 en Dublín, siguiendo a Leopold Bloom. Hace falta paciencia y una guía de lectura.",
     "is_demo": true,
-    "created_at": "2025-04-08T12:00:00Z"
+    "created_at": "2025-04-08T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_068",
@@ -677,7 +744,8 @@
     "rating": 5,
     "comment": "Monumental. Cada capítulo cambia de estilo, y las notas de la edición ayudan mucho a entender las referencias.",
     "is_demo": true,
-    "created_at": "2025-04-09T12:00:00Z"
+    "created_at": "2025-04-09T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_069",
@@ -687,7 +755,8 @@
     "rating": 5,
     "comment": "La evolución de Feyre y la Corte de la Noche es lo mejor de la saga. Ritmo, romance y una trama que va subiendo de intensidad.",
     "is_demo": true,
-    "created_at": "2025-04-10T12:00:00Z"
+    "created_at": "2025-04-10T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_070",
@@ -697,7 +766,8 @@
     "rating": 4,
     "comment": "Mejora mucho respecto al primer libro. La edición especial es bonita; el romance domina, pero la política entre cortes también engancha.",
     "is_demo": true,
-    "created_at": "2025-04-11T12:00:00Z"
+    "created_at": "2025-04-11T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_071",
@@ -707,7 +777,8 @@
     "rating": 5,
     "comment": "Will Smith cuenta su infancia, su ascenso a la fama y sus inseguridades con mucha honestidad. Se lee muy rápido.",
     "is_demo": true,
-    "created_at": "2025-04-12T12:00:00Z"
+    "created_at": "2025-04-12T12:00:00Z",
+    "updated_at": null
   },
   {
     "id": "rv_072",
@@ -717,6 +788,5606 @@
     "rating": 4,
     "comment": "Ameno y sincero, con una escritura ágil. Algunas partes sobre superación se repiten un poco, pero conmueve.",
     "is_demo": true,
-    "created_at": "2025-04-13T12:00:00Z"
+    "created_at": "2025-04-13T12:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_073",
+    "book_id": "bk_018",
+    "user_id": "usr_95dc5d39e524",
+    "author_name": "Juan P.",
+    "rating": 5,
+    "comment": "god me gusto",
+    "is_demo": false,
+    "created_at": "2026-09-22T00:58:07.486504Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_074",
+    "book_id": "bk_162",
+    "user_id": "usr_95dc5d39e524",
+    "author_name": "Juan P.",
+    "rating": 5,
+    "comment": "la mejor obra de Steven el rey, lastima que las peliculas sean tan poco huevos de hacer a Carrie gorda",
+    "is_demo": false,
+    "created_at": "2026-09-22T01:14:44.115953Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_075",
+    "book_id": "bk_039",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-27T11:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_076",
+    "book_id": "bk_040",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-05-01T06:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_077",
+    "book_id": "bk_040",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-03-04T08:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_078",
+    "book_id": "bk_040",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-17T12:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_079",
+    "book_id": "bk_041",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-04-24T05:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_080",
+    "book_id": "bk_041",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-28T01:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_081",
+    "book_id": "bk_041",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-03-06T06:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_082",
+    "book_id": "bk_043",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-13T13:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_083",
+    "book_id": "bk_043",
+    "user_id": null,
+    "author_name": "Sebastián T.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-03-12T10:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_084",
+    "book_id": "bk_043",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-01T02:37:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_085",
+    "book_id": "bk_043",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-15T15:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_086",
+    "book_id": "bk_043",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-16T00:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_087",
+    "book_id": "bk_043",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-19T17:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_088",
+    "book_id": "bk_044",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-25T04:51:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_089",
+    "book_id": "bk_045",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-30T08:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_090",
+    "book_id": "bk_045",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-24T13:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_091",
+    "book_id": "bk_045",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-04-21T16:40:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_092",
+    "book_id": "bk_045",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-29T09:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_093",
+    "book_id": "bk_046",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-19T05:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_094",
+    "book_id": "bk_046",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-07T03:48:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_095",
+    "book_id": "bk_046",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-09T15:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_096",
+    "book_id": "bk_046",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-04-04T15:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_097",
+    "book_id": "bk_046",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-18T22:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_098",
+    "book_id": "bk_047",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-03-09T11:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_099",
+    "book_id": "bk_047",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-15T14:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_100",
+    "book_id": "bk_047",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-16T06:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_101",
+    "book_id": "bk_048",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-30T04:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_102",
+    "book_id": "bk_049",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-19T01:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_103",
+    "book_id": "bk_049",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-15T19:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_104",
+    "book_id": "bk_049",
+    "user_id": null,
+    "author_name": "Estefanía N.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-05-11T03:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_105",
+    "book_id": "bk_050",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-16T05:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_106",
+    "book_id": "bk_050",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-05-01T12:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_107",
+    "book_id": "bk_051",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-04-15T18:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_108",
+    "book_id": "bk_051",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-01T17:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_109",
+    "book_id": "bk_051",
+    "user_id": null,
+    "author_name": "Daniela H.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-16T15:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_110",
+    "book_id": "bk_051",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-24T15:27:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_111",
+    "book_id": "bk_053",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-05T00:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_112",
+    "book_id": "bk_055",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-22T19:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_113",
+    "book_id": "bk_055",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-12T03:17:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_114",
+    "book_id": "bk_055",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-11T05:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_115",
+    "book_id": "bk_058",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-30T09:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_116",
+    "book_id": "bk_058",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-04-13T16:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_117",
+    "book_id": "bk_058",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-02T13:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_118",
+    "book_id": "bk_058",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-03-16T08:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_119",
+    "book_id": "bk_058",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-04-30T11:19:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_120",
+    "book_id": "bk_058",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-10T22:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_121",
+    "book_id": "bk_059",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-03-11T02:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_122",
+    "book_id": "bk_059",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-03-01T11:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_123",
+    "book_id": "bk_060",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-10T17:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_124",
+    "book_id": "bk_060",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-14T08:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_125",
+    "book_id": "bk_060",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-19T22:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_126",
+    "book_id": "bk_060",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-05-02T18:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_127",
+    "book_id": "bk_061",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-05T19:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_128",
+    "book_id": "bk_061",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-05-09T18:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_129",
+    "book_id": "bk_061",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-05-10T03:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_130",
+    "book_id": "bk_061",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-02T07:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_131",
+    "book_id": "bk_064",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-16T09:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_132",
+    "book_id": "bk_064",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-24T13:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_133",
+    "book_id": "bk_064",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-05-11T04:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_134",
+    "book_id": "bk_064",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-11T23:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_135",
+    "book_id": "bk_065",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-05T00:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_136",
+    "book_id": "bk_066",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-20T06:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_137",
+    "book_id": "bk_066",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-03T11:32:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_138",
+    "book_id": "bk_067",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-25T04:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_139",
+    "book_id": "bk_067",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-21T20:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_140",
+    "book_id": "bk_067",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 2,
+    "comment": "Esperaba mejor calidad de impresión por el precio pagado.",
+    "is_demo": true,
+    "created_at": "2025-04-10T16:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_141",
+    "book_id": "bk_067",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-10T06:51:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_142",
+    "book_id": "bk_068",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-17T00:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_143",
+    "book_id": "bk_068",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-05-06T08:37:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_144",
+    "book_id": "bk_068",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-04-06T17:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_145",
+    "book_id": "bk_069",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-17T19:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_146",
+    "book_id": "bk_069",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-05-10T08:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_147",
+    "book_id": "bk_069",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-19T23:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_148",
+    "book_id": "bk_069",
+    "user_id": null,
+    "author_name": "Emanuel Q.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-16T13:51:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_149",
+    "book_id": "bk_069",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-04-23T15:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_150",
+    "book_id": "bk_069",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-16T21:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_151",
+    "book_id": "bk_070",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-04-15T08:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_152",
+    "book_id": "bk_072",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-04-08T02:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_153",
+    "book_id": "bk_072",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-10T18:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_154",
+    "book_id": "bk_072",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-20T09:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_155",
+    "book_id": "bk_074",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-03-12T22:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_156",
+    "book_id": "bk_074",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-11T23:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_157",
+    "book_id": "bk_074",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-21T16:27:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_158",
+    "book_id": "bk_074",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-05T20:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_159",
+    "book_id": "bk_075",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-14T17:47:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_160",
+    "book_id": "bk_077",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-17T14:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_161",
+    "book_id": "bk_077",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-03-07T23:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_162",
+    "book_id": "bk_078",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-04-10T02:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_163",
+    "book_id": "bk_078",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-04T17:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_164",
+    "book_id": "bk_079",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-05-09T00:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_165",
+    "book_id": "bk_079",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-28T10:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_166",
+    "book_id": "bk_079",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-04-15T16:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_167",
+    "book_id": "bk_079",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-05T13:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_168",
+    "book_id": "bk_080",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-04-29T15:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_169",
+    "book_id": "bk_081",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-05-11T11:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_170",
+    "book_id": "bk_081",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-10T08:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_171",
+    "book_id": "bk_081",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-14T22:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_172",
+    "book_id": "bk_081",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-11T18:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_173",
+    "book_id": "bk_082",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-31T04:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_174",
+    "book_id": "bk_082",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-25T17:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_175",
+    "book_id": "bk_082",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-28T11:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_176",
+    "book_id": "bk_082",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-14T13:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_177",
+    "book_id": "bk_084",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-26T14:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_178",
+    "book_id": "bk_084",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-04-03T20:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_179",
+    "book_id": "bk_084",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-26T09:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_180",
+    "book_id": "bk_084",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-17T12:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_181",
+    "book_id": "bk_084",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-04-04T09:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_182",
+    "book_id": "bk_085",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-09T08:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_183",
+    "book_id": "bk_085",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-16T10:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_184",
+    "book_id": "bk_085",
+    "user_id": null,
+    "author_name": "Sebastián T.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-05-09T17:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_185",
+    "book_id": "bk_086",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-04-25T10:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_186",
+    "book_id": "bk_087",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-05-11T10:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_187",
+    "book_id": "bk_088",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-05-01T13:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_188",
+    "book_id": "bk_088",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-02T13:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_189",
+    "book_id": "bk_090",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-04-25T08:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_190",
+    "book_id": "bk_090",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-05-07T22:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_191",
+    "book_id": "bk_090",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-02T17:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_192",
+    "book_id": "bk_093",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-04-29T14:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_193",
+    "book_id": "bk_093",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-03T15:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_194",
+    "book_id": "bk_094",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-26T07:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_195",
+    "book_id": "bk_094",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-04-05T07:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_196",
+    "book_id": "bk_094",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-24T08:17:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_197",
+    "book_id": "bk_094",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-05T07:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_198",
+    "book_id": "bk_096",
+    "user_id": null,
+    "author_name": "Estefanía N.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-14T02:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_199",
+    "book_id": "bk_096",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-28T10:54:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_200",
+    "book_id": "bk_096",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-13T13:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_201",
+    "book_id": "bk_096",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-13T00:26:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_202",
+    "book_id": "bk_097",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-28T03:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_203",
+    "book_id": "bk_098",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-03-05T21:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_204",
+    "book_id": "bk_098",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-12T08:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_205",
+    "book_id": "bk_098",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-22T11:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_206",
+    "book_id": "bk_098",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-21T11:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_207",
+    "book_id": "bk_099",
+    "user_id": null,
+    "author_name": "Sebastián T.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-03-28T03:47:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_208",
+    "book_id": "bk_099",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-01T13:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_209",
+    "book_id": "bk_099",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-29T01:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_210",
+    "book_id": "bk_099",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-03-07T09:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_211",
+    "book_id": "bk_100",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-03-11T15:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_212",
+    "book_id": "bk_100",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-11T09:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_213",
+    "book_id": "bk_100",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-10T04:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_214",
+    "book_id": "bk_100",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-07T15:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_215",
+    "book_id": "bk_101",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-07T08:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_216",
+    "book_id": "bk_102",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-05-08T04:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_217",
+    "book_id": "bk_102",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-09T08:40:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_218",
+    "book_id": "bk_103",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-11T13:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_219",
+    "book_id": "bk_103",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-06T08:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_220",
+    "book_id": "bk_103",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-27T08:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_221",
+    "book_id": "bk_105",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-03-26T07:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_222",
+    "book_id": "bk_107",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-27T08:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_223",
+    "book_id": "bk_108",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-19T19:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_224",
+    "book_id": "bk_108",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-19T07:26:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_225",
+    "book_id": "bk_108",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-29T21:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_226",
+    "book_id": "bk_108",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-20T15:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_227",
+    "book_id": "bk_110",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-04T18:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_228",
+    "book_id": "bk_110",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-11T17:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_229",
+    "book_id": "bk_110",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-05-09T04:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_230",
+    "book_id": "bk_110",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-04-23T06:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_231",
+    "book_id": "bk_111",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-26T20:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_232",
+    "book_id": "bk_112",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-23T16:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_233",
+    "book_id": "bk_112",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-03-04T07:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_234",
+    "book_id": "bk_112",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-31T20:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_235",
+    "book_id": "bk_113",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 4,
+    "comment": "Buena calidad de papel y encuadernación. Recomendado para quienes buscan buen precio.",
+    "is_demo": true,
+    "created_at": "2025-03-27T14:26:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_236",
+    "book_id": "bk_113",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-04-08T21:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_237",
+    "book_id": "bk_113",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-05-06T19:32:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_238",
+    "book_id": "bk_114",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-07T17:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_239",
+    "book_id": "bk_114",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-27T15:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_240",
+    "book_id": "bk_116",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-04-10T02:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_241",
+    "book_id": "bk_116",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-28T02:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_242",
+    "book_id": "bk_118",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-17T00:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_243",
+    "book_id": "bk_119",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-24T00:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_244",
+    "book_id": "bk_119",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-11T12:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_245",
+    "book_id": "bk_119",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-27T19:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_246",
+    "book_id": "bk_119",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-05-03T00:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_247",
+    "book_id": "bk_119",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-04-26T14:26:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_248",
+    "book_id": "bk_119",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-03-31T05:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_249",
+    "book_id": "bk_121",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-19T11:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_250",
+    "book_id": "bk_121",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-21T02:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_251",
+    "book_id": "bk_121",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-16T01:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_252",
+    "book_id": "bk_121",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-10T19:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_253",
+    "book_id": "bk_122",
+    "user_id": null,
+    "author_name": "Emanuel Q.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-11T10:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_254",
+    "book_id": "bk_122",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-04-04T16:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_255",
+    "book_id": "bk_122",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-27T09:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_256",
+    "book_id": "bk_122",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-18T07:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_257",
+    "book_id": "bk_123",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-03-04T16:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_258",
+    "book_id": "bk_123",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-03-03T13:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_259",
+    "book_id": "bk_123",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-01T12:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_260",
+    "book_id": "bk_124",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-03-17T03:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_261",
+    "book_id": "bk_124",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-29T05:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_262",
+    "book_id": "bk_124",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-30T20:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_263",
+    "book_id": "bk_125",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-28T01:17:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_264",
+    "book_id": "bk_125",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-04-04T19:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_265",
+    "book_id": "bk_125",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-12T22:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_266",
+    "book_id": "bk_125",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-10T04:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_267",
+    "book_id": "bk_126",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-05-04T09:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_268",
+    "book_id": "bk_128",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-03-13T22:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_269",
+    "book_id": "bk_128",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-11T02:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_270",
+    "book_id": "bk_128",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-04-27T19:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_271",
+    "book_id": "bk_129",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-03-25T12:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_272",
+    "book_id": "bk_130",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-11T18:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_273",
+    "book_id": "bk_131",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-04-17T08:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_274",
+    "book_id": "bk_131",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 2,
+    "comment": "El libro en sí está bien, pero llegó con la portada algo doblada por el empaque.",
+    "is_demo": true,
+    "created_at": "2025-04-22T19:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_275",
+    "book_id": "bk_131",
+    "user_id": null,
+    "author_name": "Estefanía N.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-03-24T08:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_276",
+    "book_id": "bk_131",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-28T09:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_277",
+    "book_id": "bk_132",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-28T20:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_278",
+    "book_id": "bk_136",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-03T10:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_279",
+    "book_id": "bk_136",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-05-08T04:04:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_280",
+    "book_id": "bk_136",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-12T07:27:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_281",
+    "book_id": "bk_138",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-04-26T18:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_282",
+    "book_id": "bk_139",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-05T10:40:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_283",
+    "book_id": "bk_140",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-04-18T17:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_284",
+    "book_id": "bk_140",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-06T05:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_285",
+    "book_id": "bk_141",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-24T18:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_286",
+    "book_id": "bk_141",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-17T13:54:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_287",
+    "book_id": "bk_141",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 4,
+    "comment": "Buena calidad de papel y encuadernación. Recomendado para quienes buscan buen precio.",
+    "is_demo": true,
+    "created_at": "2025-04-05T23:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_288",
+    "book_id": "bk_142",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-13T16:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_289",
+    "book_id": "bk_142",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-01T17:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_290",
+    "book_id": "bk_143",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-03T16:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_291",
+    "book_id": "bk_143",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-29T08:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_292",
+    "book_id": "bk_143",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-08T15:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_293",
+    "book_id": "bk_146",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-18T10:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_294",
+    "book_id": "bk_146",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-03T04:40:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_295",
+    "book_id": "bk_146",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-06T12:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_296",
+    "book_id": "bk_146",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-16T02:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_297",
+    "book_id": "bk_147",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-02T00:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_298",
+    "book_id": "bk_147",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 2,
+    "comment": "El libro en sí está bien, pero llegó con la portada algo doblada por el empaque.",
+    "is_demo": true,
+    "created_at": "2025-04-05T04:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_299",
+    "book_id": "bk_147",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-20T04:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_300",
+    "book_id": "bk_147",
+    "user_id": null,
+    "author_name": "Estefanía N.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-04-02T18:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_301",
+    "book_id": "bk_148",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-10T21:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_302",
+    "book_id": "bk_148",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-05T20:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_303",
+    "book_id": "bk_149",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-04T08:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_304",
+    "book_id": "bk_149",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-19T10:27:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_305",
+    "book_id": "bk_149",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-04-25T23:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_306",
+    "book_id": "bk_149",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-03-13T14:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_307",
+    "book_id": "bk_150",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-20T13:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_308",
+    "book_id": "bk_151",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-04-09T13:54:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_309",
+    "book_id": "bk_151",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-03-03T20:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_310",
+    "book_id": "bk_151",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-17T23:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_311",
+    "book_id": "bk_151",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-06T05:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_312",
+    "book_id": "bk_152",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-24T02:14:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_313",
+    "book_id": "bk_152",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-04-06T08:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_314",
+    "book_id": "bk_152",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-22T18:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_315",
+    "book_id": "bk_152",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-05-02T09:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_316",
+    "book_id": "bk_153",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-04-24T08:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_317",
+    "book_id": "bk_156",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-17T23:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_318",
+    "book_id": "bk_156",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-25T00:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_319",
+    "book_id": "bk_156",
+    "user_id": null,
+    "author_name": "Sebastián T.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-17T18:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_320",
+    "book_id": "bk_156",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-15T23:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_321",
+    "book_id": "bk_157",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-18T03:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_322",
+    "book_id": "bk_157",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-03-20T15:04:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_323",
+    "book_id": "bk_157",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-04-29T10:19:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_324",
+    "book_id": "bk_157",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-05-09T20:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_325",
+    "book_id": "bk_157",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-05-06T05:48:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_326",
+    "book_id": "bk_157",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-05-05T18:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_327",
+    "book_id": "bk_158",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-03T11:04:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_328",
+    "book_id": "bk_158",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-27T08:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_329",
+    "book_id": "bk_158",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-03-05T01:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_330",
+    "book_id": "bk_160",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-03-03T17:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_331",
+    "book_id": "bk_161",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-10T23:47:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_332",
+    "book_id": "bk_161",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-04-05T11:57:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_333",
+    "book_id": "bk_161",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-25T04:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_334",
+    "book_id": "bk_161",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-01T09:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_335",
+    "book_id": "bk_164",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-03T21:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_336",
+    "book_id": "bk_164",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-30T12:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_337",
+    "book_id": "bk_164",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-05-07T14:19:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_338",
+    "book_id": "bk_164",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-31T19:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_339",
+    "book_id": "bk_164",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-08T19:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_340",
+    "book_id": "bk_164",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-28T23:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_341",
+    "book_id": "bk_165",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-15T04:47:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_342",
+    "book_id": "bk_165",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-05-02T11:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_343",
+    "book_id": "bk_165",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-03-29T18:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_344",
+    "book_id": "bk_165",
+    "user_id": null,
+    "author_name": "Daniela H.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-05-02T21:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_345",
+    "book_id": "bk_167",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Buena calidad de papel y encuadernación. Recomendado para quienes buscan buen precio.",
+    "is_demo": true,
+    "created_at": "2025-04-22T10:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_346",
+    "book_id": "bk_167",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-04T21:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_347",
+    "book_id": "bk_167",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-03-08T02:32:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_348",
+    "book_id": "bk_167",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-04-04T08:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_349",
+    "book_id": "bk_167",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-04-29T17:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_350",
+    "book_id": "bk_167",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-13T05:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_351",
+    "book_id": "bk_171",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-04-23T18:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_352",
+    "book_id": "bk_171",
+    "user_id": null,
+    "author_name": "Daniela H.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-04-12T13:04:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_353",
+    "book_id": "bk_171",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-01T05:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_354",
+    "book_id": "bk_171",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 2,
+    "comment": "Esperaba mejor calidad de impresión por el precio pagado.",
+    "is_demo": true,
+    "created_at": "2025-04-15T14:32:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_355",
+    "book_id": "bk_172",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-05-08T16:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_356",
+    "book_id": "bk_172",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-04-24T01:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_357",
+    "book_id": "bk_173",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-03-22T23:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_358",
+    "book_id": "bk_173",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-05-11T08:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_359",
+    "book_id": "bk_173",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 2,
+    "comment": "El libro en sí está bien, pero llegó con la portada algo doblada por el empaque.",
+    "is_demo": true,
+    "created_at": "2025-03-06T17:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_360",
+    "book_id": "bk_174",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-03-03T12:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_361",
+    "book_id": "bk_174",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-03-24T16:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_362",
+    "book_id": "bk_174",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-05T19:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_363",
+    "book_id": "bk_174",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-17T05:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_364",
+    "book_id": "bk_174",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-03T01:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_365",
+    "book_id": "bk_175",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-08T13:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_366",
+    "book_id": "bk_175",
+    "user_id": null,
+    "author_name": "Sebastián T.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-23T02:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_367",
+    "book_id": "bk_175",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-03-17T12:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_368",
+    "book_id": "bk_175",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-22T04:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_369",
+    "book_id": "bk_176",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-14T04:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_370",
+    "book_id": "bk_176",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-03-03T07:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_371",
+    "book_id": "bk_178",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-27T09:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_372",
+    "book_id": "bk_178",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-05T02:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_373",
+    "book_id": "bk_178",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-06T18:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_374",
+    "book_id": "bk_178",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-25T04:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_375",
+    "book_id": "bk_178",
+    "user_id": null,
+    "author_name": "Hernán P.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-10T05:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_376",
+    "book_id": "bk_178",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-10T09:46:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_377",
+    "book_id": "bk_179",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-01T09:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_378",
+    "book_id": "bk_179",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-05-11T11:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_379",
+    "book_id": "bk_179",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-04-26T16:41:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_380",
+    "book_id": "bk_179",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-04-30T05:52:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_381",
+    "book_id": "bk_179",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-05-09T21:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_382",
+    "book_id": "bk_179",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-04-01T05:26:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_383",
+    "book_id": "bk_180",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-04-15T03:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_384",
+    "book_id": "bk_182",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-04-24T20:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_385",
+    "book_id": "bk_182",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-03-12T20:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_386",
+    "book_id": "bk_182",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-18T03:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_387",
+    "book_id": "bk_182",
+    "user_id": null,
+    "author_name": "Emanuel Q.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-04-07T01:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_388",
+    "book_id": "bk_184",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-10T19:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_389",
+    "book_id": "bk_184",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-04-06T05:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_390",
+    "book_id": "bk_184",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-04-06T13:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_391",
+    "book_id": "bk_184",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-11T02:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_392",
+    "book_id": "bk_186",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-04-28T05:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_393",
+    "book_id": "bk_190",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-03-08T01:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_394",
+    "book_id": "bk_190",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-05-04T15:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_395",
+    "book_id": "bk_190",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-04-30T10:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_396",
+    "book_id": "bk_190",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-05-06T10:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_397",
+    "book_id": "bk_190",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-04-28T22:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_398",
+    "book_id": "bk_193",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-28T21:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_399",
+    "book_id": "bk_193",
+    "user_id": null,
+    "author_name": "Daniela H.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-19T10:27:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_400",
+    "book_id": "bk_193",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-03T20:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_401",
+    "book_id": "bk_194",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 3,
+    "comment": "Precio razonable, aunque tardó bastante en despacharse.",
+    "is_demo": true,
+    "created_at": "2025-04-21T15:19:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_402",
+    "book_id": "bk_196",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-05T10:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_403",
+    "book_id": "bk_197",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-03-18T16:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_404",
+    "book_id": "bk_197",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-01T23:40:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_405",
+    "book_id": "bk_197",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-27T16:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_406",
+    "book_id": "bk_197",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-04-11T20:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_407",
+    "book_id": "bk_199",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-05-03T09:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_408",
+    "book_id": "bk_199",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-05-01T12:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_409",
+    "book_id": "bk_199",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-04-29T02:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_410",
+    "book_id": "bk_200",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-03-02T13:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_411",
+    "book_id": "bk_203",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-03-04T18:26:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_412",
+    "book_id": "bk_205",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-26T23:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_413",
+    "book_id": "bk_205",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-11T15:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_414",
+    "book_id": "bk_205",
+    "user_id": null,
+    "author_name": "Sebastián T.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-04-23T04:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_415",
+    "book_id": "bk_205",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-05-07T01:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_416",
+    "book_id": "bk_207",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 2,
+    "comment": "Esperaba mejor calidad de impresión por el precio pagado.",
+    "is_demo": true,
+    "created_at": "2025-03-29T16:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_417",
+    "book_id": "bk_207",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-03-20T08:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_418",
+    "book_id": "bk_207",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-19T12:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_419",
+    "book_id": "bk_207",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 2,
+    "comment": "Esperaba mejor calidad de impresión por el precio pagado.",
+    "is_demo": true,
+    "created_at": "2025-03-14T17:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_420",
+    "book_id": "bk_208",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-08T19:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_421",
+    "book_id": "bk_211",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-04-02T01:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_422",
+    "book_id": "bk_211",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-05-06T06:03:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_423",
+    "book_id": "bk_213",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-03-11T20:37:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_424",
+    "book_id": "bk_213",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-05-08T02:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_425",
+    "book_id": "bk_213",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-03-05T13:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_426",
+    "book_id": "bk_215",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-09T09:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_427",
+    "book_id": "bk_216",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-24T10:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_428",
+    "book_id": "bk_217",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-05-03T17:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_429",
+    "book_id": "bk_218",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-04-13T20:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_430",
+    "book_id": "bk_219",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-28T10:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_431",
+    "book_id": "bk_219",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-05-07T14:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_432",
+    "book_id": "bk_219",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-04T20:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_433",
+    "book_id": "bk_220",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-09T11:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_434",
+    "book_id": "bk_220",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-02T11:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_435",
+    "book_id": "bk_220",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-05-01T10:52:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_436",
+    "book_id": "bk_220",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-04-12T07:37:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_437",
+    "book_id": "bk_221",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-06T09:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_438",
+    "book_id": "bk_221",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-05-01T01:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_439",
+    "book_id": "bk_221",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-03-15T21:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_440",
+    "book_id": "bk_223",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-03-13T21:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_441",
+    "book_id": "bk_223",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-05-09T01:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_442",
+    "book_id": "bk_223",
+    "user_id": null,
+    "author_name": "Estefanía N.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-26T11:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_443",
+    "book_id": "bk_225",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-03-13T08:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_444",
+    "book_id": "bk_225",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-03-10T11:37:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_445",
+    "book_id": "bk_225",
+    "user_id": null,
+    "author_name": "Duván L.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-05-06T08:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_446",
+    "book_id": "bk_226",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-04-13T09:59:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_447",
+    "book_id": "bk_228",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-05-06T17:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_448",
+    "book_id": "bk_228",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-03-17T12:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_449",
+    "book_id": "bk_229",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-29T16:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_450",
+    "book_id": "bk_229",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-22T21:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_451",
+    "book_id": "bk_229",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-15T20:48:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_452",
+    "book_id": "bk_229",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-04-02T14:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_453",
+    "book_id": "bk_230",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-10T04:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_454",
+    "book_id": "bk_230",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-13T10:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_455",
+    "book_id": "bk_230",
+    "user_id": null,
+    "author_name": "Julián A.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-29T22:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_456",
+    "book_id": "bk_230",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-12T19:51:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_457",
+    "book_id": "bk_231",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-04-21T12:52:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_458",
+    "book_id": "bk_231",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-15T02:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_459",
+    "book_id": "bk_231",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-03-16T07:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_460",
+    "book_id": "bk_232",
+    "user_id": null,
+    "author_name": "Gabriela M.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-24T21:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_461",
+    "book_id": "bk_232",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-02T12:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_462",
+    "book_id": "bk_232",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-05-09T12:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_463",
+    "book_id": "bk_232",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-03T21:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_464",
+    "book_id": "bk_234",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-05-05T20:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_465",
+    "book_id": "bk_235",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-04-06T23:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_466",
+    "book_id": "bk_235",
+    "user_id": null,
+    "author_name": "Emanuel Q.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-30T06:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_467",
+    "book_id": "bk_235",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-03-09T21:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_468",
+    "book_id": "bk_235",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-05-03T18:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_469",
+    "book_id": "bk_236",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-05-03T17:10:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_470",
+    "book_id": "bk_236",
+    "user_id": null,
+    "author_name": "Manuela S.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-04-22T01:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_471",
+    "book_id": "bk_237",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-04-29T10:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_472",
+    "book_id": "bk_237",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-05-11T20:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_473",
+    "book_id": "bk_237",
+    "user_id": null,
+    "author_name": "Emanuel Q.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-05T08:58:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_474",
+    "book_id": "bk_237",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-04-20T22:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_475",
+    "book_id": "bk_239",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-02T09:51:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_476",
+    "book_id": "bk_240",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-03-10T12:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_477",
+    "book_id": "bk_240",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-05-03T22:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_478",
+    "book_id": "bk_241",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-03-16T10:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_479",
+    "book_id": "bk_241",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-04T00:47:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_480",
+    "book_id": "bk_244",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-04-22T16:34:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_481",
+    "book_id": "bk_244",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 2,
+    "comment": "Esperaba mejor calidad de impresión por el precio pagado.",
+    "is_demo": true,
+    "created_at": "2025-04-30T16:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_482",
+    "book_id": "bk_244",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-16T16:40:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_483",
+    "book_id": "bk_246",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-11T05:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_484",
+    "book_id": "bk_248",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-03-11T12:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_485",
+    "book_id": "bk_248",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-29T12:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_486",
+    "book_id": "bk_249",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-25T10:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_487",
+    "book_id": "bk_249",
+    "user_id": null,
+    "author_name": "David L.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-12T19:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_488",
+    "book_id": "bk_252",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 2,
+    "comment": "El servicio de entrega dejó que desear; el libro llegó varios días tarde.",
+    "is_demo": true,
+    "created_at": "2025-03-13T15:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_489",
+    "book_id": "bk_252",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-03-12T19:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_490",
+    "book_id": "bk_252",
+    "user_id": null,
+    "author_name": "Yesica H.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-03-10T21:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_491",
+    "book_id": "bk_253",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 3,
+    "comment": "Cumple su función. El tiempo de entrega podría mejorar.",
+    "is_demo": true,
+    "created_at": "2025-05-09T13:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_492",
+    "book_id": "bk_253",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-03-04T04:17:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_493",
+    "book_id": "bk_253",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-08T08:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_494",
+    "book_id": "bk_253",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 3,
+    "comment": "Precio razonable, aunque tardó bastante en despacharse.",
+    "is_demo": true,
+    "created_at": "2025-05-08T20:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_495",
+    "book_id": "bk_254",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-03-16T18:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_496",
+    "book_id": "bk_254",
+    "user_id": null,
+    "author_name": "Laura C.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-04-24T12:19:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_497",
+    "book_id": "bk_255",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-05-10T15:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_498",
+    "book_id": "bk_255",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 3,
+    "comment": "Todo normal: ni una mala experiencia ni algo destacable. Llegó como se pidió.",
+    "is_demo": true,
+    "created_at": "2025-04-13T21:17:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_499",
+    "book_id": "bk_255",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-04-29T13:08:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_500",
+    "book_id": "bk_256",
+    "user_id": null,
+    "author_name": "Santiago B.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-25T11:21:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_501",
+    "book_id": "bk_257",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-03-09T13:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_502",
+    "book_id": "bk_257",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-03-07T05:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_503",
+    "book_id": "bk_257",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-17T11:35:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_504",
+    "book_id": "bk_257",
+    "user_id": null,
+    "author_name": "Rafael I.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-03-10T17:07:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_505",
+    "book_id": "bk_259",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-20T07:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_506",
+    "book_id": "bk_260",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 5,
+    "comment": "Excelente calidad de impresión y encuadernación. Lo pedí como regalo y quedó encantado quien lo recibió.",
+    "is_demo": true,
+    "created_at": "2025-05-03T08:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_507",
+    "book_id": "bk_264",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-04T01:50:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_508",
+    "book_id": "bk_265",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-03-19T23:32:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_509",
+    "book_id": "bk_267",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-24T11:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_510",
+    "book_id": "bk_267",
+    "user_id": null,
+    "author_name": "Estefanía N.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-03-04T00:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_511",
+    "book_id": "bk_267",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-25T11:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_512",
+    "book_id": "bk_267",
+    "user_id": null,
+    "author_name": "Cristian U.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-04-27T07:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_513",
+    "book_id": "bk_269",
+    "user_id": null,
+    "author_name": "Carolina D.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-22T14:09:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_514",
+    "book_id": "bk_269",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-05-07T10:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_515",
+    "book_id": "bk_270",
+    "user_id": null,
+    "author_name": "Juliana P.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-28T04:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_516",
+    "book_id": "bk_271",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-04-09T14:04:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_517",
+    "book_id": "bk_271",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-03-16T06:24:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_518",
+    "book_id": "bk_271",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-04-12T23:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_519",
+    "book_id": "bk_276",
+    "user_id": null,
+    "author_name": "Anderson D.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-03-04T08:28:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_520",
+    "book_id": "bk_276",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-28T13:55:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_521",
+    "book_id": "bk_276",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-05-07T21:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_522",
+    "book_id": "bk_276",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-04-17T05:42:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_523",
+    "book_id": "bk_276",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-21T12:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_524",
+    "book_id": "bk_277",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-01T04:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_525",
+    "book_id": "bk_277",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-25T17:19:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_526",
+    "book_id": "bk_277",
+    "user_id": null,
+    "author_name": "Brandon F.",
+    "rating": 5,
+    "comment": "Justo lo que buscaba, y a mejor precio que en otras librerías. Llegó muy bien empacado.",
+    "is_demo": true,
+    "created_at": "2025-04-15T19:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_527",
+    "book_id": "bk_278",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 5,
+    "comment": "Un acierto total. Buen papel, buena letra y llegó antes de la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-04-10T14:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_528",
+    "book_id": "bk_279",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 5,
+    "comment": "Un libro que tenía en la lista hace tiempo; la edición es muy buena y llegó impecable.",
+    "is_demo": true,
+    "created_at": "2025-03-15T06:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_529",
+    "book_id": "bk_279",
+    "user_id": null,
+    "author_name": "Marcela X.",
+    "rating": 3,
+    "comment": "Buen contenido, pero llegó con la caja algo maltratada por fuera; el libro en sí estaba bien.",
+    "is_demo": true,
+    "created_at": "2025-04-30T08:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_530",
+    "book_id": "bk_279",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 4,
+    "comment": "Buena experiencia de compra. El libro llegó completo y como se describía.",
+    "is_demo": true,
+    "created_at": "2025-03-29T03:23:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_531",
+    "book_id": "bk_279",
+    "user_id": null,
+    "author_name": "Daniela H.",
+    "rating": 5,
+    "comment": "Todo perfecto: desde la compra hasta la entrega. El papel y la impresión son de buena calidad.",
+    "is_demo": true,
+    "created_at": "2025-04-18T09:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_532",
+    "book_id": "bk_280",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 4,
+    "comment": "Buena calidad general. El proceso de compra fue sencillo y sin contratiempos.",
+    "is_demo": true,
+    "created_at": "2025-03-11T22:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_533",
+    "book_id": "bk_281",
+    "user_id": null,
+    "author_name": "Emanuel Q.",
+    "rating": 5,
+    "comment": "Muy satisfecho con la compra. La portada es tal cual se ve en las fotos.",
+    "is_demo": true,
+    "created_at": "2025-03-20T17:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_534",
+    "book_id": "bk_281",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-28T16:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_535",
+    "book_id": "bk_281",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-03-23T18:20:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_536",
+    "book_id": "bk_281",
+    "user_id": null,
+    "author_name": "Paula V.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-15T15:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_537",
+    "book_id": "bk_282",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-03-28T23:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_538",
+    "book_id": "bk_282",
+    "user_id": null,
+    "author_name": "Fabián Q.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-04-21T21:06:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_539",
+    "book_id": "bk_284",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-03-29T13:14:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_540",
+    "book_id": "bk_284",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 4,
+    "comment": "Edición correcta, aunque la tapa es un poco más delgada de lo que imaginaba. Aun así, contento con la compra.",
+    "is_demo": true,
+    "created_at": "2025-03-23T20:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_541",
+    "book_id": "bk_284",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-14T08:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_542",
+    "book_id": "bk_284",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 4,
+    "comment": "Buena compra en general, seguiré comprando en esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-05-08T11:00:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_543",
+    "book_id": "bk_285",
+    "user_id": null,
+    "author_name": "Andrés M.",
+    "rating": 5,
+    "comment": "Excelente servicio, seguimiento del pedido claro y el libro llegó sin ningún daño.",
+    "is_demo": true,
+    "created_at": "2025-03-01T13:02:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_544",
+    "book_id": "bk_286",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-05-12T07:12:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_545",
+    "book_id": "bk_286",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 3,
+    "comment": "Precio razonable, aunque tardó bastante en despacharse.",
+    "is_demo": true,
+    "created_at": "2025-03-06T08:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_546",
+    "book_id": "bk_286",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Buena relación precio-calidad. El pedido llegó completo y a tiempo.",
+    "is_demo": true,
+    "created_at": "2025-04-16T15:01:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_547",
+    "book_id": "bk_286",
+    "user_id": null,
+    "author_name": "Paola K.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-05-04T13:38:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_548",
+    "book_id": "bk_288",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 4,
+    "comment": "Llegó en buen estado. Le quito una estrella solo porque el empaque venía algo justo.",
+    "is_demo": true,
+    "created_at": "2025-03-20T10:29:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_549",
+    "book_id": "bk_288",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-03-18T18:18:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_550",
+    "book_id": "bk_288",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 3,
+    "comment": "Precio razonable, aunque tardó bastante en despacharse.",
+    "is_demo": true,
+    "created_at": "2025-04-10T09:44:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_551",
+    "book_id": "bk_288",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 4,
+    "comment": "Se ve tal como en las fotos. El despacho fue un poco lento pero sin mayor problema.",
+    "is_demo": true,
+    "created_at": "2025-04-25T15:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_552",
+    "book_id": "bk_289",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-09T03:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_553",
+    "book_id": "bk_289",
+    "user_id": null,
+    "author_name": "Mateo G.",
+    "rating": 4,
+    "comment": "Buena edición y buen servicio. Me hubiera gustado que el envío fuera un poco más rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-03T03:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_554",
+    "book_id": "bk_289",
+    "user_id": null,
+    "author_name": "Jhonatan V.",
+    "rating": 4,
+    "comment": "El libro está en buen estado, aunque llegó con una esquina levemente golpeada. Nada grave.",
+    "is_demo": true,
+    "created_at": "2025-05-02T06:45:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_555",
+    "book_id": "bk_290",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 4,
+    "comment": "Todo en orden con el pedido. Esperaba un empaque un poco más protegido, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-18T03:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_556",
+    "book_id": "bk_290",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 4,
+    "comment": "Muy buena opción para conseguirlo a este precio. El tiempo de entrega fue razonable.",
+    "is_demo": true,
+    "created_at": "2025-04-17T23:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_557",
+    "book_id": "bk_290",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 3,
+    "comment": "Cumple, aunque la calidad del papel es más sencilla de lo que pensé por el precio.",
+    "is_demo": true,
+    "created_at": "2025-03-16T00:54:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_558",
+    "book_id": "bk_291",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 3,
+    "comment": "Ni tan bien ni tan mal: llegó completo, aunque con algo de retraso frente a la fecha estimada.",
+    "is_demo": true,
+    "created_at": "2025-03-16T12:11:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_559",
+    "book_id": "bk_291",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 5,
+    "comment": "Tal cual la descripción, buen precio y despacho rápido. Volvería a comprar aquí sin dudarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-14T06:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_560",
+    "book_id": "bk_291",
+    "user_id": null,
+    "author_name": "Valeria O.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-05-06T09:27:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_561",
+    "book_id": "bk_291",
+    "user_id": null,
+    "author_name": "Natalia Ll.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-04-29T12:31:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_562",
+    "book_id": "bk_292",
+    "user_id": null,
+    "author_name": "Óscar E.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-03-10T18:25:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_563",
+    "book_id": "bk_292",
+    "user_id": null,
+    "author_name": "Tatiana W.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-04-25T16:51:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_564",
+    "book_id": "bk_292",
+    "user_id": null,
+    "author_name": "Wilson G.",
+    "rating": 5,
+    "comment": "Buena edición, tapa firme y páginas bien encuadernadas. Nada que reprochar.",
+    "is_demo": true,
+    "created_at": "2025-04-11T22:05:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_565",
+    "book_id": "bk_292",
+    "user_id": null,
+    "author_name": "Katherine S.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-04-22T07:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_566",
+    "book_id": "bk_292",
+    "user_id": null,
+    "author_name": "Lorena Z.",
+    "rating": 5,
+    "comment": "Llegó antes de lo esperado y en perfecto estado, bien protegido. Muy recomendado.",
+    "is_demo": true,
+    "created_at": "2025-03-02T21:36:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_567",
+    "book_id": "bk_292",
+    "user_id": null,
+    "author_name": "Nicolás F.",
+    "rating": 5,
+    "comment": "Perfecto para regalar: la presentación es muy cuidada y el envío fue rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-03T00:37:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_568",
+    "book_id": "bk_293",
+    "user_id": null,
+    "author_name": "Cristhian E.",
+    "rating": 3,
+    "comment": "El libro está bien, pero el envío tardó más de lo que esperaba.",
+    "is_demo": true,
+    "created_at": "2025-04-06T10:43:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_569",
+    "book_id": "bk_293",
+    "user_id": null,
+    "author_name": "Verónica J.",
+    "rating": 4,
+    "comment": "Buena calidad de papel y encuadernación. Recomendado para quienes buscan buen precio.",
+    "is_demo": true,
+    "created_at": "2025-03-25T07:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_570",
+    "book_id": "bk_293",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 2,
+    "comment": "Esperaba mejor calidad de impresión por el precio pagado.",
+    "is_demo": true,
+    "created_at": "2025-03-27T16:13:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_571",
+    "book_id": "bk_293",
+    "user_id": null,
+    "author_name": "Álvaro Ñ.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-05-10T11:39:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_572",
+    "book_id": "bk_293",
+    "user_id": null,
+    "author_name": "Sandra W.",
+    "rating": 4,
+    "comment": "Buen libro y buen precio. El envío tardó un par de días más de lo esperado, pero llegó bien.",
+    "is_demo": true,
+    "created_at": "2025-04-06T02:22:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_573",
+    "book_id": "bk_293",
+    "user_id": null,
+    "author_name": "Diego C.",
+    "rating": 5,
+    "comment": "Superó mis expectativas. El empaque cuidó muy bien la portada durante el envío.",
+    "is_demo": true,
+    "created_at": "2025-03-01T09:49:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_574",
+    "book_id": "bk_294",
+    "user_id": null,
+    "author_name": "Ivonne R.",
+    "rating": 2,
+    "comment": "El libro en sí está bien, pero llegó con la portada algo doblada por el empaque.",
+    "is_demo": true,
+    "created_at": "2025-05-12T08:14:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_575",
+    "book_id": "bk_296",
+    "user_id": null,
+    "author_name": "Erika J.",
+    "rating": 4,
+    "comment": "Cumplió mis expectativas. Precio justo comparado con otras librerías.",
+    "is_demo": true,
+    "created_at": "2025-03-28T11:30:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_576",
+    "book_id": "bk_296",
+    "user_id": null,
+    "author_name": "Felipe N.",
+    "rating": 4,
+    "comment": "Cumple con lo prometido. La impresión es clara y el precio, competitivo.",
+    "is_demo": true,
+    "created_at": "2025-04-17T21:53:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_577",
+    "book_id": "bk_297",
+    "user_id": null,
+    "author_name": "Yeison A.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-03-15T05:56:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_578",
+    "book_id": "bk_297",
+    "user_id": null,
+    "author_name": "Isabella K.",
+    "rating": 5,
+    "comment": "Excelente experiencia de compra de principio a fin. Lo recomiendo sin reservas.",
+    "is_demo": true,
+    "created_at": "2025-04-10T06:16:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_579",
+    "book_id": "bk_298",
+    "user_id": null,
+    "author_name": "Melissa T.",
+    "rating": 5,
+    "comment": "Me encantó la edición, se nota el cuidado en el acabado. Repetiré con esta tienda.",
+    "is_demo": true,
+    "created_at": "2025-04-16T16:15:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_580",
+    "book_id": "bk_300",
+    "user_id": null,
+    "author_name": "Ángela Y.",
+    "rating": 3,
+    "comment": "Correcto en general, sin más. Esperaba una edición un poco más grande.",
+    "is_demo": true,
+    "created_at": "2025-04-05T00:33:00Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_581",
+    "book_id": "bk_300",
+    "user_id": null,
+    "author_name": "Milena B.",
+    "rating": 2,
+    "comment": "El pedido tardó bastante más de lo indicado al comprar.",
+    "is_demo": true,
+    "created_at": "2025-04-28T19:20:00Z",
+    "updated_at": null
   }
 ]

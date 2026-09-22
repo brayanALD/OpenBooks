@@ -49,6 +49,7 @@ export default async function BookPage({ params }: Props) {
     ["Editorial", book.publisher],
     ["Páginas", book.pages?.toLocaleString("es-CO")],
     ["Idioma", book.language],
+    ["ISBN", book.isbn],
   ].filter((row): row is [string, string] => Boolean(row[1]));
 
   return (

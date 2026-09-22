@@ -36,6 +36,7 @@ def build_admin_env() -> AdminEnv:
 def new_book(**overrides) -> BookCreateIn:
     data = dict(
         title="Un libro nuevo",
+        isbn="978-958-04-1234-5",
         author_name="Autora Uno",
         category_ids=["c1"],
         price_cop=25_000,

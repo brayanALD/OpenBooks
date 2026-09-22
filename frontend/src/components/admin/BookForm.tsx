@@ -21,6 +21,7 @@ type Props = {
 
 type Values = {
   title: string;
+  isbn: string;
   author_name: string;
   category_ids: string[];
   publisher: string;
@@ -46,6 +47,7 @@ const isInt = (n: number | null): n is number => n !== null && Number.isInteger(
 function initial(book?: AdminBook): Values {
   return {
     title: book?.title ?? "",
+    isbn: book?.isbn ?? "",
     author_name: book?.author_name ?? "",
     category_ids: book?.category_ids ?? [],
     publisher: book?.publisher ?? "",
@@ -66,6 +68,7 @@ function validate(v: Values): Record<string, string> {
   const errors: Record<string, string> = {};
   if (!v.title.trim()) errors.title = "Escribe el título.";
   else if (v.title.trim().length > 200) errors.title = "Máximo 200 caracteres.";
+  if (v.isbn.trim().length < 10 || v.isbn.trim().length > 20) errors.isbn = "Entre 10 y 20 caracteres.";
   if (v.author_name.trim().length < 2) errors.author_name = "Escribe el autor.";
   if (v.category_ids.length === 0) errors.category_ids = "Elige al menos una categoría.";
 
@@ -152,6 +155,7 @@ export function BookForm({ book, categories, authors }: Props) {
 
     const payload = {
       title: values.title.trim(),
+      isbn: values.isbn.trim(),
       author_name: values.author_name.trim(),
       category_ids: values.category_ids,
       publisher: values.publisher.trim() || null,
@@ -212,6 +216,7 @@ export function BookForm({ book, categories, authors }: Props) {
           <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">
             <legend className="float-left mb-2 font-display text-2xl font-bold text-brand-600">Datos del libro</legend>
             <Input className="clear-both" label="Título" {...text("title")} />
+            <Input label="ISBN" hint="Con o sin guiones, p. ej. 978-958-04-1234-5." {...text("isbn")} />
             <div>
               <Input label="Autor" list="autores" autoComplete="off" hint="Si el autor ya existe se reutiliza; si no, se crea." {...text("author_name")} />
               <datalist id="autores">

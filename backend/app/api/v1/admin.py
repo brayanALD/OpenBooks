@@ -43,6 +43,7 @@ def to_book_out(book: Book, admin: AdminService, author_name: str | None = None)
         title=book.title,
         author_name=author_name if author_name is not None else admin.author_name_of(book),
         category_ids=book.category_ids,
+        isbn=book.isbn,
         publisher=book.publisher,
         pages=book.pages,
         language=book.language,

@@ -12,6 +12,7 @@ export function bookJsonLd(book: BookDetail) {
     description: book.description || undefined,
     url: `${SITE_URL}/libro/${book.slug}`,
     author: { "@type": "Person", name: book.author.name },
+    isbn: book.isbn,
     inLanguage: book.language ?? undefined,
     numberOfPages: book.pages ?? undefined,
     publisher: book.publisher ? { "@type": "Organization", name: book.publisher } : undefined,

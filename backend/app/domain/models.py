@@ -31,6 +31,7 @@ class Category(Entity):
 class Book(Entity):
     slug: str
     title: str
+    isbn: str
     author_id: str
     category_ids: list[str] = Field(default_factory=list)
     publisher: str | None = None

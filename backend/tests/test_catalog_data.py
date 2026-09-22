@@ -10,6 +10,7 @@ from app.config import settings
 from app.domain.models import Author, Book, Category, Review
 from app.repositories.json_repo import JsonRepository
 from app.services.catalog_service import final_price
+from scripts.catalog_rules import is_valid_isbn13, shipping_for
 
 
 @pytest.fixture(scope="module")
@@ -76,9 +77,15 @@ def test_no_orphan_authors(books, authors):
 def test_money_and_stock_are_sane(books):
     for b in books:
         assert b.price_cop > 0, b.slug
-        assert b.shipping_cost_cop in (0, 5_000), f"{b.slug}: envío inesperado {b.shipping_cost_cop}"
+        assert b.shipping_cost_cop == shipping_for(b.price_cop, b.pages), f"{b.slug}: no sigue la regla de envío"
         assert 3 <= b.stock <= 30, b.slug
         assert final_price(b.price_cop, b.discount_pct) <= b.price_cop
+
+
+def test_isbns_are_present_unique_and_valid(books):
+    isbns = [b.isbn for b in books]
+    assert all(is_valid_isbn13(i) for i in isbns), [i for i in isbns if not is_valid_isbn13(i)]
+    assert len(isbns) == len(set(isbns))
 
 
 def test_decisions_applied(books):
@@ -96,8 +103,7 @@ def test_decisions_applied(books):
         "sin-limites",
     }
     assert {b.discount_pct for b in books if b.discount_pct} == {15}
-    # Los de esa sección tienen envío gratis.
-    assert all(b.shipping_cost_cop == 0 for b in books if b.discount_pct)
+    # El envío de estos 5 ya no es fijo: sigue la regla general por precio y páginas (ver test_money_and_stock_are_sane).
 
 
 def test_flags_match_the_legacy_home_page(books):

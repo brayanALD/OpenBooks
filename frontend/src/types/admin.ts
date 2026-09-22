@@ -8,6 +8,7 @@ export type AdminBook = {
   title: string;
   author_name: string;
   category_ids: string[];
+  isbn: string;
   publisher: string | null;
   pages: number | null;
   language: string | null;

@@ -21,6 +21,14 @@ from app.config import settings
 from app.core.text import slugify
 from app.domain.models import Author, Book, Category, Entity, Review
 from scripts.add_catalog import extra_cover_names
+from scripts.catalog_rules import (
+    FREE_SHIPPING_FROM_COP,
+    LONG_BOOK_SHIPPING_COP,
+    SHORT_BOOK_MAX_PAGES,
+    SHORT_BOOK_SHIPPING_COP,
+    isbn_for,
+    shipping_for,
+)
 from scripts.demo_reviews import DEMO_REVIEWS
 from scripts.legacy_parser import LEGACY_HTML, LISTING_CATEGORY, LegacyBook, parse_legacy
 from scripts.process_images import process_cover
@@ -231,6 +239,7 @@ def main(force: bool) -> int:
                 id=f"bk_{i:03d}",
                 slug=slug,
                 title=title,
+                isbn=isbn_for(slug, b.language),
                 author_id=author_id[author_name],
                 category_ids=[category_id[c] for c in cats],
                 publisher=PUBLISHER_FIX.get(b.publisher, b.publisher) if b.publisher else None,
@@ -239,7 +248,9 @@ def main(force: bool) -> int:
                 description=fix_description(b.description),
                 price_cop=price,
                 discount_pct=DISCOUNT_PCT_ON_SALE if on_sale else 0,
-                shipping_cost_cop=shipping,
+                # El envío ya no sale del sitio original (ver `shipping`, usado solo para el informe):
+                # regla nueva, uniforme para todo el catálogo. Ver catalog_rules.shipping_for.
+                shipping_cost_cop=shipping_for(price, b.pages),
                 stock=STOCK_MIN + zlib.crc32(slug.encode()) % STOCK_SPAN,
                 cover=f"/covers/{slug}.webp",
                 cover_width=width,
@@ -333,9 +344,11 @@ Regla acordada: manda el precio de la página de categoría.
 > Crimen y Castigo aparecía a $14.000 en la portada, dentro de «Libros en Descuento». Lo más probable es que
 > $14.000 fuera su precio ya rebajado y $45.000 el de lista. Con el descuento del 15 % queda a $38.250.
 
-## Envío en conflicto
+## Envío en conflicto (dato histórico del sitio original, ya no se usa)
 
-Regla: los libros de la sección «con ENVÍO GRATUITO» tienen envío gratis; el resto, listado de categoría y luego detalle.
+El sitio original no tenía una regla única de envío; esto documenta qué decía cada página, solo como referencia.
+**El envío que de verdad se guarda es otro**: gratis desde {cop(FREE_SHIPPING_FROM_COP)}; si no, {cop(SHORT_BOOK_SHIPPING_COP)}
+con hasta {SHORT_BOOK_MAX_PAGES} páginas y {cop(LONG_BOOK_SHIPPING_COP)} con más (`catalog_rules.shipping_for`).
 
 {bullets(notes["shipping"])}
 

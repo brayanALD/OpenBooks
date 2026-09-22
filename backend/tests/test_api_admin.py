@@ -54,7 +54,14 @@ def png(size=(300, 450)) -> bytes:
     return buffer.getvalue()
 
 
-BOOK = {"title": "Libro por API", "author_name": "Autora Uno", "category_ids": ["c1"], "price_cop": 30_000, "stock": 5}
+BOOK = {
+    "title": "Libro por API",
+    "isbn": "978-958-04-1234-5",
+    "author_name": "Autora Uno",
+    "category_ids": ["c1"],
+    "price_cop": 30_000,
+    "stock": 5,
+}
 
 ADMIN_ROUTES = [
     ("get", "/api/v1/admin/summary", None),

@@ -96,7 +96,9 @@ backend/    API FastAPI: routers -> services -> repositories -> JSON
                        (users.json, carts.json, wishlists.json y orders.json se crean solos y no se versionan)
   data/media/covers/   Portadas subidas desde el panel (se crea sola)
   scripts/             import_legacy.py, process_images.py, demo_reviews.py, seed_admin.py, make_placeholder_cover.py,
-                       add_catalog.py + catalog_extra.txt (262 libros reales más, 9 categorías nuevas)
+                       add_catalog.py + catalog_extra.txt (262 libros reales más, 9 categorías nuevas),
+                       catalog_rules.py (envío, ISBN, descuento), generic_reviews.py (reseñas de muestra genéricas),
+                       enrich_catalog.py (aplica esas reglas al catálogo ya importado)
   tests/
 ```
 
@@ -203,8 +205,9 @@ Solo para cuentas con rol `admin` (se crean con `seed_admin`, ver «Cuentas y se
 header y de `/cuenta`. A un cliente `/admin/*` le responde 404 (como si no existiera) y su API, 403.
 
 - **Resumen:** libros activos/ocultos/agotados/con pocas unidades, ingresos y pedidos por estado.
-- **Libros:** listado con búsqueda y filtros (visibles, ocultos, poco stock), crear y editar (título, autor, categorías, precio, descuento,
-  envío, stock, recomendado/más vendido, visibilidad, portada). El autor se reutiliza si ya existe (sin distinguir mayúsculas ni tildes) o se crea.
+- **Libros:** listado con búsqueda y filtros (visibles, ocultos, poco stock), crear y editar (título, ISBN, autor, categorías, precio,
+  descuento, envío, stock, recomendado/más vendido, visibilidad, portada). El autor se reutiliza si ya existe (sin distinguir mayúsculas
+  ni tildes) o se crea.
   El **slug no cambia** al editar el título, para no romper enlaces guardados.
 - **Ocultar, no borrar:** un libro oculto desaparece de la tienda, de las búsquedas, del sitemap y de los carritos (se quita con un aviso), y no
   se puede comprar; sigue en el panel y los pedidos antiguos conservan su copia. Se puede volver a mostrar.
@@ -231,7 +234,7 @@ header y de `/cuenta`. A un cliente `/admin/*` le responde 404 (como si no exist
 
 ## Vista rápida
 
-El ojo de cada tarjeta abre un modal con la portada, precio, envío, valoración, descripción, editorial y páginas, el selector de cantidad,
+El ojo de cada tarjeta abre un modal con la portada, precio, envío, valoración, descripción, editorial, páginas e ISBN, el selector de cantidad,
 «Añadir al carrito», «Comprar ahora», el corazón de favoritos y un enlace a la ficha completa. La ficha se pide al abrir
 (`GET /api/books/{slug}`, público) y se guarda mientras la página siga abierta. Al añadir al carrito el modal se cierra y se abre el
 panel del carrito; con Escape, la X o un clic fuera se cierra. Componente: `frontend/src/components/catalog/QuickView.tsx`.
@@ -248,7 +251,9 @@ panel del carrito; con Escape, la X o un clic fuera se cierra. Componente: `fron
 
 - Reseña quien tiene un pedido `paid`, `shipped` o `delivered` con ese libro (un pago rechazado o un pedido cancelado no cuentan).
   Es **una reseña por libro y persona**, que se puede editar y borrar; la comprueba el servidor, no el navegador.
-- Se muestran con la insignia «Compra verificada». Las 72 reseñas de muestra siguen visibles, sin insignia y con un aviso.
+- Se muestran con la insignia «Compra verificada». Las reseñas de muestra (`is_demo`) siguen visibles, sin insignia y con un aviso:
+  72 escritas a mano para los 37 libros originales (`scripts/demo_reviews.py`) y varios cientos genéricas repartidas al azar en el
+  resto del catálogo (`scripts/generic_reviews.py`), para que no se vea vacío.
 - El administrador puede eliminar cualquier reseña (real o de muestra) desde la ficha del libro en `/admin`, pero no editarla.
 - La nota media y el número de reseñas del libro se recalculan al publicar, editar o borrar.
 
@@ -312,10 +317,29 @@ cd backend
   Algunas portadas son de otra edición o idioma del mismo libro (p. ej. inglesas, alemanas o francesas): se pueden cambiar desde el panel de administración.
 - **Datos completados:** los 7 libros del sitio original que solo tenían ficha en el listado (Sapiens, El olvido que seremos, etc.) ahora tienen
   descripción, páginas y editorial, y a los libros nuevos sin páginas se les puso las de una edición habitual (`COMPLETIONS` en `add_catalog.py`; solo rellena huecos).
-- **Inventados para desarrollo:** precio (25.000–95.000 COP), envío (gratis o 5.000), stock (3–30) y las descripciones, escritas a mano en español.
+- **Inventados para desarrollo:** precio (25.000–95.000 COP), ISBN, stock (3–30) y las descripciones, escritas a mano en español.
+  El envío no es fijo: sigue la misma regla que el resto del catálogo (ver «Envío inventado» más abajo).
 - Si repites `import_legacy --force` el catálogo vuelve a los 37 libros originales (las portadas nuevas no se borran): ejecuta `add_catalog` después.
 - La barra de categorías es una sola fila que se desliza en horizontal (con flechas en pantallas anchas) y deja a la vista la categoría activa.
 - Los libros sin portada utilizable se descartaron y se sustituyeron por otros del mismo tipo, para llegar siempre a 20.
+
+### Envío, ISBN, destacados y descuento (inventados)
+
+Reglas centralizadas en `backend/scripts/catalog_rules.py` y aplicadas por `import_legacy.py`, `add_catalog.py` y
+`enrich_catalog.py` (este último las reaplica sobre el catálogo ya importado, sin tocar pedidos/usuarios/carritos):
+
+- **Envío:** gratis si el precio de lista supera $70.000; si no, $5.000 con 150 páginas o menos y $10.000 con más
+  (o si no se conocen las páginas).
+- **ISBN:** inventado, con el formato y el dígito de control de un ISBN-13 real (no corresponde a una edición existente).
+- **Destacado / más vendido:** repartidos de forma determinista en el catálogo ampliado (los 37 originales conservan
+  los que tenía el sitio original).
+- **Descuento:** 15 % del catálogo, elegido al azar con semilla fija (reproducible), la mitad al 10 % y la mitad al 15 %.
+  Se recalcula entero cada vez que se corre `enrich_catalog.py`, no es acumulativo.
+
+```powershell
+cd backend
+.\.venv\Scripts\python.exe -m scripts.enrich_catalog     # aplica/reaplica estas reglas sobre backend/data
+```
 
 ## Notas
 

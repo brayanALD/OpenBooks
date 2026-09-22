@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Datos de runtime del backend (usuarios, pedidos, carritos, portadas subidas desde el admin).
+# El catálogo (books/authors/categories/reviews) SÍ se versiona.
+backend/data/users.json
+backend/data/carts.json
+backend/data/wishlists.json
+backend/data/orders.json
+backend/data/*.tmp
+backend/data/media/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,191 @@
+/* General styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para que el padding y el border se incluyan en el ancho y alto total */
+}
+
+header {
+    width: 100%;
+    width: auto;
+    padding: 20px;
+    background-color: #A67C52;
+}
+
+article {
+    border-radius: 50px;
+    background-color: #754C24;
+}
+
+footer{
+    width: 100%;
+    width: auto;
+    padding: 20px;
+    background-color: #A67C52;
+    border-top-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+    border-top-right-radius: 15px; /* Esquina inferior derecha redondeada */
+}
+
+footer p, img{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 400px; /* Adds spacing between elements */
+}
+
+.header-content2 {
+    display: flex;
+    justify-content: flex-end; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 10px; /* Adds spacing between elements */
+}
+
+.logo img {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #754C24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.login-cart {
+    display: flex;
+    gap: 20px; /* Space between login and cart */
+}
+
+/* Styling for the navigation bar */
+.navigation-bar {
+    background-color: #754C24; /* Background color for the navigation bar */
+    padding: 10px 0; /* Vertical padding for the links */
+    border-bottom-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+    border-bottom-right-radius: 15px; /* Esquina inferior derecha redondeada */
+    text-align: center; /* Centers the links horizontally */
+}
+
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #7C210B; /* Light color on hover */
+}
+
+/* Estilo general para la sección */
+section {
+    width: 95%; /* Ancho del 95% para pantallas pequeñas */
+    margin: 20px auto; /* Centrar horizontalmente */
+    background-color: #ffffff; /* Fondo del section */
+    padding: 20px;
+    border-radius: 15px; /* Esquinas ligeramente redondeadas */
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Título centrado y de color blanco */
+}
+
+/* Estilos para cada producto */
+.product {
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+    padding: 20px;
+    margin-bottom: 40px; /* Espaciado inferior entre productos */
+    border-radius: 8px; /* Esquinas redondeadas para cada producto */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.drop-shadow {
+    filter: drop-shadow( 2px 2px 5px rgba(222, 222, 222, 0.7));
+}
+
+/* Estilos para la imagen del producto */
+.product img {
+    width: 242px; /* Tamaño máximo de la imagen */
+    height: 360px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+section p, h2 {
+    color: white;
+    margin: 15px;
+}
+
+.product button {
+    margin-top: 15px;
+    border-radius: 40px;
+    background-color: #7C210B;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        gap: 20px; /* Reduce el espacio entre elementos */
+    }
+
+    .header-content2 {
+        justify-content: center; /* Centra en pantallas pequeñas */
+    }
+
+    .product {
+        flex-direction: column; /* Cambia a columna para productos */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+
+    .product img {
+        margin-bottom: 10px; /* Espacio entre imagen y texto */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; /* Ajusta el tamaño del título */
+    }
+
+    .navigation a {
+        font-size: 16px; /* Reduce el tamaño del texto de navegación */
+    }
+
+    .search-bar {
+        flex-direction: column; /* Coloca el input y el botón uno encima del otro */
+        align-items: stretch; /* Estira los elementos */
+    }
+
+    .search-bar input {
+        margin-bottom: 10px; /* Espacio entre input y botón */
+    }
+}

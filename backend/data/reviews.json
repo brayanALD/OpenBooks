@@ -1,0 +1,722 @@
+[
+  {
+    "id": "rv_001",
+    "book_id": "bk_001",
+    "user_id": null,
+    "author_name": "Sebastián G.",
+    "rating": 5,
+    "comment": "Una distopía que sigue vigente: la vigilancia constante y la Neolengua dan escalofríos. La edición en inglés de Penguin es cómoda de leer.",
+    "is_demo": true,
+    "created_at": "2025-02-01T12:00:00Z"
+  },
+  {
+    "id": "rv_002",
+    "book_id": "bk_001",
+    "user_id": null,
+    "author_name": "Laura P.",
+    "rating": 4,
+    "comment": "Pensé que sería una lectura densa y me enganchó enseguida. El final me dejó sin aliento, aunque el ritmo baja un poco a mitad del libro.",
+    "is_demo": true,
+    "created_at": "2025-02-02T12:00:00Z"
+  },
+  {
+    "id": "rv_003",
+    "book_id": "bk_002",
+    "user_id": null,
+    "author_name": "Ana Cristina R.",
+    "rating": 5,
+    "comment": "Un relato reflexivo y sincero de su camino a la presidencia y su primer mandato. Está en inglés, pero su prosa es clara y accesible.",
+    "is_demo": true,
+    "created_at": "2025-02-03T12:00:00Z"
+  },
+  {
+    "id": "rv_004",
+    "book_id": "bk_002",
+    "user_id": null,
+    "author_name": "Miguel Á. V.",
+    "rating": 4,
+    "comment": "Extenso y detallado; hay capítulos muy políticos, pero las anécdotas personales lo hacen muy humano.",
+    "is_demo": true,
+    "created_at": "2025-02-04T12:00:00Z"
+  },
+  {
+    "id": "rv_005",
+    "book_id": "bk_003",
+    "user_id": null,
+    "author_name": "Daniela M.",
+    "rating": 5,
+    "comment": "Violet y el Colegio de Guerra de Basgiath me tuvieron leyendo hasta la madrugada. Los dragones y la tensión romántica están muy bien llevados, y la tapa dura es preciosa.",
+    "is_demo": true,
+    "created_at": "2025-02-05T12:00:00Z"
+  },
+  {
+    "id": "rv_006",
+    "book_id": "bk_003",
+    "user_id": null,
+    "author_name": "Julián T.",
+    "rating": 4,
+    "comment": "Muy entretenida y adictiva, aunque el sistema de magia se explica poco. Ideal si disfrutas la fantasía romántica.",
+    "is_demo": true,
+    "created_at": "2025-02-06T12:00:00Z"
+  },
+  {
+    "id": "rv_007",
+    "book_id": "bk_004",
+    "user_id": null,
+    "author_name": "Marta L.",
+    "rating": 5,
+    "comment": "Una obra maestra sobre el amor, la sociedad rusa y las consecuencias de las decisiones. Son más de mil páginas y valen cada una.",
+    "is_demo": true,
+    "created_at": "2025-02-07T12:00:00Z"
+  },
+  {
+    "id": "rv_008",
+    "book_id": "bk_004",
+    "user_id": null,
+    "author_name": "Ricardo A.",
+    "rating": 4,
+    "comment": "La historia de Levin y Kitty me gustó tanto como la de Anna. Es un libro pesado para cargar, pero la lectura lo compensa.",
+    "is_demo": true,
+    "created_at": "2025-02-08T12:00:00Z"
+  },
+  {
+    "id": "rv_009",
+    "book_id": "bk_005",
+    "user_id": null,
+    "author_name": "Patricia I.",
+    "rating": 4,
+    "comment": "Interesante conocer la vida de Franklin en sus propias palabras, con su método de las trece virtudes.",
+    "is_demo": true,
+    "created_at": "2025-02-09T12:00:00Z"
+  },
+  {
+    "id": "rv_010",
+    "book_id": "bk_005",
+    "user_id": null,
+    "author_name": "Gustavo F.",
+    "rating": 4,
+    "comment": "Un clásico de la autobiografía con consejos que todavía sirven; el estilo del siglo XVIII cuesta un poco al principio.",
+    "is_demo": true,
+    "created_at": "2025-02-10T12:00:00Z"
+  },
+  {
+    "id": "rv_011",
+    "book_id": "bk_006",
+    "user_id": null,
+    "author_name": "Vanessa H.",
+    "rating": 4,
+    "comment": "Fábula corta y amena sobre liderazgo: usar cabeza, corazón y manos para transformarse. Se lee en una tarde.",
+    "is_demo": true,
+    "created_at": "2025-02-11T12:00:00Z"
+  },
+  {
+    "id": "rv_012",
+    "book_id": "bk_006",
+    "user_id": null,
+    "author_name": "Héctor D.",
+    "rating": 4,
+    "comment": "La trama es sencilla, pero deja ideas prácticas para el trabajo en equipo. Buen regalo para alguien que empieza a liderar.",
+    "is_demo": true,
+    "created_at": "2025-02-12T12:00:00Z"
+  },
+  {
+    "id": "rv_013",
+    "book_id": "bk_007",
+    "user_id": null,
+    "author_name": "Isabel N.",
+    "rating": 5,
+    "comment": "Macondo se queda contigo. La saga de los Buendía mezcla lo cotidiano y lo mágico con una naturalidad única. Un libro para releer.",
+    "is_demo": true,
+    "created_at": "2025-02-13T12:00:00Z"
+  },
+  {
+    "id": "rv_014",
+    "book_id": "bk_007",
+    "user_id": null,
+    "author_name": "Tomás B.",
+    "rating": 5,
+    "comment": "Al principio me perdí entre tantos Aurelianos y José Arcadios; hacer un pequeño árbol genealógico ayuda. Termina siendo una experiencia inolvidable.",
+    "is_demo": true,
+    "created_at": "2025-02-14T12:00:00Z"
+  },
+  {
+    "id": "rv_015",
+    "book_id": "bk_008",
+    "user_id": null,
+    "author_name": "Gabriela T.",
+    "rating": 5,
+    "comment": "La angustia y la culpa de Raskólnikov están retratadas de forma magistral. Una novela psicológica que no ha envejecido.",
+    "is_demo": true,
+    "created_at": "2025-02-15T12:00:00Z"
+  },
+  {
+    "id": "rv_016",
+    "book_id": "bk_008",
+    "user_id": null,
+    "author_name": "Nicolás E.",
+    "rating": 4,
+    "comment": "Es intensa y algo densa en los diálogos filosóficos, pero el duelo con el investigador Porfirio es genial.",
+    "is_demo": true,
+    "created_at": "2025-02-16T12:00:00Z"
+  },
+  {
+    "id": "rv_017",
+    "book_id": "bk_009",
+    "user_id": null,
+    "author_name": "Manuel A.",
+    "rating": 5,
+    "comment": "Repasa la historia de la humanidad desde una mirada distinta: las revoluciones cognitiva, agrícola y científica. Muy sugerente.",
+    "is_demo": true,
+    "created_at": "2025-02-17T12:00:00Z"
+  },
+  {
+    "id": "rv_018",
+    "book_id": "bk_009",
+    "user_id": null,
+    "author_name": "Ingrid B.",
+    "rating": 4,
+    "comment": "Entretenido y lleno de ideas provocadoras, aunque algunas generalizaciones son discutibles.",
+    "is_demo": true,
+    "created_at": "2025-02-18T12:00:00Z"
+  },
+  {
+    "id": "rv_019",
+    "book_id": "bk_010",
+    "user_id": null,
+    "author_name": "Rosa E.",
+    "rating": 5,
+    "comment": "Las aventuras de don Quijote y Sancho contra los molinos de viento siguen siendo divertidísimas y profundas.",
+    "is_demo": true,
+    "created_at": "2025-02-19T12:00:00Z"
+  },
+  {
+    "id": "rv_020",
+    "book_id": "bk_010",
+    "user_id": null,
+    "author_name": "Javier O.",
+    "rating": 4,
+    "comment": "Una edición manejable de un clásico enorme. Recomendable para acercarse a Cervantes sin abrumarse.",
+    "is_demo": true,
+    "created_at": "2025-02-20T12:00:00Z"
+  },
+  {
+    "id": "rv_021",
+    "book_id": "bk_011",
+    "user_id": null,
+    "author_name": "Paola S.",
+    "rating": 3,
+    "comment": "Tiene buenas ideas para armar un jardín con intención, pero esperaba más guías prácticas de cultivo.",
+    "is_demo": true,
+    "created_at": "2025-02-21T12:00:00Z"
+  },
+  {
+    "id": "rv_022",
+    "book_id": "bk_011",
+    "user_id": null,
+    "author_name": "Camilo R.",
+    "rating": 2,
+    "comment": "Interesante como introducción, aunque me pareció superficial en la parte de jardinería. Está más enfocado en la tradición esotérica que en cultivar.",
+    "is_demo": true,
+    "created_at": "2025-02-22T12:00:00Z"
+  },
+  {
+    "id": "rv_023",
+    "book_id": "bk_012",
+    "user_id": null,
+    "author_name": "Marcela D.",
+    "rating": 5,
+    "comment": "Un homenaje conmovedor de Abad Faciolince a su padre, el médico Héctor Abad Gómez. Es difícil no emocionarse.",
+    "is_demo": true,
+    "created_at": "2025-02-23T12:00:00Z"
+  },
+  {
+    "id": "rv_024",
+    "book_id": "bk_012",
+    "user_id": null,
+    "author_name": "Andrés K.",
+    "rating": 5,
+    "comment": "Combina la memoria familiar con la violencia de Colombia. Un libro que se queda para siempre.",
+    "is_demo": true,
+    "created_at": "2025-02-24T12:00:00Z"
+  },
+  {
+    "id": "rv_025",
+    "book_id": "bk_013",
+    "user_id": null,
+    "author_name": "Eugenia S.",
+    "rating": 5,
+    "comment": "Allende entrelaza la Viena de 1938 con la frontera de Estados Unidos en la actualidad. Emotiva y muy humana.",
+    "is_demo": true,
+    "created_at": "2025-02-25T12:00:00Z"
+  },
+  {
+    "id": "rv_026",
+    "book_id": "bk_013",
+    "user_id": null,
+    "author_name": "Bruno F.",
+    "rating": 4,
+    "comment": "Personajes entrañables, aunque las dos historias tardan en encontrarse. Un mensaje muy actual sobre la migración.",
+    "is_demo": true,
+    "created_at": "2025-02-26T12:00:00Z"
+  },
+  {
+    "id": "rv_027",
+    "book_id": "bk_014",
+    "user_id": null,
+    "author_name": "Beatriz L.",
+    "rating": 4,
+    "comment": "Una novela breve y sensible sobre Ana Magdalena Bach y sus viajes anuales a la isla. Se siente como un regalo póstumo.",
+    "is_demo": true,
+    "created_at": "2025-02-27T12:00:00Z"
+  },
+  {
+    "id": "rv_028",
+    "book_id": "bk_014",
+    "user_id": null,
+    "author_name": "Alejandro V.",
+    "rating": 4,
+    "comment": "Corta y de lectura ligera; no es su obra más ambiciosa, pero conserva su prosa inconfundible.",
+    "is_demo": true,
+    "created_at": "2025-02-28T12:00:00Z"
+  },
+  {
+    "id": "rv_029",
+    "book_id": "bk_015",
+    "user_id": null,
+    "author_name": "Valentina R.",
+    "rating": 5,
+    "comment": "Perfecto para releer la saga completa o para regalarla. Los siete libros llegaron bien protegidos dentro del estuche.",
+    "is_demo": true,
+    "created_at": "2025-03-01T12:00:00Z"
+  },
+  {
+    "id": "rv_030",
+    "book_id": "bk_015",
+    "user_id": null,
+    "author_name": "Martín C.",
+    "rating": 5,
+    "comment": "La mejor forma de tener toda la historia de Harry, Ron y Hermione en la biblioteca. Las ediciones de bolsillo son livianas.",
+    "is_demo": true,
+    "created_at": "2025-03-02T12:00:00Z"
+  },
+  {
+    "id": "rv_031",
+    "book_id": "bk_016",
+    "user_id": null,
+    "author_name": "Enrique S.",
+    "rating": 5,
+    "comment": "Retrata a la sociedad rusa durante las guerras napoleónicas con personajes memorables como Pierre y Natasha. Larga, pero imperdible.",
+    "is_demo": true,
+    "created_at": "2025-03-03T12:00:00Z"
+  },
+  {
+    "id": "rv_032",
+    "book_id": "bk_016",
+    "user_id": null,
+    "author_name": "Clara W.",
+    "rating": 4,
+    "comment": "Requiere paciencia por su extensión y la cantidad de personajes, pero la recompensa es enorme. Muy buen precio para tantas páginas.",
+    "is_demo": true,
+    "created_at": "2025-03-04T12:00:00Z"
+  },
+  {
+    "id": "rv_033",
+    "book_id": "bk_017",
+    "user_id": null,
+    "author_name": "Santiago H.",
+    "rating": 5,
+    "comment": "Intrigas, casas nobles y una guerra por el Trono de Hierro. No hay personajes intocables, y eso mantiene la tensión.",
+    "is_demo": true,
+    "created_at": "2025-03-05T12:00:00Z"
+  },
+  {
+    "id": "rv_034",
+    "book_id": "bk_017",
+    "user_id": null,
+    "author_name": "Juliana M.",
+    "rating": 4,
+    "comment": "Un mundo muy trabajado. Al inicio cuesta ubicar tantas casas y nombres, pero después no puedes soltarlo.",
+    "is_demo": true,
+    "created_at": "2025-03-06T12:00:00Z"
+  },
+  {
+    "id": "rv_035",
+    "book_id": "bk_018",
+    "user_id": null,
+    "author_name": "Lorena Q.",
+    "rating": 5,
+    "comment": "Un thriller psicológico con un giro final que no vi venir. Alicia y su silencio te mantienen intrigado hasta la última página.",
+    "is_demo": true,
+    "created_at": "2025-03-07T12:00:00Z"
+  },
+  {
+    "id": "rv_036",
+    "book_id": "bk_018",
+    "user_id": null,
+    "author_name": "Jorge N.",
+    "rating": 4,
+    "comment": "Adictivo y de lectura rápida. Algunos elementos son algo predecibles, pero el desenlace compensa.",
+    "is_demo": true,
+    "created_at": "2025-03-08T12:00:00Z"
+  },
+  {
+    "id": "rv_037",
+    "book_id": "bk_019",
+    "user_id": null,
+    "author_name": "Roberto S.",
+    "rating": 4,
+    "comment": "Una novela de la Barcelona de 1917, con conflicto obrero y corrupción. Una intriga muy bien tejida.",
+    "is_demo": true,
+    "created_at": "2025-03-09T12:00:00Z"
+  },
+  {
+    "id": "rv_038",
+    "book_id": "bk_019",
+    "user_id": null,
+    "author_name": "Elena J.",
+    "rating": 4,
+    "comment": "Su estructura mezcla voces, cartas y testimonios. Exige atención, pero recompensa mucho.",
+    "is_demo": true,
+    "created_at": "2025-03-10T12:00:00Z"
+  },
+  {
+    "id": "rv_039",
+    "book_id": "bk_020",
+    "user_id": null,
+    "author_name": "Carlos M.",
+    "rating": 5,
+    "comment": "Un clásico para entender la historia de la explotación de los recursos de la región. Prosa poderosa.",
+    "is_demo": true,
+    "created_at": "2025-03-11T12:00:00Z"
+  },
+  {
+    "id": "rv_040",
+    "book_id": "bk_020",
+    "user_id": null,
+    "author_name": "Yolanda P.",
+    "rating": 4,
+    "comment": "Es un ensayo con mucha postura; conviene leerlo junto con otras fuentes, pero sigue siendo influyente.",
+    "is_demo": true,
+    "created_at": "2025-03-12T12:00:00Z"
+  },
+  {
+    "id": "rv_041",
+    "book_id": "bk_021",
+    "user_id": null,
+    "author_name": "Wilson T.",
+    "rating": 5,
+    "comment": "Una forma divertida de repasar la historia de Colombia, con humor y sin perder rigor.",
+    "is_demo": true,
+    "created_at": "2025-03-13T12:00:00Z"
+  },
+  {
+    "id": "rv_042",
+    "book_id": "bk_021",
+    "user_id": null,
+    "author_name": "Angélica F.",
+    "rating": 4,
+    "comment": "Ideal para quien odiaba las clases de historia. Ágil y con muchas anécdotas.",
+    "is_demo": true,
+    "created_at": "2025-03-14T12:00:00Z"
+  },
+  {
+    "id": "rv_043",
+    "book_id": "bk_022",
+    "user_id": null,
+    "author_name": "Pilar C.",
+    "rating": 5,
+    "comment": "Cuentos de terror con raíz en la realidad argentina. Inquietantes y muy bien escritos.",
+    "is_demo": true,
+    "created_at": "2025-03-15T12:00:00Z"
+  },
+  {
+    "id": "rv_044",
+    "book_id": "bk_022",
+    "user_id": null,
+    "author_name": "Tomás R.",
+    "rating": 4,
+    "comment": "Relatos perturbadores; algunos me dejaron pensando varios días. No son para leer antes de dormir.",
+    "is_demo": true,
+    "created_at": "2025-03-16T12:00:00Z"
+  },
+  {
+    "id": "rv_045",
+    "book_id": "bk_023",
+    "user_id": null,
+    "author_name": "Amparo T.",
+    "rating": 5,
+    "comment": "Una novela intensa sobre Alice Gould, que ingresa en un psiquiátrico para investigar. Te hace dudar de quién está cuerdo.",
+    "is_demo": true,
+    "created_at": "2025-03-17T12:00:00Z"
+  },
+  {
+    "id": "rv_046",
+    "book_id": "bk_023",
+    "user_id": null,
+    "author_name": "Raúl H.",
+    "rating": 4,
+    "comment": "Ritmo ágil y ambientación muy lograda. Un clásico de la narrativa española del siglo XX.",
+    "is_demo": true,
+    "created_at": "2025-03-18T12:00:00Z"
+  },
+  {
+    "id": "rv_047",
+    "book_id": "bk_024",
+    "user_id": null,
+    "author_name": "Alexis R.",
+    "rating": 5,
+    "comment": "Una novela cruda y poderosa sobre Adán Santana y sus fantasmas. Mendoza retrata Bogotá y a los marginados sin adornos.",
+    "is_demo": true,
+    "created_at": "2025-03-19T12:00:00Z"
+  },
+  {
+    "id": "rv_048",
+    "book_id": "bk_024",
+    "user_id": null,
+    "author_name": "Nancy G.",
+    "rating": 4,
+    "comment": "Fuerte y muy bien escrita; no es una lectura ligera, pero deja huella.",
+    "is_demo": true,
+    "created_at": "2025-03-20T12:00:00Z"
+  },
+  {
+    "id": "rv_049",
+    "book_id": "bk_026",
+    "user_id": null,
+    "author_name": "Rodrigo J.",
+    "rating": 4,
+    "comment": "El capitán Ahab es un personaje formidable. Los capítulos sobre cetología son largos, pero dan textura a la aventura.",
+    "is_demo": true,
+    "created_at": "2025-03-21T12:00:00Z"
+  },
+  {
+    "id": "rv_050",
+    "book_id": "bk_026",
+    "user_id": null,
+    "author_name": "Adriana K.",
+    "rating": 5,
+    "comment": "Mucho más que la historia de una ballena: es una reflexión sobre la obsesión. La edición es muy legible.",
+    "is_demo": true,
+    "created_at": "2025-03-22T12:00:00Z"
+  },
+  {
+    "id": "rv_051",
+    "book_id": "bk_027",
+    "user_id": null,
+    "author_name": "Iván D.",
+    "rating": 5,
+    "comment": "Reúne relatos esenciales del horror cósmico. La edición de Valdemar es preciosa y muy completa.",
+    "is_demo": true,
+    "created_at": "2025-03-23T12:00:00Z"
+  },
+  {
+    "id": "rv_052",
+    "book_id": "bk_027",
+    "user_id": null,
+    "author_name": "Mónica B.",
+    "rating": 4,
+    "comment": "Atmósfera opresiva y un horror que sugiere más de lo que muestra. El estilo es denso, pero perfecto para leer de noche.",
+    "is_demo": true,
+    "created_at": "2025-03-24T12:00:00Z"
+  },
+  {
+    "id": "rv_053",
+    "book_id": "bk_028",
+    "user_id": null,
+    "author_name": "Ernesto Z.",
+    "rating": 5,
+    "comment": "El fundador de Nike cuenta sus inicios vendiendo zapatillas desde el maletero de su auto. Ágil, honesta y llena de aprendizajes.",
+    "is_demo": true,
+    "created_at": "2025-03-25T12:00:00Z"
+  },
+  {
+    "id": "rv_054",
+    "book_id": "bk_028",
+    "user_id": null,
+    "author_name": "Ximena C.",
+    "rating": 4,
+    "comment": "Muy buena para emprendedores. Hacia el final se siente algo apresurada, pero los primeros años son fascinantes.",
+    "is_demo": true,
+    "created_at": "2025-03-26T12:00:00Z"
+  },
+  {
+    "id": "rv_055",
+    "book_id": "bk_029",
+    "user_id": null,
+    "author_name": "Daniela U.",
+    "rating": 5,
+    "comment": "Elizabeth Bennet sigue siendo una protagonista genial. Ingenio, ironía social y una historia de amor perfecta.",
+    "is_demo": true,
+    "created_at": "2025-03-27T12:00:00Z"
+  },
+  {
+    "id": "rv_056",
+    "book_id": "bk_029",
+    "user_id": null,
+    "author_name": "Fernando Y.",
+    "rating": 4,
+    "comment": "Lectura ligera y elegante. Al principio la sociedad de la época se siente lejana, pero engancha rápido.",
+    "is_demo": true,
+    "created_at": "2025-03-28T12:00:00Z"
+  },
+  {
+    "id": "rv_057",
+    "book_id": "bk_030",
+    "user_id": null,
+    "author_name": "Óscar M.",
+    "rating": 5,
+    "comment": "Impresionante material ilustrativo y muy riguroso sobre terópodos. Para apasionados de la paleontología es una joya.",
+    "is_demo": true,
+    "created_at": "2025-03-29T12:00:00Z"
+  },
+  {
+    "id": "rv_058",
+    "book_id": "bk_030",
+    "user_id": null,
+    "author_name": "Lucía G.",
+    "rating": 4,
+    "comment": "Muy completo, con diagramas y reconstrucciones a todo color. Es un libro grande y técnico, más de consulta que de lectura seguida.",
+    "is_demo": true,
+    "created_at": "2025-03-30T12:00:00Z"
+  },
+  {
+    "id": "rv_059",
+    "book_id": "bk_031",
+    "user_id": null,
+    "author_name": "Hugo L.",
+    "rating": 3,
+    "comment": "Tiene ideas útiles sobre motivación y comunicación, pero el tono es de autoayuda clásica y hay bastante repetición.",
+    "is_demo": true,
+    "created_at": "2025-03-31T12:00:00Z"
+  },
+  {
+    "id": "rv_060",
+    "book_id": "bk_031",
+    "user_id": null,
+    "author_name": "Yesenia P.",
+    "rating": 2,
+    "comment": "Esperaba más contenido práctico. Varios capítulos son motivacionales pero poco concretos.",
+    "is_demo": true,
+    "created_at": "2025-04-01T12:00:00Z"
+  },
+  {
+    "id": "rv_061",
+    "book_id": "bk_032",
+    "user_id": null,
+    "author_name": "Felipe C.",
+    "rating": 5,
+    "comment": "Isaacson retrata a Jobs sin idealizarlo: su genio, su obsesión por el diseño y también su carácter difícil. Se lee como una novela.",
+    "is_demo": true,
+    "created_at": "2025-04-02T12:00:00Z"
+  },
+  {
+    "id": "rv_062",
+    "book_id": "bk_032",
+    "user_id": null,
+    "author_name": "Natalia V.",
+    "rating": 4,
+    "comment": "Muy completa y bien documentada. Algunas partes sobre negociaciones empresariales se hacen largas, pero vale la pena.",
+    "is_demo": true,
+    "created_at": "2025-04-03T12:00:00Z"
+  },
+  {
+    "id": "rv_063",
+    "book_id": "bk_033",
+    "user_id": null,
+    "author_name": "Brayan S.",
+    "rating": 5,
+    "comment": "Kobe explica su preparación, su análisis de video y su obsesión por mejorar. Inspirador incluso si no te gusta el baloncesto.",
+    "is_demo": true,
+    "created_at": "2025-04-04T12:00:00Z"
+  },
+  {
+    "id": "rv_064",
+    "book_id": "bk_033",
+    "user_id": null,
+    "author_name": "Karen L.",
+    "rating": 4,
+    "comment": "Con fotos y explicaciones sobre su técnica. Es más un manual de mentalidad que una biografía tradicional.",
+    "is_demo": true,
+    "created_at": "2025-04-05T12:00:00Z"
+  },
+  {
+    "id": "rv_065",
+    "book_id": "bk_034",
+    "user_id": null,
+    "author_name": "Andrea F.",
+    "rating": 5,
+    "comment": "El sistema de magia de la alomancia es de lo mejor que he leído, y el giro final del primer libro es memorable. Tres libros en un solo estuche.",
+    "is_demo": true,
+    "created_at": "2025-04-06T12:00:00Z"
+  },
+  {
+    "id": "rv_066",
+    "book_id": "bk_034",
+    "user_id": null,
+    "author_name": "Mateo Q.",
+    "rating": 5,
+    "comment": "Vin y Kelsier son personajes inolvidables. La trilogía cierra de forma muy satisfactoria.",
+    "is_demo": true,
+    "created_at": "2025-04-07T12:00:00Z"
+  },
+  {
+    "id": "rv_067",
+    "book_id": "bk_035",
+    "user_id": null,
+    "author_name": "Félix A.",
+    "rating": 4,
+    "comment": "Un reto mayúsculo: un solo día de 1904 en Dublín, siguiendo a Leopold Bloom. Hace falta paciencia y una guía de lectura.",
+    "is_demo": true,
+    "created_at": "2025-04-08T12:00:00Z"
+  },
+  {
+    "id": "rv_068",
+    "book_id": "bk_035",
+    "user_id": null,
+    "author_name": "Cecilia M.",
+    "rating": 5,
+    "comment": "Monumental. Cada capítulo cambia de estilo, y las notas de la edición ayudan mucho a entender las referencias.",
+    "is_demo": true,
+    "created_at": "2025-04-09T12:00:00Z"
+  },
+  {
+    "id": "rv_069",
+    "book_id": "bk_036",
+    "user_id": null,
+    "author_name": "Carolina Z.",
+    "rating": 5,
+    "comment": "La evolución de Feyre y la Corte de la Noche es lo mejor de la saga. Ritmo, romance y una trama que va subiendo de intensidad.",
+    "is_demo": true,
+    "created_at": "2025-04-10T12:00:00Z"
+  },
+  {
+    "id": "rv_070",
+    "book_id": "bk_036",
+    "user_id": null,
+    "author_name": "Esteban O.",
+    "rating": 4,
+    "comment": "Mejora mucho respecto al primer libro. La edición especial es bonita; el romance domina, pero la política entre cortes también engancha.",
+    "is_demo": true,
+    "created_at": "2025-04-11T12:00:00Z"
+  },
+  {
+    "id": "rv_071",
+    "book_id": "bk_037",
+    "user_id": null,
+    "author_name": "Diego P.",
+    "rating": 5,
+    "comment": "Will Smith cuenta su infancia, su ascenso a la fama y sus inseguridades con mucha honestidad. Se lee muy rápido.",
+    "is_demo": true,
+    "created_at": "2025-04-12T12:00:00Z"
+  },
+  {
+    "id": "rv_072",
+    "book_id": "bk_037",
+    "user_id": null,
+    "author_name": "Sofía A.",
+    "rating": 4,
+    "comment": "Ameno y sincero, con una escritura ágil. Algunas partes sobre superación se repiten un poco, pero conmueve.",
+    "is_demo": true,
+    "created_at": "2025-04-13T12:00:00Z"
+  }
+]

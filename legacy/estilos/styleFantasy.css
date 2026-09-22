@@ -1,0 +1,204 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para que el padding y el border se incluyan en el ancho y alto total */
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #A67C52;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 400px; /* Adds spacing between elements */
+}
+
+.header-content2 {
+    display: flex;
+    justify-content: flex-end; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 10px; /* Adds spacing between elements */
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #A67C52;
+    border-top-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+    border-top-right-radius: 15px; /* Esquina inferior derecha redondeada */
+}
+
+
+footer p,
+img {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+
+.logo img {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #754C24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.login-cart {
+    display: flex;
+    gap: 20px; /* Space between login and cart */
+}
+
+/* Styling for the navigation bar */
+.navigation-bar {
+    background-color: #754C24; /* Background color for the navigation bar */
+    padding: 10px 0; /* Vertical padding for the links */
+    border-bottom-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+    border-bottom-right-radius: 15px; /* Esquina inferior derecha redondeada */
+    text-align: center; /* Centers the links horizontally */
+}
+
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #7C210B; /* Light color on hover */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f2f2f2; /* Fondo gris claro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Book details page */
+.book-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-item {
+    border-radius: 15px;
+    flex-basis: 30%; /* Tres columnas */
+    background-color: #754C24;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.book-item img {
+    width: 235px;
+    height: 360px; /* Mantiene la proporción */
+    margin: 0 auto; /* Centra la imagen */
+    display: block; /* Necesario para que el margin auto funcione */
+}
+
+.book-item h3 {
+    font-size: 22px;
+    color: #ffffff; /* Azul oscuro */
+    margin-bottom: 10px;
+}
+
+.book-item .author {
+    font-size: 16px;
+    color: #ffffff; /* Texto gris */
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.book-item .price {
+    font-size: 35px;
+    color: #7C210B; /* Rojo brillante */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.book-item button {
+    background-color: #7C210B; /* Azul oscuro */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.book-item button:hover {
+    background-color: #7C210B; /* Azul más oscuro */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        gap: 20px; /* Reduce el espacio entre elementos */
+    }
+
+    .header-content2 {
+        justify-content: center; /* Centra en pantallas pequeñas */
+    }
+
+    .book-item {
+        flex-basis: 45%; /* Dos columnas */
+    }
+}
+
+.drop-shadow {
+    filter: drop-shadow( 2px 2px 5px rgba(222, 222, 222, 0.7));
+}
+
+@media (max-width: 480px) {
+    .book-item {
+        flex-basis: 100%; /* Una columna en pantallas pequeñas */
+    }
+
+    .search-bar {
+        flex-direction: column; /* Coloca el input y el botón uno encima del otro */
+        align-items: stretch; /* Estira los elementos */
+    }
+
+    .search-bar input {
+        margin-bottom: 10px; /* Espacio entre input y botón */
+    }
+}

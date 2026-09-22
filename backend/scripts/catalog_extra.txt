@@ -1,0 +1,266 @@
+# Libros reales que amplían el catálogo hasta 20 por categoría (los usa scripts/add_catalog.py).
+# Formato:  categoría | título | autor | título alternativo para buscar la portada (opcional) | descripción
+# Solo son reales el título, el autor y la portada (Open Library); precio y stock los inventa el script.
+
+clasicos|Los miserables|Victor Hugo|Les Misérables|La lucha de Jean Valjean por redimirse en la Francia del siglo XIX, perseguido sin tregua por el inspector Javert.
+clasicos|Madame Bovary|Gustave Flaubert||Emma Bovary sueña con una vida de romance y lujo que la provincia no le ofrece, y su búsqueda la arrastra a la ruina.
+clasicos|El conde de Montecristo|Alexandre Dumas|The Count of Monte Cristo|Traicionado y encarcelado injustamente, Edmond Dantès escapa, encuentra un tesoro y prepara una venganza minuciosa.
+clasicos|Cumbres borrascosas|Emily Brontë|Wuthering Heights|La pasión destructiva entre Heathcliff y Catherine en los páramos de Yorkshire, una historia de amor, orgullo y venganza.
+clasicos|Jane Eyre|Charlotte Brontë||Una huérfana sin fortuna se abre camino como institutriz y se enamora del misterioso señor Rochester y de los secretos de su casa.
+clasicos|Grandes esperanzas|Charles Dickens|Great Expectations|Pip, un joven huérfano, recibe una fortuna anónima que cambia su destino y le enseña lo que de verdad importa.
+clasicos|La Odisea|Homero|The Odyssey|El regreso de Ulises a Ítaca tras la guerra de Troya: diez años de naufragios, monstruos y dioses para volver a casa.
+clasicos|La Ilíada|Homero|The Iliad|La cólera de Aquiles y los últimos días del asedio de Troya en el poema fundacional de la literatura occidental.
+clasicos|El retrato de Dorian Gray|Oscar Wilde|The Picture of Dorian Gray|Un joven conserva su belleza mientras su retrato envejece y carga con las huellas de una vida disoluta.
+clasicos|Hamlet|William Shakespeare||El príncipe de Dinamarca duda entre la venganza y la conciencia tras conocer que su tío asesinó a su padre.
+fantasia|El Hobbit|J. R. R. Tolkien|The Hobbit|Bilbo Bolsón deja la comodidad de su hogar para acompañar a un grupo de enanos a recuperar un tesoro custodiado por un dragón.
+fantasia|La Comunidad del Anillo|J. R. R. Tolkien|The Fellowship of the Ring|Frodo hereda el Anillo Único y parte con ocho compañeros para destruirlo antes de que caiga en manos del Señor Oscuro.
+fantasia|El nombre del viento|Patrick Rothfuss|The Name of the Wind|Kvothe, músico, mago y leyenda, cuenta su propia historia: de huérfano en una troupe de actores a estudiante en la Universidad.
+fantasia|Harry Potter y la piedra filosofal|J. K. Rowling|Harry Potter and the Philosopher's Stone|Un niño huérfano descubre en su cumpleaños número once que es mago y entra al Colegio Hogwarts de Magia y Hechicería.
+fantasia|El león, la bruja y el armario|C. S. Lewis|The Lion, the Witch and the Wardrobe|Cuatro hermanos atraviesan un armario y llegan a Narnia, un país encantado bajo el invierno eterno de la Bruja Blanca.
+fantasia|Choque de reyes|George R. R. Martin|A Clash of Kings|Segunda entrega de Canción de hielo y fuego: los aspirantes al Trono de Hierro se disputan Poniente mientras crece la amenaza del norte.
+fantasia|El camino de los reyes|Brandon Sanderson|The Way of Kings|En el mundo azotado por tormentas de Roshar, un esclavo, un caballero y una joven erudita se ven arrastrados a una guerra antigua.
+fantasia|Eragon|Christopher Paolini||Un joven granjero encuentra un huevo de dragón y se convierte en Jinete, con la misión de enfrentarse al rey tirano.
+fantasia|La historia interminable|Michael Ende|The Neverending Story|Bastian abre un libro misterioso y descubre que él mismo forma parte de la historia de Fantasía, un reino que se desvanece.
+fantasia|Percy Jackson y el ladrón del rayo|Rick Riordan|The Lightning Thief|Percy descubre que es hijo de un dios griego y debe recuperar el rayo de Zeus para evitar una guerra entre los dioses del Olimpo.
+fantasia|Un mago de Terramar|Ursula K. Le Guin|A Wizard of Earthsea|Ged, un joven aprendiz de mago, libera por soberbia una sombra y debe enfrentarla en un archipiélago de islas y dragones.
+fantasia|Buenos presagios|Terry Pratchett y Neil Gaiman|Good Omens|Un ángel y un demonio, amigos de siglos, intentan evitar el Apocalipsis porque se han acostumbrado a la vida en la Tierra.
+fantasia|Alicia en el país de las maravillas|Lewis Carroll|Alice's Adventures in Wonderland|Una niña sigue a un conejo blanco por una madriguera y llega a un mundo de personajes absurdos y reglas imposibles.
+fantasia|Trono de cristal|Sarah J. Maas|Throne of Glass|Celaena Sardothien, asesina cautiva, puede ganar su libertad si vence a otros campeones en una competición del rey.
+novela|La sombra del viento|Carlos Ruiz Zafón|The Shadow of the Wind|En la Barcelona de posguerra, un niño encuentra un libro maldito y se ve envuelto en el misterio de su autor desaparecido.
+novela|El amor en los tiempos del cólera|Gabriel García Márquez|Love in the Time of Cholera|Florentino Ariza espera más de cincuenta años para volver a declarar su amor a Fermina Daza.
+novela|Crónica de una muerte anunciada|Gabriel García Márquez|Chronicle of a Death Foretold|Todo el pueblo sabía que Santiago Nasar iba a morir, y nadie logró evitarlo: la reconstrucción de un crimen anunciado.
+novela|La casa de los espíritus|Isabel Allende|The House of the Spirits|La saga de la familia Trueba a lo largo de cuatro generaciones, entre lo político, lo mágico y las pasiones familiares.
+novela|Pedro Páramo|Juan Rulfo||Juan Preciado llega a Comala en busca de su padre y encuentra un pueblo poblado de voces y fantasmas.
+novela|Rayuela|Julio Cortázar|Hopscotch|Una novela que puede leerse en varios órdenes, sobre Horacio Oliveira y su búsqueda entre París y Buenos Aires.
+novela|La ciudad y los perros|Mario Vargas Llosa|The Time of the Hero|La vida cruel de los cadetes del colegio militar Leoncio Prado en Lima, y un crimen que nadie quiere esclarecer.
+novela|La fiesta del chivo|Mario Vargas Llosa|The Feast of the Goat|Los últimos días de la dictadura de Trujillo en la República Dominicana, vistos desde el poder y desde sus víctimas.
+novela|El extranjero|Albert Camus|The Stranger|Meursault, indiferente ante casi todo, mata a un hombre en una playa argelina y es juzgado más por su frialdad que por su crimen.
+novela|Ensayo sobre la ceguera|José Saramago|Blindness|Una epidemia de ceguera blanca se extiende por una ciudad y muestra lo mejor y lo peor de las personas.
+novela|La insoportable levedad del ser|Milan Kundera|The Unbearable Lightness of Being|Tomas, Tereza y Sabina se enredan en el amor y la libertad en la Praga de la invasión soviética.
+novela|El guardián entre el centeno|J. D. Salinger|The Catcher in the Rye|Holden Caulfield, expulsado del colegio, vaga por Nueva York y cuenta con humor y rabia su desencanto ante el mundo adulto.
+novela|Matar a un ruiseñor|Harper Lee|To Kill a Mockingbird|En el sur de Estados Unidos, una niña ve cómo su padre, abogado, defiende a un hombre negro acusado injustamente.
+biografias|El diario de Ana Frank|Ana Frank|The Diary of a Young Girl|El diario de una adolescente judía escondida con su familia en Ámsterdam durante la ocupación nazi.
+biografias|El largo camino hacia la libertad|Nelson Mandela|Long Walk to Freedom|La autobiografía del líder sudafricano: su infancia, veintisiete años de cárcel y la lucha contra el apartheid.
+biografias|Yo soy Malala|Malala Yousafzai|I Am Malala|La historia de la joven paquistaní que defendió el derecho de las niñas a estudiar y sobrevivió a un atentado talibán.
+biografias|Mi historia|Michelle Obama|Becoming|Las memorias de la ex primera dama de Estados Unidos: de su infancia en Chicago a la Casa Blanca.
+biografias|Leonardo da Vinci|Walter Isaacson||La vida y la obra del genio renacentista, contada a partir de sus cuadernos y su curiosidad insaciable.
+biografias|Una educación|Tara Westover|Educated|Una joven criada por una familia sin escuela en las montañas de Idaho logra llegar a la universidad y a un doctorado.
+biografias|Shoe Dog: la historia de Nike|Phil Knight|Shoe Dog|El fundador de Nike cuenta cómo pasó de vender zapatillas desde el maletero de un coche a crear una marca global.
+biografias|Vivir para contarla|Gabriel García Márquez|Living to Tell the Tale|Las memorias de García Márquez: su infancia en Aracataca, sus inicios como periodista y el camino hacia la literatura.
+biografias|Confieso que he vivido|Pablo Neruda|Memoirs|Las memorias del poeta chileno: viajes, amores, política y poesía en el siglo XX.
+biografias|Elon Musk|Walter Isaacson||Una biografía del empresario detrás de Tesla, SpaceX y X, basada en dos años de acceso a su entorno.
+historia|Armas, gérmenes y acero|Jared Diamond|Guns, Germs, and Steel|Un ensayo sobre las razones geográficas y ambientales por las que unas sociedades dominaron a otras.
+historia|Los cañones de agosto|Barbara W. Tuchman|The Guns of August|El relato de las primeras semanas de la Primera Guerra Mundial y de las decisiones que la hicieron inevitable.
+historia|Breve historia del mundo|Ernst H. Gombrich|A Little History of the World|Una historia universal para todos los públicos, contada con sencillez desde la prehistoria hasta el siglo XX.
+historia|La Segunda Guerra Mundial|Antony Beevor|The Second World War|Un relato completo del mayor conflicto del siglo XX, en todos sus frentes.
+historia|Colapso|Jared Diamond|Collapse|Por qué algunas sociedades desaparecen y otras sobreviven ante los cambios del entorno y sus propias decisiones.
+historia|Historia del siglo XX|Eric Hobsbawm|The Age of Extremes|Un recorrido por el «siglo corto», desde 1914 hasta la caída de la Unión Soviética.
+historia|1491|Charles C. Mann||Cómo eran realmente las Américas antes de la llegada de Colón, según la arqueología y la antropología recientes.
+historia|Colombia: una nación a pesar de sí misma|David Bushnell|The Making of Modern Colombia|Una historia de Colombia desde los tiempos precolombinos hasta la actualidad.
+historia|Calibán y la bruja|Silvia Federici|Caliban and the Witch|Un análisis del papel de las mujeres, el cuerpo y la caza de brujas en la transición al capitalismo.
+historia|Historia de la guerra del Peloponeso|Tucídides|History of the Peloponnesian War|El relato clásico del enfrentamiento entre Atenas y Esparta, escrito por un testigo de la guerra.
+desarrollo-personal|Hábitos atómicos|James Clear|Atomic Habits|Un método para crear buenos hábitos y dejar los malos a partir de pequeños cambios que se acumulan.
+desarrollo-personal|Padre rico, padre pobre|Robert T. Kiyosaki|Rich Dad Poor Dad|Lo que los ricos enseñan a sus hijos sobre el dinero y que los pobres y la clase media no.
+desarrollo-personal|Cómo ganar amigos e influir sobre las personas|Dale Carnegie|How to Win Friends and Influence People|Un clásico sobre cómo relacionarse mejor, ganar la simpatía de los demás y convencer sin discutir.
+desarrollo-personal|Los 7 hábitos de la gente altamente efectiva|Stephen R. Covey|The 7 Habits of Highly Effective People|Siete principios para lograr eficacia personal y profesional basados en el carácter y la ética.
+desarrollo-personal|El poder del ahora|Eckhart Tolle|The Power of Now|Una guía para vivir en el presente y liberarse del pensamiento incesante y la ansiedad.
+desarrollo-personal|Piense y hágase rico|Napoleon Hill|Think and Grow Rich|Los principios del éxito personal y financiero recogidos tras entrevistar a cientos de personas de éxito.
+desarrollo-personal|El hombre en busca de sentido|Viktor Frankl|Man's Search for Meaning|Un psiquiatra superviviente de los campos nazis explica cómo encontrar sentido incluso en el sufrimiento.
+desarrollo-personal|Los cuatro acuerdos|Miguel Ruiz|The Four Agreements|Cuatro principios de la sabiduría tolteca para liberarse de creencias que limitan y vivir con más libertad.
+desarrollo-personal|El monje que vendió su Ferrari|Robin Sharma|The Monk Who Sold His Ferrari|Un abogado agotado abandona su carrera y encuentra en el Himalaya lecciones para vivir con plenitud.
+desarrollo-personal|Ikigai|Héctor García y Francesc Miralles||Los secretos de los habitantes de Okinawa para una vida larga, feliz y con propósito.
+desarrollo-personal|El sutil arte de que (casi todo) te importe una mierda|Mark Manson|The Subtle Art of Not Giving a F*ck|Una propuesta directa para elegir con criterio qué merece tu atención y aceptar los límites de la vida.
+desarrollo-personal|Inteligencia emocional|Daniel Goleman|Emotional Intelligence|Por qué la capacidad de gestionar las emociones puede importar tanto como el coeficiente intelectual.
+desarrollo-personal|El poder del hábito|Charles Duhigg|The Power of Habit|Cómo se forman los hábitos en personas, empresas y sociedades, y cómo cambiarlos.
+desarrollo-personal|¿Quién se ha llevado mi queso?|Spencer Johnson|Who Moved My Cheese?|Una fábula corta sobre cómo afrontar los cambios en el trabajo y en la vida.
+desarrollo-personal|Pensar rápido, pensar despacio|Daniel Kahneman|Thinking, Fast and Slow|Los dos sistemas de pensamiento que gobiernan nuestras decisiones y los sesgos que nos hacen equivocarnos.
+desarrollo-personal|Grit: el poder de la pasión y la perseverancia|Angela Duckworth|Grit|Por qué la constancia predice el éxito mejor que el talento, y cómo cultivarla.
+ciencia-ficcion|Dune|Frank Herbert||En el planeta desértico Arrakis, único productor de la especia más valiosa del universo, el joven Paul Atreides se enfrenta a su destino.
+ciencia-ficcion|Fundación|Isaac Asimov|Foundation|Un matemático predice la caída del Imperio Galáctico y crea la Fundación para acortar los milenios de barbarie que vendrán.
+ciencia-ficcion|Yo, robot|Isaac Asimov|I, Robot|Nueve relatos que exploran las tres leyes de la robótica y los dilemas de las máquinas que piensan.
+ciencia-ficcion|Un mundo feliz|Aldous Huxley|Brave New World|Una sociedad organizada en castas, condicionada desde el nacimiento y anestesiada con placer, vista por un forastero.
+ciencia-ficcion|Fahrenheit 451|Ray Bradbury||En un futuro donde los libros están prohibidos, un bombero encargado de quemarlos empieza a cuestionarlo todo.
+ciencia-ficcion|Crónicas marcianas|Ray Bradbury|The Martian Chronicles|Relatos sobre la colonización de Marte por los humanos y el choque con sus antiguos habitantes.
+ciencia-ficcion|Neuromante|William Gibson|Neuromancer|Un hacker acabado recibe un último encargo en el ciberespacio: la novela que definió el género ciberpunk.
+ciencia-ficcion|El juego de Ender|Orson Scott Card|Ender's Game|Un niño superdotado es entrenado en una escuela militar espacial para liderar la defensa de la humanidad contra una raza alienígena.
+ciencia-ficcion|Los juegos del hambre|Suzanne Collins|The Hunger Games|En Panem, adolescentes son obligados a combatir hasta la muerte en un espectáculo televisado; Katniss se ofrece voluntaria.
+ciencia-ficcion|Solaris|Stanisław Lem||Un psicólogo llega a una estación sobre un planeta oceánico misterioso que materializa los recuerdos de la tripulación.
+ciencia-ficcion|La mano izquierda de la oscuridad|Ursula K. Le Guin|The Left Hand of Darkness|Un enviado terrestre visita un mundo helado cuyos habitantes no tienen sexo fijo y descubre otra forma de entender la sociedad.
+ciencia-ficcion|La guerra de los mundos|H. G. Wells|The War of the Worlds|Los marcianos invaden Inglaterra con máquinas de guerra devastadoras en la novela que fundó el género de la invasión alienígena.
+ciencia-ficcion|La máquina del tiempo|H. G. Wells|The Time Machine|Un inventor viaja al año 802.701 y descubre en qué se ha convertido la humanidad.
+ciencia-ficcion|Veinte mil leguas de viaje submarino|Julio Verne|Twenty Thousand Leagues Under the Seas|Un profesor y sus compañeros recorren los océanos a bordo del Nautilus, el submarino del misterioso capitán Nemo.
+ciencia-ficcion|Viaje al centro de la Tierra|Julio Verne|Journey to the Center of the Earth|Un profesor y su sobrino descienden por un volcán de Islandia y descubren un mundo subterráneo lleno de criaturas prehistóricas.
+ciencia-ficcion|¿Sueñan los androides con ovejas eléctricas?|Philip K. Dick|Do Androids Dream of Electric Sheep?|Un cazarrecompensas persigue androides fugitivos en un mundo devastado; la base de la película Blade Runner.
+ciencia-ficcion|El marciano|Andy Weir|The Martian|Un astronauta queda abandonado en Marte y debe sobrevivir con ingenio, ciencia y humor hasta que puedan rescatarlo.
+ciencia-ficcion|Hyperion|Dan Simmons||Siete peregrinos viajan hacia el misterioso Ser Cambiante, y cada uno cuenta su historia por el camino.
+ciencia-ficcion|Los desposeídos|Ursula K. Le Guin|The Dispossessed|Un físico anarquista viaja del planeta austero Anarres al rico Urras, en una novela sobre libertad y sociedad.
+misterio|El código Da Vinci|Dan Brown|The Da Vinci Code|Un simbólogo y una criptógrafa investigan un asesinato en el Louvre y descubren un secreto guardado durante siglos.
+misterio|Asesinato en el Orient Express|Agatha Christie|Murder on the Orient Express|Hércules Poirot investiga un crimen en un tren detenido por la nieve en el que todos los pasajeros tienen algo que ocultar.
+misterio|Diez negritos|Agatha Christie|And Then There Were None|Diez desconocidos son invitados a una isla y empiezan a morir uno a uno según los versos de una canción infantil.
+misterio|Muerte en el Nilo|Agatha Christie|Death on the Nile|Durante un crucero por el Nilo, una joven heredera aparece asesinada y Poirot debe descubrir al culpable entre los pasajeros.
+misterio|El asesinato de Roger Ackroyd|Agatha Christie|The Murder of Roger Ackroyd|Poirot, retirado en un pueblo inglés, investiga la muerte de un rico terrateniente en una novela de final célebre.
+misterio|Estudio en escarlata|Arthur Conan Doyle|A Study in Scarlet|La primera aventura de Sherlock Holmes y el doctor Watson, que se conocen mientras investigan un asesinato misterioso.
+misterio|El sabueso de los Baskerville|Arthur Conan Doyle|The Hound of the Baskervilles|Holmes investiga la leyenda de un perro monstruoso que persigue a una antigua familia en los páramos de Dartmoor.
+misterio|La chica del tren|Paula Hawkins|The Girl on the Train|Una mujer que observa desde el tren a una pareja aparentemente perfecta se ve envuelta en una desaparición.
+misterio|Perdida|Gillian Flynn|Gone Girl|El día de su aniversario, Amy desaparece y todas las sospechas recaen sobre su marido: un thriller lleno de giros.
+misterio|Los hombres que no amaban a las mujeres|Stieg Larsson|The Girl with the Dragon Tattoo|Un periodista y una hacker investigan la desaparición de una joven ocurrida cuarenta años atrás.
+misterio|El silencio de los corderos|Thomas Harris|The Silence of the Lambs|Una joven agente del FBI pide ayuda al doctor Hannibal Lecter para atrapar a un asesino en serie.
+misterio|El nombre de la rosa|Umberto Eco|The Name of the Rose|Fray Guillermo de Baskerville investiga una serie de muertes en una abadía medieval italiana.
+misterio|Ángeles y demonios|Dan Brown|Angels & Demons|Robert Langdon debe evitar que una sociedad secreta destruya el Vaticano en una carrera contra el reloj por Roma.
+misterio|El halcón maltés|Dashiell Hammett|The Maltese Falcon|El detective Sam Spade se ve envuelto en una peligrosa persecución tras una estatuilla de valor incalculable.
+misterio|El gran sueño|Raymond Chandler|The Big Sleep|Philip Marlowe investiga un caso de chantaje para un general rico en el Los Ángeles de los años treinta.
+misterio|Rebeca|Daphne du Maurier|Rebecca|Una joven se casa con un viudo rico y llega a su mansión, donde la sombra de la primera esposa lo domina todo.
+misterio|El psicoanalista|John Katzenbach|The Analyst|Un psicoanalista recibe una carta que le da quince días para descubrir la identidad del autor o destruirá su vida.
+misterio|Los crímenes de la calle Morgue|Edgar Allan Poe|The Murders in the Rue Morgue|Considerado el primer relato detectivesco moderno: Auguste Dupin resuelve un doble asesinato aparentemente imposible.
+poesia|Veinte poemas de amor y una canción desesperada|Pablo Neruda|Veinte poemas de amor y una canción desesperada|El libro de poemas más leído de Neruda, sobre el amor, el deseo y la pérdida.
+poesia|Canto general|Pablo Neruda||Un gran poema épico sobre la historia, la naturaleza y los pueblos de América Latina.
+poesia|Rimas y leyendas|Gustavo Adolfo Bécquer|Rimas|La obra cumbre del romanticismo español, con poemas breves sobre el amor y la poesía misma.
+poesia|Poeta en Nueva York|Federico García Lorca||Poemas escritos durante la estancia de Lorca en Nueva York, entre la angustia y la crítica de la ciudad.
+poesia|Romancero gitano|Federico García Lorca||Poemas que mezclan tradición popular y vanguardia en torno al mundo gitano de Andalucía.
+poesia|Las flores del mal|Charles Baudelaire|Les Fleurs du mal|El libro que abrió la poesía moderna, sobre la belleza, el spleen y el vicio en la ciudad.
+poesia|Hojas de hierba|Walt Whitman|Leaves of Grass|El gran poema de la democracia y del yo estadounidense, escrito en verso libre.
+poesia|Piedra de sol|Octavio Paz||Un largo poema circular sobre el tiempo, el amor y la memoria, inspirado en el calendario azteca.
+poesia|Trilce|César Vallejo||Un libro de vanguardia que rompe con el lenguaje convencional para expresar soledad, cárcel y desamparo.
+poesia|Los heraldos negros|César Vallejo||El primer libro de Vallejo: poemas de dolor, orfandad y duda ante un mundo sin respuestas.
+poesia|Campos de Castilla|Antonio Machado||Poemas sobre el paisaje castellano, España y el paso del tiempo, con la lucidez de un gran poeta.
+poesia|Platero y yo|Juan Ramón Jiménez||La relación entre un poeta y su burro, contada en breves poemas en prosa llenos de ternura y belleza.
+poesia|El cuervo y otros poemas|Edgar Allan Poe|The Raven|Poemas oscuros y musicales de Poe sobre la muerte, la pérdida y la locura.
+poesia|Elegías de Duino|Rainer Maria Rilke|Duineser Elegien|Diez elegías sobre la fragilidad, la belleza y el destino del ser humano, una cumbre de la poesía alemana.
+poesia|Leche y miel|Rupi Kaur|Milk and Honey|Poemas breves sobre el amor, la pérdida, el trauma y la sanación, con ilustraciones de la autora.
+poesia|Inventario uno|Mario Benedetti||Antología de la poesía de Benedetti, cercana, emotiva y cotidiana, sobre el amor, la política y la vida.
+poesia|Poesía completa|Alejandra Pizarnik||Los poemas de la argentina Alejandra Pizarnik, breves, intensos y obsesionados con la infancia y el silencio.
+poesia|Summa de Maqroll el Gaviero|Álvaro Mutis||La poesía del colombiano Álvaro Mutis reunida en torno a su personaje, el marinero errante Maqroll.
+poesia|Poesías|José Asunción Silva||Los poemas del gran modernista colombiano, incluyendo los célebres «Nocturnos».
+poesia|Poemas|Emily Dickinson|Poems|Una selección de la obra de la poeta estadounidense, marcada por la brevedad y la mirada íntima.
+terror|Drácula|Bram Stoker|Dracula|Jonathan Harker viaja a Transilvania y descubre que su anfitrión, el conde Drácula, es un vampiro que planea llegar a Londres.
+terror|Frankenstein|Mary Shelley|Frankenstein; or, The Modern Prometheus|Un científico da vida a una criatura hecha de restos humanos y no puede soportar las consecuencias de su hazaña.
+terror|El resplandor|Stephen King|The Shining|Un escritor con problemas es contratado como guardián de un hotel aislado en invierno, donde fuerzas malignas lo acechan.
+terror|It (Eso)|Stephen King|It|Un grupo de amigos se enfrenta en la infancia y de nuevo de adultos a una entidad que se alimenta del miedo en Derry.
+terror|Cementerio de animales|Stephen King|Pet Sematary|Una familia descubre en un antiguo cementerio el poder de traer a los muertos de vuelta, con terribles consecuencias.
+terror|Carrie|Stephen King||Una adolescente marginada y con poderes telequinéticos se venga de quienes la humillan en la noche del baile.
+terror|Misery|Stephen King||Un escritor accidentado es rescatado por su fan número uno, que no acepta que haya matado a su personaje favorito.
+terror|El exorcista|William Peter Blatty|The Exorcist|Una niña es poseída por una entidad demoníaca, y dos sacerdotes intentan salvarla en la novela que definió el terror moderno.
+terror|El bebé de Rosemary|Ira Levin|Rosemary's Baby|Una joven embarazada sospecha que sus vecinos y su marido esconden un siniestro secreto sobre su hijo.
+terror|Psicosis|Robert Bloch|Psycho|Una mujer que huye con dinero robado llega al motel Bates, regentado por un joven inquietante y su dominante madre.
+terror|El extraño caso del doctor Jekyll y Mr. Hyde|Robert Louis Stevenson|Strange Case of Dr Jekyll and Mr Hyde|Un respetable doctor crea una poción que libera su lado oscuro y lo convierte en un hombre distinto.
+terror|Narraciones extraordinarias|Edgar Allan Poe|Tales of Mystery and Imagination|Cuentos como «El corazón delator» y «El gato negro», maestros del terror psicológico y lo macabro.
+terror|La llamada de Cthulhu|H. P. Lovecraft|The Call of Cthulhu|Un relato fundamental del terror cósmico: la existencia de un ser antiguo que duerme bajo el océano.
+terror|En las montañas de la locura|H. P. Lovecraft|At the Mountains of Madness|Una expedición a la Antártida descubre las ruinas de una civilización anterior a la humanidad.
+terror|La maldición de Hill House|Shirley Jackson|The Haunting of Hill House|Cuatro personas se instalan en una casa con fama de embrujada para estudiar sus fenómenos y son perturbadas por ella.
+terror|Siempre hemos vivido en el castillo|Shirley Jackson|We Have Always Lived in the Castle|Dos hermanas viven aisladas con su tío tras una tragedia familiar, hasta que la llegada de un primo lo rompe todo.
+terror|Otra vuelta de tuerca|Henry James|The Turn of the Screw|Una institutriz cree que dos niños a su cargo están acosados por los fantasmas de dos antiguos empleados.
+terror|Soy leyenda|Richard Matheson|I Am Legend|El último hombre vivo entre criaturas parecidas a vampiros intenta sobrevivir y entender qué ha pasado con el mundo.
+terror|El misterio de Salem's Lot|Stephen King|'Salem's Lot|Un escritor regresa a su pueblo natal y descubre que sus habitantes están siendo convertidos en vampiros.
+terror|Coraline|Neil Gaiman||Una niña descubre una puerta hacia un mundo idéntico al suyo, pero con una «otra madre» de ojos de botón que no quiere dejarla ir.
+romance|Persuasión|Jane Austen|Persuasion|Anne Elliot se reencuentra, ocho años después, con el hombre al que rechazó por consejo de otros.
+romance|Emma|Jane Austen||Una joven casamentera cree saber más que nadie sobre el amor, hasta que descubre sus propios sentimientos.
+romance|Sentido y sensibilidad|Jane Austen|Sense and Sensibility|Las hermanas Dashwood, la prudente Elinor y la apasionada Marianne, afrontan el amor y la pérdida en la Inglaterra del siglo XIX.
+romance|Yo antes de ti|Jojo Moyes|Me Before You|Louisa, una joven sin rumbo, empieza a cuidar a Will, un hombre tetrapléjico que ha perdido las ganas de vivir.
+romance|Bajo la misma estrella|John Green|The Fault in Our Stars|Hazel y Gus, dos adolescentes con cáncer, se conocen en un grupo de apoyo y viven una historia de amor inolvidable.
+romance|Como agua para chocolate|Laura Esquivel|Like Water for Chocolate|Tita, condenada a cuidar a su madre, expresa su amor prohibido a través de las recetas que cocina.
+romance|Diario de una pasión|Nicholas Sparks|The Notebook|Un anciano lee a una mujer con demencia la historia de amor de Noah y Allie, un amor a prueba del tiempo.
+romance|Un paseo para recordar|Nicholas Sparks|A Walk to Remember|Un adolescente rebelde se enamora de la hija del pastor y descubre lo que es el amor verdadero.
+romance|Forastera|Diana Gabaldon|Outlander|Claire, una enfermera de 1945, cae a las Highlands de 1743 y se enamora del guerrero Jamie Fraser.
+romance|Romeo y Julieta|William Shakespeare|Romeo and Juliet|La tragedia de dos jóvenes de familias enemistadas que se enamoran en Verona.
+romance|Lo que el viento se llevó|Margaret Mitchell|Gone with the Wind|Scarlett O'Hara sobrevive a la Guerra de Secesión y lucha por su amor por Ashley Wilkes y su relación con Rhett Butler.
+romance|Los puentes de Madison County|Robert James Waller|The Bridges of Madison County|Una ama de casa de Iowa vive cuatro días de amor intenso con un fotógrafo de paso.
+romance|Los siete maridos de Evelyn Hugo|Taylor Jenkins Reid|The Seven Husbands of Evelyn Hugo|Una estrella de Hollywood retirada cuenta a una joven periodista los secretos de su vida, sus matrimonios y su gran amor.
+romance|Romper el círculo|Colleen Hoover|It Ends with Us|Lily se enamora de un neurocirujano brillante, pero su relación reabre heridas del pasado.
+romance|Culpa mía|Mercedes Ron||Noah se muda con su madre y su nuevo padrastro, y se ve envuelta en una atracción prohibida con su hermanastro Nick.
+romance|Bridgerton: El duque y yo|Julia Quinn|The Duke and I|Daphne Bridgerton y el duque de Hastings fingen un cortejo para librarse de la presión social, hasta que empiezan a sentir de verdad.
+romance|Crepúsculo|Stephenie Meyer|Twilight|Bella se muda a Forks y se enamora de Edward Cullen, un chico misterioso que esconde un secreto: es un vampiro.
+romance|A todos los chicos de los que me enamoré|Jenny Han|To All the Boys I've Loved Before|Las cartas secretas de amor de Lara Jean se envían por error a sus destinatarios y su vida amorosa se complica.
+romance|Hopeless|Colleen Hoover||Sky Davis conoce a Dean Holder y descubre que su pasado guarda secretos que cambiarán su forma de verse a sí misma.
+ciencia|Breve historia del tiempo|Stephen Hawking|A Brief History of Time|Del Big Bang a los agujeros negros: una introducción a la cosmología para lectores sin formación científica.
+ciencia|Cosmos|Carl Sagan||Un viaje por el universo, desde el origen de la vida hasta las estrellas, con la mirada curiosa de Sagan.
+ciencia|El gen egoísta|Richard Dawkins|The Selfish Gene|Una visión de la evolución centrada en los genes, que popularizó la idea del «meme».
+ciencia|El origen de las especies|Charles Darwin|On the Origin of Species|La obra que expuso la teoría de la evolución por selección natural y cambió la biología.
+ciencia|Astrofísica para gente con prisa|Neil deGrasse Tyson|Astrophysics for People in a Hurry|Una introducción breve y amena al universo, la materia y las leyes de la física.
+ciencia|Una breve historia de casi todo|Bill Bryson|A Short History of Nearly Everything|Un recorrido humorístico y riguroso por lo que la ciencia sabe sobre el universo, la Tierra y la vida.
+ciencia|El universo elegante|Brian Greene|The Elegant Universe|La teoría de cuerdas explicada para el gran público: la búsqueda de una teoría unificada del cosmos.
+ciencia|El hombre que confundió a su mujer con un sombrero|Oliver Sacks|The Man Who Mistook His Wife for a Hat|Casos clínicos de un neurólogo sobre pacientes con trastornos cerebrales extraordinarios.
+ciencia|La doble hélice|James D. Watson|The Double Helix|El relato en primera persona del descubrimiento de la estructura del ADN.
+ciencia|Los dragones del Edén|Carl Sagan|The Dragons of Eden|Especulaciones sobre la evolución de la inteligencia humana y el cerebro.
+ciencia|El mundo y sus demonios|Carl Sagan|The Demon-Haunted World|Un alegato a favor del pensamiento crítico y contra la superstición y la pseudociencia.
+ciencia|El emperador de todos los males|Siddhartha Mukherjee|The Emperor of All Maladies|Una biografía del cáncer, de sus primeros registros a la ciencia actual.
+ciencia|La sexta extinción|Elizabeth Kolbert|The Sixth Extinction|Cómo la actividad humana está provocando una extinción masiva de especies comparable a las del pasado.
+ciencia|Primavera silenciosa|Rachel Carson|Silent Spring|El libro que alertó sobre el daño de los pesticidas y ayudó a impulsar el movimiento ecologista moderno.
+ciencia|Física de lo imposible|Michio Kaku|Physics of the Impossible|Un físico explora qué tecnologías de la ciencia ficción podrían ser posibles: teletransporte, viajes en el tiempo, invisibilidad.
+ciencia|La estructura de las revoluciones científicas|Thomas S. Kuhn|The Structure of Scientific Revolutions|Cómo avanza realmente la ciencia: por cambios de paradigma y no solo por acumulación de datos.
+ciencia|Pálido punto azul|Carl Sagan|Pale Blue Dot|Una reflexión sobre el lugar de la humanidad en el cosmos y su futuro en el espacio.
+ciencia|Incógnito|David Eagleman|Incognito|Cómo la mayor parte de lo que hace el cerebro ocurre fuera de nuestra conciencia.
+infantil|El principito|Antoine de Saint-Exupéry|Le Petit Prince|Un piloto perdido en el desierto conoce a un pequeño príncipe que le cuenta sus viajes por distintos planetas.
+infantil|Matilda|Roald Dahl||Una niña superdotada se enfrenta a unos padres indiferentes y a una directora tiránica con la ayuda de su ingenio.
+infantil|Charlie y la fábrica de chocolate|Roald Dahl|Charlie and the Chocolate Factory|Charlie gana una visita a la fábrica de Willy Wonka, llena de sorpresas y castigos para los niños malcriados.
+infantil|Peter Pan|J. M. Barrie||Peter Pan lleva a los hermanos Darling al País de Nunca Jamás, donde los niños nunca crecen y los piratas acechan.
+infantil|Pinocho|Carlo Collodi|The Adventures of Pinocchio|Un muñeco de madera cobra vida y aprende, tras muchas travesuras, a ser un niño de verdad.
+infantil|Heidi|Johanna Spyri||Una niña huérfana vive con su abuelo en los Alpes suizos y descubre el poder de la naturaleza y la amistad.
+infantil|El jardín secreto|Frances Hodgson Burnett|The Secret Garden|Mary, una niña huérfana, descubre un jardín abandonado que cambia su vida y la de quienes la rodean.
+infantil|Ana de las Tejas Verdes|L. M. Montgomery|Anne of Green Gables|Una niña huérfana de imaginación desbordante llega por error a una granja de Canadá y conquista a todos.
+infantil|Mujercitas|Louisa May Alcott|Little Women|Las cuatro hermanas March crecen en Nueva Inglaterra durante la Guerra Civil estadounidense.
+infantil|Donde viven los monstruos|Maurice Sendak|Where the Wild Things Are|Max, castigado en su habitación, viaja a una isla donde los monstruos lo coronan rey.
+infantil|La oruga muy hambrienta|Eric Carle|The Very Hungry Caterpillar|Una oruga come cada día más y más comida hasta convertirse en una hermosa mariposa.
+infantil|El Grúfalo|Julia Donaldson|The Gruffalo|Un pequeño ratón se inventa un monstruo imaginario, el Grúfalo, para librarse de los depredadores del bosque.
+infantil|Elmer|David McKee||Elmer es un elefante de colores que decide ser como los demás, hasta que descubre el valor de ser diferente.
+infantil|Manolito Gafotas|Elvira Lindo||Las divertidas aventuras de un niño madrileño con gafas, su familia y su barrio de Carabanchel.
+infantil|Las aventuras de Tom Sawyer|Mark Twain|The Adventures of Tom Sawyer|Las travesuras de un niño a orillas del río Misisipi: piratas, cuevas, tesoros y un testigo de un crimen.
+infantil|Momo|Michael Ende||Una niña sabe escuchar como nadie y se enfrenta a los hombres grises que roban el tiempo de la gente.
+infantil|Pippi Calzaslargas|Astrid Lindgren|Pippi Longstocking|Pippi es una niña fuerte, libre y traviesa que vive sola con un mono y un caballo, y revoluciona su tranquilo pueblo.
+infantil|Diario de Greg|Jeff Kinney|Diary of a Wimpy Kid|Greg Heffley cuenta con humor sus dramas en el primer año de secundaria, con dibujos y notas.
+infantil|El libro de la selva|Rudyard Kipling|The Jungle Book|Mowgli, un niño criado por lobos, aprende las leyes de la selva con la ayuda de Baloo y Bagheera.
+infantil|Winnie the Pooh|A. A. Milne||Las aventuras de un osito de peluche y sus amigos en el Bosque de los Cien Acres.
+cocina|Sal, grasa, ácido, calor|Samin Nosrat|Salt, Fat, Acid, Heat|Los cuatro elementos que definen el buen cocinar, explicados con ilustraciones y recetas para todos los niveles.
+cocina|Dominando el arte de la cocina francesa|Julia Child|Mastering the Art of French Cooking|El libro de cocina francesa que introdujo esta tradición al público estadounidense, paso a paso.
+cocina|Confesiones de un chef|Anthony Bourdain|Kitchen Confidential|Las memorias del chef sobre el mundo real, duro y a veces salvaje de las cocinas profesionales.
+cocina|Cocinar: una historia natural de la transformación|Michael Pollan|Cooked|Pollan explora cuatro formas de transformar alimentos (fuego, agua, aire y tierra) y lo que revelan de la cocina.
+cocina|Jerusalén|Yotam Ottolenghi y Sami Tamimi|Jerusalem|Recetas de una de las ciudades más diversas del mundo, con historias y fotografías de sus barrios.
+cocina|Simple|Yotam Ottolenghi||Recetas de Ottolenghi pensadas para ser rápidas, sencillas y con pocos ingredientes.
+cocina|Siete fuegos|Francis Mallmann|Seven Fires|El cocinero argentino explica sus siete formas de cocinar con fuego: parrilla, chapa, horno de barro y más.
+cocina|Larousse Gastronomique|Prosper Montagné||La gran enciclopedia de la gastronomía: técnicas, ingredientes, historia y recetas de todo el mundo.
+cocina|La cocina y los alimentos|Harold McGee|On Food and Cooking|Una enciclopedia de la ciencia que hay detrás de los alimentos y las técnicas culinarias.
+cocina|Cómo cocinar todo|Mark Bittman|How to Cook Everything|Un manual básico con miles de recetas y técnicas para aprender a cocinar desde cero.
+cocina|El laboratorio de la comida|J. Kenji López-Alt|The Food Lab|La ciencia detrás de la buena cocina explicada a través de experimentos y recetas probadas.
+cocina|Los fundamentos de la cocina clásica italiana|Marcella Hazan|Essentials of Classic Italian Cooking|Un clásico de la cocina italiana con salsas, pastas, risottos y carnes explicados con rigor.
+cocina|Tartine Bread|Chad Robertson||La técnica y las recetas de la famosa panadería de San Francisco para hacer pan de masa madre en casa.
+cocina|Plenty|Yotam Ottolenghi||Recetas vegetarianas llenas de sabor, color y especias de uno de los chefs más influyentes de hoy.
+cocina|Flavour|Yotam Ottolenghi y Ixta Belfrage||Recetas basadas en el sabor y en técnicas para intensificarlo, con un enfoque vegetal.
+cocina|Cómo ser una diosa doméstica|Nigella Lawson|How to Be a Domestic Goddess|Un libro de repostería y cocina casera con recetas tentadoras y un tono cercano y divertido.
+cocina|Comida en 15 minutos|Jamie Oliver|15-Minute Meals|Recetas rápidas y saludables para cocinar en un cuarto de hora.
+cocina|Ceviche|Martin Morales||Cocina peruana explicada por un chef en Londres: ceviches, tiraditos, causas y pisco.
+cocina|La cuchara de plata|Varios autores|The Silver Spoon|La gran obra de la cocina italiana, con miles de recetas caseras tradicionales.
+tecnologia|Código limpio|Robert C. Martin|Clean Code|Un manual de buenas prácticas para escribir código legible y mantenible.
+tecnologia|El programador pragmático|Andrew Hunt y David Thomas|The Pragmatic Programmer|Consejos prácticos para mejorar como programador, desde el diseño hasta las herramientas y el oficio.
+tecnologia|Designing Data-Intensive Applications|Martin Kleppmann||Los principios que hay detrás de bases de datos, sistemas distribuidos y procesamiento de datos.
+tecnologia|Patrones de diseño|Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides|Design Patterns: Elements of Reusable Object-Oriented Software|El catálogo clásico de 23 patrones de diseño orientado a objetos.
+tecnologia|Refactoring|Martin Fowler||Cómo mejorar el diseño del código existente mediante pequeños pasos que no alteran su comportamiento.
+tecnologia|Arquitectura limpia|Robert C. Martin|Clean Architecture|Principios de arquitectura de software para crear sistemas fáciles de mantener y de evolucionar.
+tecnologia|Introduction to Algorithms|Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest y Clifford Stein||El manual de referencia sobre algoritmos y estructuras de datos, muy usado en universidades.
+tecnologia|Structure and Interpretation of Computer Programs|Harold Abelson y Gerald Jay Sussman||Un libro fundamental de la informática, que enseña a pensar los programas a través de abstracciones.
+tecnologia|Deep Learning|Ian Goodfellow, Yoshua Bengio y Aaron Courville||Un libro de referencia sobre redes neuronales profundas y aprendizaje automático.
+tecnologia|Superinteligencia|Nick Bostrom|Superintelligence|Un análisis de los riesgos y desafíos de una inteligencia artificial que supere a la humana.
+tecnologia|Vida 3.0|Max Tegmark|Life 3.0|Un físico reflexiona sobre cómo puede cambiar la vida y la sociedad con la inteligencia artificial.
+tecnologia|De cero a uno|Peter Thiel|Zero to One|Ideas de un inversor sobre cómo crear empresas que innoven de verdad y construyan el futuro.
+tecnologia|Los innovadores|Walter Isaacson|The Innovators|La historia de la revolución digital a través de las personas que la hicieron posible.
+tecnologia|Eloquent JavaScript|Marijn Haverbeke||Una introducción moderna a JavaScript y a la programación con ejemplos y ejercicios.
+tecnologia|Domain-Driven Design|Eric Evans||Cómo modelar software complejo a partir del dominio del negocio y un lenguaje común.
+tecnologia|El proyecto Fénix|Gene Kim, Kevin Behr y George Spafford|The Phoenix Project|Una novela sobre un directivo de TI que salva un proyecto en crisis con ideas de DevOps.
+tecnologia|Curso intensivo de Python|Eric Matthes|Python Crash Course|Una introducción práctica a Python con proyectos reales: juegos, visualización de datos y aplicaciones web.
+clasicos|La metamorfosis|Franz Kafka|The Metamorphosis|Gregor Samsa amanece convertido en un insecto monstruoso y su familia debe afrontar la situación.
+novela|El túnel|Ernesto Sabato|The Tunnel|El pintor Juan Pablo Castel confiesa el crimen que cometió por amor y obsesión, en una novela breve e inquietante.
+biografias|Diarios de motocicleta|Ernesto Guevara|The Motorcycle Diaries|El viaje en moto de un joven Che Guevara y su amigo Alberto Granado por Sudamérica en 1952.
+biografias|Madame Curie|Ève Curie|Madame Curie: A Biography|La vida de la científica Marie Curie, contada por su hija: pasión por la ciencia, dos premios Nobel y años de dificultades.
+biografias|Alexander Hamilton|Ron Chernow||La vida del inmigrante huérfano que se convirtió en uno de los padres fundadores de Estados Unidos.
+historia|Homo Deus|Yuval Noah Harari||Un ensayo sobre el futuro de la humanidad en la era de la biotecnología y la inteligencia artificial.
+historia|La Revolución rusa|Sheila Fitzpatrick|The Russian Revolution|Una introducción a los sucesos de 1917 y a la sociedad soviética que surgió de ellos.
+desarrollo-personal|Céntrate|Cal Newport|Deep Work|Cómo trabajar con concentración profunda en un mundo lleno de distracciones y obtener resultados de más valor.
+ciencia-ficcion|Snow Crash|Neal Stephenson||Un repartidor de pizza y hacker se ve envuelto en una conspiración entre el mundo virtual del metaverso y el real.
+misterio|Las aventuras de Sherlock Holmes|Arthur Conan Doyle|The Adventures of Sherlock Holmes|Doce casos del detective más famoso de la literatura, narrados por su amigo el doctor Watson.
+misterio|Pequeñas mentiras perfectas|Liane Moriarty|Big Little Lies|Tres madres de un barrio tranquilo ocultan secretos que estallan en una noche de gala escolar que acaba en tragedia.
+romance|After: aquí empieza todo|Anna Todd|After|Tessa, una estudiante ejemplar, se enamora del rebelde Hardin en su primer año de universidad.
+ciencia|El mono desnudo|Desmond Morris|The Naked Ape|Un zoólogo observa al ser humano como una especie más y analiza su comportamiento, sus instintos y su sexualidad.
+ciencia|El relojero ciego|Richard Dawkins|The Blind Watchmaker|Cómo la selección natural, sin diseño ni propósito, puede explicar la complejidad de los seres vivos.
+cocina|Perú: el libro de cocina|Gastón Acurio|Peru: The Cookbook|Cientos de recetas peruanas, del ceviche a la cocina criolla, andina y de fusión, del chef más conocido del país.
+tecnologia|Cracking the Coding Interview|Gayle Laakmann McDowell||Preguntas, soluciones y estrategias para superar entrevistas técnicas de programación en las grandes empresas.
+tecnologia|Accelerate|Nicole Forsgren, Jez Humble y Gene Kim||Los datos que muestran qué prácticas de desarrollo y entrega hacen que un equipo de software rinda mejor.
+tecnologia|Working Effectively with Legacy Code|Michael C. Feathers||Técnicas para modificar con seguridad código existente sin pruebas y mejorar su diseño poco a poco.
+biografias|Mi vida|Charles Chaplin|My Autobiography|Las memorias de Charlie Chaplin: de una infancia pobre en Londres al cine mudo, la fama y el exilio.

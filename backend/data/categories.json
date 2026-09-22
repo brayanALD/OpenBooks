@@ -1,0 +1,107 @@
+[
+  {
+    "id": "cat_clasicos",
+    "name": "Clásicos",
+    "slug": "clasicos",
+    "description": "Obras que han resistido el paso del tiempo.",
+    "position": 0
+  },
+  {
+    "id": "cat_fantasia",
+    "name": "Fantasía",
+    "slug": "fantasia",
+    "description": "Mundos de magia, dragones y aventura.",
+    "position": 1
+  },
+  {
+    "id": "cat_novela",
+    "name": "Novela",
+    "slug": "novela",
+    "description": "Narrativa para todos los gustos: misterio, drama, memoria y más.",
+    "position": 2
+  },
+  {
+    "id": "cat_biografias",
+    "name": "Biografías",
+    "slug": "biografias",
+    "description": "Vidas contadas en primera persona o por sus biógrafos.",
+    "position": 3
+  },
+  {
+    "id": "cat_historia",
+    "name": "Historia",
+    "slug": "historia",
+    "description": "Del pasado remoto a la historia reciente.",
+    "position": 4
+  },
+  {
+    "id": "cat_desarrollo-personal",
+    "name": "Desarrollo personal",
+    "slug": "desarrollo-personal",
+    "description": "Ideas y hábitos para crecer personal y profesionalmente.",
+    "position": 5
+  },
+  {
+    "id": "cat_ciencia-ficcion",
+    "name": "Ciencia ficción",
+    "slug": "ciencia-ficcion",
+    "description": "Futuros posibles, otros mundos y las preguntas de la tecnología.",
+    "position": 6
+  },
+  {
+    "id": "cat_misterio",
+    "name": "Misterio",
+    "slug": "misterio",
+    "description": "Crímenes, detectives y giros inesperados.",
+    "position": 7
+  },
+  {
+    "id": "cat_poesia",
+    "name": "Poesía",
+    "slug": "poesia",
+    "description": "Versos para leer despacio, de los clásicos a las voces de hoy.",
+    "position": 8
+  },
+  {
+    "id": "cat_terror",
+    "name": "Terror",
+    "slug": "terror",
+    "description": "Historias para no dormir: monstruos, casas encantadas y miedo del bueno.",
+    "position": 9
+  },
+  {
+    "id": "cat_romance",
+    "name": "Romance",
+    "slug": "romance",
+    "description": "Historias de amor de todas las épocas.",
+    "position": 10
+  },
+  {
+    "id": "cat_ciencia",
+    "name": "Ciencia",
+    "slug": "ciencia",
+    "description": "Divulgación para entender el universo, la vida y la mente.",
+    "position": 11
+  },
+  {
+    "id": "cat_infantil",
+    "name": "Infantil",
+    "slug": "infantil",
+    "description": "Lecturas para los más pequeños y para toda la familia.",
+    "position": 12
+  },
+  {
+    "id": "cat_cocina",
+    "name": "Cocina",
+    "slug": "cocina",
+    "description": "Recetas, técnicas y la ciencia de comer bien.",
+    "position": 13
+  },
+  {
+    "id": "cat_tecnologia",
+    "name": "Tecnología",
+    "slug": "tecnologia",
+    "description": "Programación, inteligencia artificial y la cultura digital.",
+    "position": 14
+  }
+]

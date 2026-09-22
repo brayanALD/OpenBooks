@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "aut_001",
+    "name": "Adolf Hitler",
+    "slug": "adolf-hitler"
+  },
+  {
+    "id": "aut_002",
+    "name": "Alex Michaelides",
+    "slug": "alex-michaelides"
+  },
+  {
+    "id": "aut_003",
+    "name": "Álvaro González Alorda",
+    "slug": "alvaro-gonzalez-alorda"
+  },
+  {
+    "id": "aut_004",
+    "name": "Anthony Robbins",
+    "slug": "anthony-robbins"
+  },
+  {
+    "id": "aut_005",
+    "name": "Arin Murphy-Hiscock",
+    "slug": "arin-murphy-hiscock"
+  },
+  {
+    "id": "aut_006",
+    "name": "Barack Obama",
+    "slug": "barack-obama"
+  },
+  {
+    "id": "aut_007",
+    "name": "Benjamin Franklin",
+    "slug": "benjamin-franklin"
+  },
+  {
+    "id": "aut_008",
+    "name": "Brandon Sanderson",
+    "slug": "brandon-sanderson"
+  },
+  {
+    "id": "aut_009",
+    "name": "Daniel Samper Pizano",
+    "slug": "daniel-samper-pizano"
+  },
+  {
+    "id": "aut_010",
+    "name": "Eduardo Galeano",
+    "slug": "eduardo-galeano"
+  },
+  {
+    "id": "aut_011",
+    "name": "Eduardo Mendoza",
+    "slug": "eduardo-mendoza"
+  },
+  {
+    "id": "aut_012",
+    "name": "Fiódor Dostoyevski",
+    "slug": "fiodor-dostoyevski"
+  },
+  {
+    "id": "aut_013",
+    "name": "Gabriel García Márquez",
+    "slug": "gabriel-garcia-marquez"
+  },
+  {
+    "id": "aut_014",
+    "name": "George Orwell",
+    "slug": "george-orwell"
+  },
+  {
+    "id": "aut_015",
+    "name": "George R. R. Martin",
+    "slug": "george-r-r-martin"
+  },
+  {
+    "id": "aut_016",
+    "name": "H. P. Lovecraft",
+    "slug": "h-p-lovecraft"
+  },
+  {
+    "id": "aut_017",
+    "name": "Héctor Abad Faciolince",
+    "slug": "hector-abad-faciolince"
+  },
+  {
+    "id": "aut_018",
+    "name": "Herman Melville",
+    "slug": "herman-melville"
+  },
+  {
+    "id": "aut_019",
+    "name": "Isabel Allende",
+    "slug": "isabel-allende"
+  },
+  {
+    "id": "aut_020",
+    "name": "J. K. Rowling",
+    "slug": "j-k-rowling"
+  },
+  {
+    "id": "aut_021",
+    "name": "James Joyce",
+    "slug": "james-joyce"
+  },
+  {
+    "id": "aut_022",
+    "name": "Jane Austen",
+    "slug": "jane-austen"
+  },
+  {
+    "id": "aut_023",
+    "name": "Kobe Bryant",
+    "slug": "kobe-bryant"
+  },
+  {
+    "id": "aut_024",
+    "name": "León Tolstói",
+    "slug": "leon-tolstoi"
+  },
+  {
+    "id": "aut_025",
+    "name": "Mariana Enriquez",
+    "slug": "mariana-enriquez"
+  },
+  {
+    "id": "aut_026",
+    "name": "Mario Mendoza",
+    "slug": "mario-mendoza"
+  },
+  {
+    "id": "aut_027",
+    "name": "Mark Manson y Will Smith",
+    "slug": "mark-manson-y-will-smith"
+  },
+  {
+    "id": "aut_028",
+    "name": "Miguel de Cervantes",
+    "slug": "miguel-de-cervantes"
+  },
+  {
+    "id": "aut_029",
+    "name": "Phil Knight",
+    "slug": "phil-knight"
+  },
+  {
+    "id": "aut_030",
+    "name": "Rebecca Yarros",
+    "slug": "rebecca-yarros"
+  },
+  {
+    "id": "aut_031",
+    "name": "Rubén Molina Pérez",
+    "slug": "ruben-molina-perez"
+  },
+  {
+    "id": "aut_032",
+    "name": "Sarah J. Maas",
+    "slug": "sarah-j-maas"
+  },
+  {
+    "id": "aut_033",
+    "name": "Torcuato Luca de Tena",
+    "slug": "torcuato-luca-de-tena"
+  },
+  {
+    "id": "aut_034",
+    "name": "Walter Isaacson",
+    "slug": "walter-isaacson"
+  },
+  {
+    "id": "aut_035",
+    "name": "Yuval Noah Harari",
+    "slug": "yuval-noah-harari"
+  },
+  {
+    "id": "aut_036",
+    "name": "Victor Hugo",
+    "slug": "victor-hugo"
+  },
+  {
+    "id": "aut_037",
+    "name": "Gustave Flaubert",
+    "slug": "gustave-flaubert"
+  },
+  {
+    "id": "aut_038",
+    "name": "Alexandre Dumas",
+    "slug": "alexandre-dumas"
+  },
+  {
+    "id": "aut_039",
+    "name": "Emily Brontë",
+    "slug": "emily-bronte"
+  },
+  {
+    "id": "aut_040",
+    "name": "Charlotte Brontë",
+    "slug": "charlotte-bronte"
+  },
+  {
+    "id": "aut_041",
+    "name": "Charles Dickens",
+    "slug": "charles-dickens"
+  },
+  {
+    "id": "aut_042",
+    "name": "Homero",
+    "slug": "homero"
+  },
+  {
+    "id": "aut_043",
+    "name": "Oscar Wilde",
+    "slug": "oscar-wilde"
+  },
+  {
+    "id": "aut_044",
+    "name": "William Shakespeare",
+    "slug": "william-shakespeare"
+  },
+  {
+    "id": "aut_045",
+    "name": "J. R. R. Tolkien",
+    "slug": "j-r-r-tolkien"
+  },
+  {
+    "id": "aut_046",
+    "name": "Patrick Rothfuss",
+    "slug": "patrick-rothfuss"
+  },
+  {
+    "id": "aut_047",
+    "name": "Christopher Paolini",
+    "slug": "christopher-paolini"
+  },
+  {
+    "id": "aut_048",
+    "name": "Michael Ende",
+    "slug": "michael-ende"
+  },
+  {
+    "id": "aut_049",
+    "name": "Rick Riordan",
+    "slug": "rick-riordan"
+  },
+  {
+    "id": "aut_050",
+    "name": "Terry Pratchett y Neil Gaiman",
+    "slug": "terry-pratchett-y-neil-gaiman"
+  },
+  {
+    "id": "aut_051",
+    "name": "Lewis Carroll",
+    "slug": "lewis-carroll"
+  },
+  {
+    "id": "aut_052",
+    "name": "Carlos Ruiz Zafón",
+    "slug": "carlos-ruiz-zafon"
+  },
+  {
+    "id": "aut_053",
+    "name": "Julio Cortázar",
+    "slug": "julio-cortazar"
+  },
+  {
+    "id": "aut_054",
+    "name": "Mario Vargas Llosa",
+    "slug": "mario-vargas-llosa"
+  },
+  {
+    "id": "aut_055",
+    "name": "Albert Camus",
+    "slug": "albert-camus"
+  },
+  {
+    "id": "aut_056",
+    "name": "José Saramago",
+    "slug": "jose-saramago"
+  },
+  {
+    "id": "aut_057",
+    "name": "J. D. Salinger",
+    "slug": "j-d-salinger"
+  },
+  {
+    "id": "aut_058",
+    "name": "Harper Lee",
+    "slug": "harper-lee"
+  },
+  {
+    "id": "aut_059",
+    "name": "Ana Frank",
+    "slug": "ana-frank"
+  },
+  {
+    "id": "aut_060",
+    "name": "Nelson Mandela",
+    "slug": "nelson-mandela"
+  },
+  {
+    "id": "aut_061",
+    "name": "Malala Yousafzai",
+    "slug": "malala-yousafzai"
+  },
+  {
+    "id": "aut_062",
+    "name": "Michelle Obama",
+    "slug": "michelle-obama"
+  },
+  {
+    "id": "aut_063",
+    "name": "Tara Westover",
+    "slug": "tara-westover"
+  },
+  {
+    "id": "aut_064",
+    "name": "Pablo Neruda",
+    "slug": "pablo-neruda"
+  },
+  {
+    "id": "aut_065",
+    "name": "Jared Diamond",
+    "slug": "jared-diamond"
+  },
+  {
+    "id": "aut_066",
+    "name": "Barbara W. Tuchman",
+    "slug": "barbara-w-tuchman"
+  },
+  {
+    "id": "aut_067",
+    "name": "Ernst H. Gombrich",
+    "slug": "ernst-h-gombrich"
+  },
+  {
+    "id": "aut_068",
+    "name": "Antony Beevor",
+    "slug": "antony-beevor"
+  },
+  {
+    "id": "aut_069",
+    "name": "Eric Hobsbawm",
+    "slug": "eric-hobsbawm"
+  },
+  {
+    "id": "aut_070",
+    "name": "Charles C. Mann",
+    "slug": "charles-c-mann"
+  },
+  {
+    "id": "aut_071",
+    "name": "David Bushnell",
+    "slug": "david-bushnell"
+  },
+  {
+    "id": "aut_072",
+    "name": "Silvia Federici",
+    "slug": "silvia-federici"
+  },
+  {
+    "id": "aut_073",
+    "name": "Tucídides",
+    "slug": "tucidides"
+  },
+  {
+    "id": "aut_074",
+    "name": "James Clear",
+    "slug": "james-clear"
+  },
+  {
+    "id": "aut_075",
+    "name": "Robert T. Kiyosaki",
+    "slug": "robert-t-kiyosaki"
+  },
+  {
+    "id": "aut_076",
+    "name": "Dale Carnegie",
+    "slug": "dale-carnegie"
+  },
+  {
+    "id": "aut_077",
+    "name": "Stephen R. Covey",
+    "slug": "stephen-r-covey"
+  },
+  {
+    "id": "aut_078",
+    "name": "Eckhart Tolle",
+    "slug": "eckhart-tolle"
+  },
+  {
+    "id": "aut_079",
+    "name": "Napoleon Hill",
+    "slug": "napoleon-hill"
+  },
+  {
+    "id": "aut_080",
+    "name": "Viktor Frankl",
+    "slug": "viktor-frankl"
+  },
+  {
+    "id": "aut_081",
+    "name": "Miguel Ruiz",
+    "slug": "miguel-ruiz"
+  },
+  {
+    "id": "aut_082",
+    "name": "Robin Sharma",
+    "slug": "robin-sharma"
+  },
+  {
+    "id": "aut_083",
+    "name": "Héctor García y Francesc Miralles",
+    "slug": "hector-garcia-y-francesc-miralles"
+  },
+  {
+    "id": "aut_084",
+    "name": "Mark Manson",
+    "slug": "mark-manson"
+  },
+  {
+    "id": "aut_085",
+    "name": "Daniel Goleman",
+    "slug": "daniel-goleman"
+  },
+  {
+    "id": "aut_086",
+    "name": "Charles Duhigg",
+    "slug": "charles-duhigg"
+  },
+  {
+    "id": "aut_087",
+    "name": "Spencer Johnson",
+    "slug": "spencer-johnson"
+  },
+  {
+    "id": "aut_088",
+    "name": "Daniel Kahneman",
+    "slug": "daniel-kahneman"
+  },
+  {
+    "id": "aut_089",
+    "name": "Angela Duckworth",
+    "slug": "angela-duckworth"
+  },
+  {
+    "id": "aut_090",
+    "name": "Frank Herbert",
+    "slug": "frank-herbert"
+  },
+  {
+    "id": "aut_091",
+    "name": "Isaac Asimov",
+    "slug": "isaac-asimov"
+  },
+  {
+    "id": "aut_092",
+    "name": "Aldous Huxley",
+    "slug": "aldous-huxley"
+  },
+  {
+    "id": "aut_093",
+    "name": "Ray Bradbury",
+    "slug": "ray-bradbury"
+  },
+  {
+    "id": "aut_094",
+    "name": "William Gibson",
+    "slug": "william-gibson"
+  },
+  {
+    "id": "aut_095",
+    "name": "Orson Scott Card",
+    "slug": "orson-scott-card"
+  },
+  {
+    "id": "aut_096",
+    "name": "Suzanne Collins",
+    "slug": "suzanne-collins"
+  },
+  {
+    "id": "aut_097",
+    "name": "Stanisław Lem",
+    "slug": "stanis-aw-lem"
+  },
+  {
+    "id": "aut_098",
+    "name": "Ursula K. Le Guin",
+    "slug": "ursula-k-le-guin"
+  },
+  {
+    "id": "aut_099",
+    "name": "H. G. Wells",
+    "slug": "h-g-wells"
+  },
+  {
+    "id": "aut_100",
+    "name": "Julio Verne",
+    "slug": "julio-verne"
+  },
+  {
+    "id": "aut_101",
+    "name": "Philip K. Dick",
+    "slug": "philip-k-dick"
+  },
+  {
+    "id": "aut_102",
+    "name": "Andy Weir",
+    "slug": "andy-weir"
+  },
+  {
+    "id": "aut_103",
+    "name": "Dan Simmons",
+    "slug": "dan-simmons"
+  },
+  {
+    "id": "aut_104",
+    "name": "Dan Brown",
+    "slug": "dan-brown"
+  },
+  {
+    "id": "aut_105",
+    "name": "Agatha Christie",
+    "slug": "agatha-christie"
+  },
+  {
+    "id": "aut_106",
+    "name": "Arthur Conan Doyle",
+    "slug": "arthur-conan-doyle"
+  },
+  {
+    "id": "aut_107",
+    "name": "Paula Hawkins",
+    "slug": "paula-hawkins"
+  },
+  {
+    "id": "aut_108",
+    "name": "Gillian Flynn",
+    "slug": "gillian-flynn"
+  },
+  {
+    "id": "aut_109",
+    "name": "Stieg Larsson",
+    "slug": "stieg-larsson"
+  },
+  {
+    "id": "aut_110",
+    "name": "Thomas Harris",
+    "slug": "thomas-harris"
+  },
+  {
+    "id": "aut_111",
+    "name": "Umberto Eco",
+    "slug": "umberto-eco"
+  },
+  {
+    "id": "aut_112",
+    "name": "Dashiell Hammett",
+    "slug": "dashiell-hammett"
+  },
+  {
+    "id": "aut_113",
+    "name": "Raymond Chandler",
+    "slug": "raymond-chandler"
+  },
+  {
+    "id": "aut_114",
+    "name": "Daphne du Maurier",
+    "slug": "daphne-du-maurier"
+  },
+  {
+    "id": "aut_115",
+    "name": "John Katzenbach",
+    "slug": "john-katzenbach"
+  },
+  {
+    "id": "aut_116",
+    "name": "Edgar Allan Poe",
+    "slug": "edgar-allan-poe"
+  },
+  {
+    "id": "aut_117",
+    "name": "Gustavo Adolfo Bécquer",
+    "slug": "gustavo-adolfo-becquer"
+  },
+  {
+    "id": "aut_118",
+    "name": "Federico García Lorca",
+    "slug": "federico-garcia-lorca"
+  },
+  {
+    "id": "aut_119",
+    "name": "Charles Baudelaire",
+    "slug": "charles-baudelaire"
+  },
+  {
+    "id": "aut_120",
+    "name": "Walt Whitman",
+    "slug": "walt-whitman"
+  },
+  {
+    "id": "aut_121",
+    "name": "César Vallejo",
+    "slug": "cesar-vallejo"
+  },
+  {
+    "id": "aut_122",
+    "name": "Antonio Machado",
+    "slug": "antonio-machado"
+  },
+  {
+    "id": "aut_123",
+    "name": "Juan Ramón Jiménez",
+    "slug": "juan-ramon-jimenez"
+  },
+  {
+    "id": "aut_124",
+    "name": "Rainer Maria Rilke",
+    "slug": "rainer-maria-rilke"
+  },
+  {
+    "id": "aut_125",
+    "name": "Rupi Kaur",
+    "slug": "rupi-kaur"
+  },
+  {
+    "id": "aut_126",
+    "name": "Alejandra Pizarnik",
+    "slug": "alejandra-pizarnik"
+  },
+  {
+    "id": "aut_127",
+    "name": "Emily Dickinson",
+    "slug": "emily-dickinson"
+  },
+  {
+    "id": "aut_128",
+    "name": "Bram Stoker",
+    "slug": "bram-stoker"
+  },
+  {
+    "id": "aut_129",
+    "name": "Mary Shelley",
+    "slug": "mary-shelley"
+  },
+  {
+    "id": "aut_130",
+    "name": "Stephen King",
+    "slug": "stephen-king"
+  },
+  {
+    "id": "aut_131",
+    "name": "William Peter Blatty",
+    "slug": "william-peter-blatty"
+  },
+  {
+    "id": "aut_132",
+    "name": "Ira Levin",
+    "slug": "ira-levin"
+  },
+  {
+    "id": "aut_133",
+    "name": "Robert Bloch",
+    "slug": "robert-bloch"
+  },
+  {
+    "id": "aut_134",
+    "name": "Robert Louis Stevenson",
+    "slug": "robert-louis-stevenson"
+  },
+  {
+    "id": "aut_135",
+    "name": "Shirley Jackson",
+    "slug": "shirley-jackson"
+  },
+  {
+    "id": "aut_136",
+    "name": "Henry James",
+    "slug": "henry-james"
+  },
+  {
+    "id": "aut_137",
+    "name": "Richard Matheson",
+    "slug": "richard-matheson"
+  },
+  {
+    "id": "aut_138",
+    "name": "Neil Gaiman",
+    "slug": "neil-gaiman"
+  },
+  {
+    "id": "aut_139",
+    "name": "Jojo Moyes",
+    "slug": "jojo-moyes"
+  },
+  {
+    "id": "aut_140",
+    "name": "John Green",
+    "slug": "john-green"
+  },
+  {
+    "id": "aut_141",
+    "name": "Laura Esquivel",
+    "slug": "laura-esquivel"
+  },
+  {
+    "id": "aut_142",
+    "name": "Nicholas Sparks",
+    "slug": "nicholas-sparks"
+  },
+  {
+    "id": "aut_143",
+    "name": "Diana Gabaldon",
+    "slug": "diana-gabaldon"
+  },
+  {
+    "id": "aut_144",
+    "name": "Margaret Mitchell",
+    "slug": "margaret-mitchell"
+  },
+  {
+    "id": "aut_145",
+    "name": "Robert James Waller",
+    "slug": "robert-james-waller"
+  },
+  {
+    "id": "aut_146",
+    "name": "Taylor Jenkins Reid",
+    "slug": "taylor-jenkins-reid"
+  },
+  {
+    "id": "aut_147",
+    "name": "Colleen Hoover",
+    "slug": "colleen-hoover"
+  },
+  {
+    "id": "aut_148",
+    "name": "Mercedes Ron",
+    "slug": "mercedes-ron"
+  },
+  {
+    "id": "aut_149",
+    "name": "Julia Quinn",
+    "slug": "julia-quinn"
+  },
+  {
+    "id": "aut_150",
+    "name": "Stephenie Meyer",
+    "slug": "stephenie-meyer"
+  },
+  {
+    "id": "aut_151",
+    "name": "Jenny Han",
+    "slug": "jenny-han"
+  },
+  {
+    "id": "aut_152",
+    "name": "Stephen Hawking",
+    "slug": "stephen-hawking"
+  },
+  {
+    "id": "aut_153",
+    "name": "Carl Sagan",
+    "slug": "carl-sagan"
+  },
+  {
+    "id": "aut_154",
+    "name": "Richard Dawkins",
+    "slug": "richard-dawkins"
+  },
+  {
+    "id": "aut_155",
+    "name": "Charles Darwin",
+    "slug": "charles-darwin"
+  },
+  {
+    "id": "aut_156",
+    "name": "Neil deGrasse Tyson",
+    "slug": "neil-degrasse-tyson"
+  },
+  {
+    "id": "aut_157",
+    "name": "Bill Bryson",
+    "slug": "bill-bryson"
+  },
+  {
+    "id": "aut_158",
+    "name": "Brian Greene",
+    "slug": "brian-greene"
+  },
+  {
+    "id": "aut_159",
+    "name": "Oliver Sacks",
+    "slug": "oliver-sacks"
+  },
+  {
+    "id": "aut_160",
+    "name": "Siddhartha Mukherjee",
+    "slug": "siddhartha-mukherjee"
+  },
+  {
+    "id": "aut_161",
+    "name": "Elizabeth Kolbert",
+    "slug": "elizabeth-kolbert"
+  },
+  {
+    "id": "aut_162",
+    "name": "Michio Kaku",
+    "slug": "michio-kaku"
+  },
+  {
+    "id": "aut_163",
+    "name": "Thomas S. Kuhn",
+    "slug": "thomas-s-kuhn"
+  },
+  {
+    "id": "aut_164",
+    "name": "David Eagleman",
+    "slug": "david-eagleman"
+  },
+  {
+    "id": "aut_165",
+    "name": "Antoine de Saint-Exupéry",
+    "slug": "antoine-de-saint-exupery"
+  },
+  {
+    "id": "aut_166",
+    "name": "Roald Dahl",
+    "slug": "roald-dahl"
+  },
+  {
+    "id": "aut_167",
+    "name": "J. M. Barrie",
+    "slug": "j-m-barrie"
+  },
+  {
+    "id": "aut_168",
+    "name": "Carlo Collodi",
+    "slug": "carlo-collodi"
+  },
+  {
+    "id": "aut_169",
+    "name": "Johanna Spyri",
+    "slug": "johanna-spyri"
+  },
+  {
+    "id": "aut_170",
+    "name": "L. M. Montgomery",
+    "slug": "l-m-montgomery"
+  },
+  {
+    "id": "aut_171",
+    "name": "Louisa May Alcott",
+    "slug": "louisa-may-alcott"
+  },
+  {
+    "id": "aut_172",
+    "name": "Maurice Sendak",
+    "slug": "maurice-sendak"
+  },
+  {
+    "id": "aut_173",
+    "name": "Eric Carle",
+    "slug": "eric-carle"
+  },
+  {
+    "id": "aut_174",
+    "name": "Julia Donaldson",
+    "slug": "julia-donaldson"
+  },
+  {
+    "id": "aut_175",
+    "name": "David McKee",
+    "slug": "david-mckee"
+  },
+  {
+    "id": "aut_176",
+    "name": "Elvira Lindo",
+    "slug": "elvira-lindo"
+  },
+  {
+    "id": "aut_177",
+    "name": "Mark Twain",
+    "slug": "mark-twain"
+  },
+  {
+    "id": "aut_178",
+    "name": "Astrid Lindgren",
+    "slug": "astrid-lindgren"
+  },
+  {
+    "id": "aut_179",
+    "name": "Jeff Kinney",
+    "slug": "jeff-kinney"
+  },
+  {
+    "id": "aut_180",
+    "name": "Rudyard Kipling",
+    "slug": "rudyard-kipling"
+  },
+  {
+    "id": "aut_181",
+    "name": "A. A. Milne",
+    "slug": "a-a-milne"
+  },
+  {
+    "id": "aut_182",
+    "name": "Samin Nosrat",
+    "slug": "samin-nosrat"
+  },
+  {
+    "id": "aut_183",
+    "name": "Julia Child",
+    "slug": "julia-child"
+  },
+  {
+    "id": "aut_184",
+    "name": "Anthony Bourdain",
+    "slug": "anthony-bourdain"
+  },
+  {
+    "id": "aut_185",
+    "name": "Michael Pollan",
+    "slug": "michael-pollan"
+  },
+  {
+    "id": "aut_186",
+    "name": "Yotam Ottolenghi y Sami Tamimi",
+    "slug": "yotam-ottolenghi-y-sami-tamimi"
+  },
+  {
+    "id": "aut_187",
+    "name": "Yotam Ottolenghi",
+    "slug": "yotam-ottolenghi"
+  },
+  {
+    "id": "aut_188",
+    "name": "Francis Mallmann",
+    "slug": "francis-mallmann"
+  },
+  {
+    "id": "aut_189",
+    "name": "Prosper Montagné",
+    "slug": "prosper-montagne"
+  },
+  {
+    "id": "aut_190",
+    "name": "Harold McGee",
+    "slug": "harold-mcgee"
+  },
+  {
+    "id": "aut_191",
+    "name": "Mark Bittman",
+    "slug": "mark-bittman"
+  },
+  {
+    "id": "aut_192",
+    "name": "J. Kenji López-Alt",
+    "slug": "j-kenji-lopez-alt"
+  },
+  {
+    "id": "aut_193",
+    "name": "Marcella Hazan",
+    "slug": "marcella-hazan"
+  },
+  {
+    "id": "aut_194",
+    "name": "Chad Robertson",
+    "slug": "chad-robertson"
+  },
+  {
+    "id": "aut_195",
+    "name": "Yotam Ottolenghi y Ixta Belfrage",
+    "slug": "yotam-ottolenghi-y-ixta-belfrage"
+  },
+  {
+    "id": "aut_196",
+    "name": "Nigella Lawson",
+    "slug": "nigella-lawson"
+  },
+  {
+    "id": "aut_197",
+    "name": "Jamie Oliver",
+    "slug": "jamie-oliver"
+  },
+  {
+    "id": "aut_198",
+    "name": "Martin Morales",
+    "slug": "martin-morales"
+  },
+  {
+    "id": "aut_199",
+    "name": "Varios autores",
+    "slug": "varios-autores"
+  },
+  {
+    "id": "aut_200",
+    "name": "Robert C. Martin",
+    "slug": "robert-c-martin"
+  },
+  {
+    "id": "aut_201",
+    "name": "Andrew Hunt y David Thomas",
+    "slug": "andrew-hunt-y-david-thomas"
+  },
+  {
+    "id": "aut_202",
+    "name": "Martin Kleppmann",
+    "slug": "martin-kleppmann"
+  },
+  {
+    "id": "aut_203",
+    "name": "Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides",
+    "slug": "erich-gamma-richard-helm-ralph-johnson-y-john-vlissides"
+  },
+  {
+    "id": "aut_204",
+    "name": "Martin Fowler",
+    "slug": "martin-fowler"
+  },
+  {
+    "id": "aut_205",
+    "name": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest y Clifford Stein",
+    "slug": "thomas-h-cormen-charles-e-leiserson-ronald-l-rivest-y-cliffo"
+  },
+  {
+    "id": "aut_206",
+    "name": "Harold Abelson y Gerald Jay Sussman",
+    "slug": "harold-abelson-y-gerald-jay-sussman"
+  },
+  {
+    "id": "aut_207",
+    "name": "Ian Goodfellow, Yoshua Bengio y Aaron Courville",
+    "slug": "ian-goodfellow-yoshua-bengio-y-aaron-courville"
+  },
+  {
+    "id": "aut_208",
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom"
+  },
+  {
+    "id": "aut_209",
+    "name": "Max Tegmark",
+    "slug": "max-tegmark"
+  },
+  {
+    "id": "aut_210",
+    "name": "Marijn Haverbeke",
+    "slug": "marijn-haverbeke"
+  },
+  {
+    "id": "aut_211",
+    "name": "Gene Kim, Kevin Behr y George Spafford",
+    "slug": "gene-kim-kevin-behr-y-george-spafford"
+  },
+  {
+    "id": "aut_212",
+    "name": "Eric Matthes",
+    "slug": "eric-matthes"
+  },
+  {
+    "id": "aut_213",
+    "name": "C. S. Lewis",
+    "slug": "c-s-lewis"
+  },
+  {
+    "id": "aut_214",
+    "name": "Juan Rulfo",
+    "slug": "juan-rulfo"
+  },
+  {
+    "id": "aut_215",
+    "name": "Milan Kundera",
+    "slug": "milan-kundera"
+  },
+  {
+    "id": "aut_216",
+    "name": "Octavio Paz",
+    "slug": "octavio-paz"
+  },
+  {
+    "id": "aut_217",
+    "name": "Mario Benedetti",
+    "slug": "mario-benedetti"
+  },
+  {
+    "id": "aut_218",
+    "name": "Álvaro Mutis",
+    "slug": "alvaro-mutis"
+  },
+  {
+    "id": "aut_219",
+    "name": "José Asunción Silva",
+    "slug": "jose-asuncion-silva"
+  },
+  {
+    "id": "aut_220",
+    "name": "James D. Watson",
+    "slug": "james-d-watson"
+  },
+  {
+    "id": "aut_221",
+    "name": "Rachel Carson",
+    "slug": "rachel-carson"
+  },
+  {
+    "id": "aut_222",
+    "name": "Frances Hodgson Burnett",
+    "slug": "frances-hodgson-burnett"
+  },
+  {
+    "id": "aut_223",
+    "name": "Peter Thiel",
+    "slug": "peter-thiel"
+  },
+  {
+    "id": "aut_224",
+    "name": "Eric Evans",
+    "slug": "eric-evans"
+  },
+  {
+    "id": "aut_225",
+    "name": "Franz Kafka",
+    "slug": "franz-kafka"
+  },
+  {
+    "id": "aut_226",
+    "name": "Ernesto Sabato",
+    "slug": "ernesto-sabato"
+  },
+  {
+    "id": "aut_227",
+    "name": "Ernesto Guevara",
+    "slug": "ernesto-guevara"
+  },
+  {
+    "id": "aut_228",
+    "name": "Ève Curie",
+    "slug": "eve-curie"
+  },
+  {
+    "id": "aut_229",
+    "name": "Ron Chernow",
+    "slug": "ron-chernow"
+  },
+  {
+    "id": "aut_230",
+    "name": "Sheila Fitzpatrick",
+    "slug": "sheila-fitzpatrick"
+  },
+  {
+    "id": "aut_231",
+    "name": "Cal Newport",
+    "slug": "cal-newport"
+  },
+  {
+    "id": "aut_232",
+    "name": "Neal Stephenson",
+    "slug": "neal-stephenson"
+  },
+  {
+    "id": "aut_233",
+    "name": "Liane Moriarty",
+    "slug": "liane-moriarty"
+  },
+  {
+    "id": "aut_234",
+    "name": "Anna Todd",
+    "slug": "anna-todd"
+  },
+  {
+    "id": "aut_235",
+    "name": "Desmond Morris",
+    "slug": "desmond-morris"
+  },
+  {
+    "id": "aut_236",
+    "name": "Gastón Acurio",
+    "slug": "gaston-acurio"
+  },
+  {
+    "id": "aut_237",
+    "name": "Gayle Laakmann McDowell",
+    "slug": "gayle-laakmann-mcdowell"
+  },
+  {
+    "id": "aut_238",
+    "name": "Nicole Forsgren, Jez Humble y Gene Kim",
+    "slug": "nicole-forsgren-jez-humble-y-gene-kim"
+  },
+  {
+    "id": "aut_239",
+    "name": "Michael C. Feathers",
+    "slug": "michael-c-feathers"
+  },
+  {
+    "id": "aut_241",
+    "name": "Charles Chaplin",
+    "slug": "charles-chaplin"
+  }
+]

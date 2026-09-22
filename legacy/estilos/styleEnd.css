@@ -1,0 +1,228 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    width: auto;
+    padding: 20px;
+    background-color: #A67C52;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 400px; /* Adds spacing between elements */
+}
+
+.header-content2 {
+    display: flex;
+    justify-content: flex-end; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 10px; /* Adds spacing between elements */
+}
+
+footer{
+    width: 100%;
+    width: auto;
+    padding: 20px;
+    background-color: #A67C52;
+    border-top-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+    border-top-right-radius: 15px; /* Esquina inferior derecha redondeada */
+}
+
+footer p, img{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+.logo img {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #754C24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.login-cart {
+    display: flex;
+    gap: 20px; /* Space between login and cart */
+}
+
+/* Styling for the navigation bar */
+.navigation-bar {
+    background-color: #754C24; /* Background color for the navigation bar */
+    padding: 10px 0; /* Vertical padding for the links */
+    border-bottom-left-radius: 15px; /* Esquina inferior izquierda redondeada */
+    border-bottom-right-radius: 15px; /* Esquina inferior derecha redondeada */
+    text-align: center; /* Centers the links horizontally */
+}
+
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #7C210B; /* Light color on hover */
+}
+
+section button {
+    width: 100%; /* Botones ocupan el 100% en pantallas pequeñas */
+    max-width: 200px; /* Máximo ancho para pantallas grandes */
+    background-color: #A67C52;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 15px auto; /* Centra horizontalmente */
+    border-radius: 30px;
+    
+}
+
+
+
+
+section {
+    width: 90%; /* Ancho más flexible */
+    max-width: 1200px; /* Ancho máximo */
+    margin: 20px auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap; /* Permite que el contenido se ajuste */
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%; /* Ancho máximo y automático */
+    max-width: 400px;
+    height: auto;
+}
+
+section p {
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+
+section h2 {
+    color: #754C24;
+    margin-left: 15px;
+}
+
+.info-libro {
+    margin: 20px;
+    border: 2px solid #754C24;
+    padding: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff00;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-item {
+    border-radius: 15px;
+    flex-basis: calc(33.33% - 20px); /* Tres columnas */
+    margin: 10px; /* Espaciado entre columnas */
+    background-color: #754C24;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-item img {
+    width: 100%; /* Imagen ocupa el 100% */
+    height: auto;
+    max-height: 360px;
+    margin: 0 auto;
+    display: block;
+}
+
+.book-item h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        gap: 20px; /* Reduce el espacio entre elementos */
+    }
+
+    .header-content2 {
+        justify-content: center; /* Centra en pantallas pequeñas */
+    }
+
+    .product {
+        flex-direction: column; /* Cambia a columna para productos */
+    }
+
+    .book-item {
+        flex-basis: calc(50% - 20px); /* Dos columnas en pantallas pequeñas */
+    }
+
+    section button {
+        width: 100%; /* Botones ocupan el 100% en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .search-bar {
+        flex-direction: column; /* Coloca el input y el botón uno encima del otro */
+        align-items: stretch; /* Estira los elementos */
+    }
+
+    .search-bar input {
+        margin-bottom: 10px; /* Espacio entre input y botón */
+    }
+
+    .book-item {
+        flex-basis: 100%; /* Una columna en pantallas extra pequeñas */
+    }
+}

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/*
+ * Tokens de diseño de Open Books.
+ * Los tonos 400, 600 y "accent" son los colores del sitio original (legacy/estilos);
+ * el resto de la escala es nuevo y sirve para fondos y texto con contraste AA.
+ */
+@theme {
+  --color-brand-50: #faf5ee; /* fondo de página (crema) */
+  --color-brand-100: #f2e8da;
+  --color-brand-200: #e4d0b8;
+  --color-brand-300: #c9a47c;
+  --color-brand-400: #a67c52; /* original: header, footer */
+  --color-brand-600: #754c24; /* original: nav, secciones, bordes */
+  --color-brand-800: #4a2a12;
+  --color-brand-900: #2e1708; /* texto principal */
+
+  --color-accent: #7c210b; /* original: botones de compra, precio */
+  --color-accent-dark: #5e1808;
+  --color-surface: #f2f2f2; /* original: contenedor de tarjetas */
+  --color-card: #ffffff; /* fondo de tarjetas, paneles y campos */
+
+  --shadow-card: 0 2px 6px rgb(46 23 8 / 0.1), 0 8px 24px rgb(46 23 8 / 0.08);
+  --shadow-card-hover: 0 4px 10px rgb(46 23 8 / 0.14), 0 14px 32px rgb(46 23 8 / 0.12);
+
+  --bg-overlay: rgb(250 245 238 / 0.35); /* brand-50 (light) con transparencia, sobre la imagen de fondo */
+
+  --animate-drawer-in: drawer-in 0.25s ease-out;
+  @keyframes drawer-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: none;
+    }
+  }
+
+  --animate-toast-in: toast-in 0.25s ease-out;
+  @keyframes toast-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+/* Las variables --font-inter / --font-playfair las inyecta next/font en layout.tsx */
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-brand-900 font-sans antialiased;
+    /* Reemplaza el fondo crema plano por la imagen; el overlay (mismo tono que --color-brand-50)
+       mantiene el contraste del texto y se recalcula solo en modo oscuro más abajo. */
+    background-color: var(--color-brand-50);
+    background-image: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url("/images/fondo-pagina.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    /* Playfair usa cifras de estilo antiguo (el 0 parece una "o"): ilegible en números de pedido y años. */
+    font-variant-numeric: lining-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-brand-200);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*
+ * Modo oscuro. Se activa con <html data-theme="dark"> (ver ThemeToggle y el script de layout.tsx).
+ * Las variables de fondo se reasignan; el texto, que en la escala «brand» comparte tono con fondos que sí deben
+ * seguir oscuros (botones, chips), se corrige clase a clase. Sin @layer: así ganan a las utilidades de Tailwind.
+ */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-brand-50: #17100a; /* fondo de página */
+  --color-brand-100: #2b1f15; /* paneles, chips y hover suaves */
+  --color-brand-200: #45331f; /* bordes y separadores */
+  --color-brand-300: #7d6244;
+  --color-brand-400: #3a2a1c; /* header y footer */
+  --color-surface: #241910;
+  --color-card: #221810;
+  --bg-overlay: rgb(23 16 10 / 0.45); /* brand-50 (oscuro) con transparencia, sobre la imagen de fondo */
+  --shadow-card: 0 2px 6px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.3);
+  --shadow-card-hover: 0 4px 10px rgb(0 0 0 / 0.5), 0 14px 32px rgb(0 0 0 / 0.4);
+}
+
+:root[data-theme="dark"] .text-brand-900 { color: #f3e9dc; }
+:root[data-theme="dark"] .text-brand-800 { color: #d9c6ae; }
+:root[data-theme="dark"] .text-brand-600 { color: #dcb98a; }
+:root[data-theme="dark"] .text-brand-400 { color: #a98a63; }
+:root[data-theme="dark"] .text-accent,
+:root[data-theme="dark"] .hover\:text-accent:hover,
+:root[data-theme="dark"] .hover\:text-accent-dark:hover { color: #f0a184; }
+:root[data-theme="dark"] .fill-accent { fill: #f0a184; }
+:root[data-theme="dark"] .placeholder\:text-brand-600\/80::placeholder { color: rgb(217 198 174 / 0.7); }
+/* Estos textos van sobre fondos que siguen siendo oscuros en los dos modos (chip del panel, etc.). */
+:root[data-theme="dark"] .text-brand-50 { color: #faf5ee; }
+:root[data-theme="dark"] .text-brand-100 { color: #f2e8da; }
+:root[data-theme="dark"] .text-brand-200 { color: #e4d0b8; }
+/* Bordes de los botones «outline» y del foco. */
+:root[data-theme="dark"] .border-brand-600 { border-color: #b48a5a; }
+:root[data-theme="dark"] .hover\:bg-brand-900\/10:hover { background-color: rgb(255 255 255 / 0.1); }
+:root[data-theme="dark"] :focus-visible { outline-color: #f0a184; }
+:root[data-theme="dark"] ::selection { background: #5a4028; }
+:root[data-theme="dark"] .fill-brand-100 { fill: #3a2a1c; }
+:root[data-theme="dark"] .bg-brand-900 { background-color: #0f0905; }
+:root[data-theme="dark"] body { color: #f3e9dc; }

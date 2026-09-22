@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Library } from "lucide-react";
-import { BookGrid } from "@/components/catalog/BookGrid";
+import { Bookshelf } from "@/components/account/Bookshelf";
 import { ButtonLink } from "@/components/ui/Button";
 import { getMyLibrary } from "@/lib/library";
 import { requireUser } from "@/lib/session";
@@ -40,44 +39,8 @@ export default async function LibraryPage() {
         </div>
       ) : (
         <>
-          {items.length > 0 && (
-            <>
-              <h2 className="sr-only">Libros comprados</h2>
-              <BookGrid books={items} />
-            </>
-          )}
-
-          {unavailable.length > 0 && (
-            <section aria-labelledby="no-disponibles">
-              <h2 id="no-disponibles" className="mb-3 text-xl font-bold text-brand-600">
-                Ya no disponibles en la tienda
-              </h2>
-              <ul className="flex flex-col gap-3">
-                {unavailable.map((book) => (
-                  <li
-                    key={book.book_id}
-                    className="flex items-center gap-4 rounded-2xl bg-card p-4 shadow-card"
-                  >
-                    <div className="relative aspect-[2/3] w-12 shrink-0 overflow-hidden rounded-lg bg-brand-100">
-                      <Image
-                        src={book.cover}
-                        alt=""
-                        fill
-                        sizes="48px"
-                        className="object-contain p-1"
-                        unoptimized={book.cover.startsWith("/media/")}
-                      />
-                    </div>
-                    <div>
-                      <p className="font-display font-bold">{book.title}</p>
-                      <p className="text-sm text-brand-800">por {book.author_name}</p>
-                      <p className="mt-1 text-sm text-brand-600">Ya no está disponible en la tienda.</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
+          <h2 className="sr-only">Libros comprados</h2>
+          <Bookshelf items={items} unavailable={unavailable} />
         </>
       )}
     </div>

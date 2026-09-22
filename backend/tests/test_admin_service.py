@@ -176,6 +176,14 @@ def test_admin_list_is_sorted_and_paginated(ae):
     assert [b.title for b in first + second] == sorted(b.title for b in first + second)
 
 
+def test_admin_list_can_sort_by_stock(ae):
+    # b1 Barato=20, b2 Con descuento=20, b3 Ultima unidad=1, b4 Agotado=0 (empates: por título).
+    names = lambda **kw: [b.title for b in ae.admin.list_books(**kw)[0]]  # noqa: E731
+    assert names(sort="stock_asc") == ["Agotado", "Ultima unidad", "Barato", "Con descuento"]
+    assert names(sort="stock_desc") == ["Barato", "Con descuento", "Ultima unidad", "Agotado"]
+    assert names(sort="lo-que-sea")[0] == "Agotado"  # cualquier valor desconocido cae al orden por título
+
+
 # -- pedidos -------------------------------------------------------------------------------------------
 
 

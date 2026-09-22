@@ -6389,5 +6389,27 @@
     "is_demo": true,
     "created_at": "2025-04-28T19:20:00Z",
     "updated_at": null
+  },
+  {
+    "id": "rv_582",
+    "book_id": "bk_034",
+    "user_id": "usr_68d29ee843bc",
+    "author_name": "Brayan A.",
+    "rating": 5,
+    "comment": "Brandon JudioSon es the GOAT",
+    "is_demo": false,
+    "created_at": "2026-09-22T02:42:53.787224Z",
+    "updated_at": null
+  },
+  {
+    "id": "rv_583",
+    "book_id": "bk_001",
+    "user_id": "usr_68d29ee843bc",
+    "author_name": "Brayan A.",
+    "rating": 5,
+    "comment": "Este libro me inicio en la lectura",
+    "is_demo": false,
+    "created_at": "2026-09-22T02:44:00.822347Z",
+    "updated_at": null
   }
 ]

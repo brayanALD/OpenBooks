@@ -125,6 +125,13 @@ def test_listing_includes_hidden_books_and_author_suggestions(client, admin):
     assert client.get("/api/v1/admin/books?q=agotado", headers=admin).json()["total"] == 1
 
 
+def test_listing_can_sort_by_stock(client, admin):
+    ids = lambda url: [b["id"] for b in client.get(url, headers=admin).json()["items"]]  # noqa: E731
+    assert ids("/api/v1/admin/books?sort=stock_asc")[0] == "b4"  # Agotado: stock 0
+    assert ids("/api/v1/admin/books?sort=stock_desc")[0] in ("b1", "b2")  # stock 20, empatan
+    assert client.get("/api/v1/admin/books?sort=lo-que-sea", headers=admin).status_code == 422
+
+
 def test_hiding_a_book_removes_it_from_the_public_api_and_showing_restores_it(client, admin):
     assert client.get("/api/v1/books/barato").status_code == 200
     client.patch("/api/v1/admin/books/b1", json={"active": False}, headers=admin)

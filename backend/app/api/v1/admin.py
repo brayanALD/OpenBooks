@@ -87,10 +87,11 @@ def list_books(
     q: Annotated[str | None, Query(max_length=100)] = None,
     active: bool | None = None,
     low_stock: bool = False,
+    sort: Annotated[str | None, Query(pattern="^(stock_asc|stock_desc)$")] = None,
     page: Annotated[int, Query(ge=1)] = 1,
     page_size: Annotated[int, Query(ge=1, le=100)] = 20,
 ) -> AdminBookPage:
-    books, total, authors = admin.list_books(q, active, low_stock, page, page_size)
+    books, total, authors = admin.list_books(q, active, low_stock, sort, page, page_size)
     return AdminBookPage(
         items=[to_book_out(b, admin, authors.get(b.author_id, "—")) for b in books],
         total=total,

@@ -55,10 +55,15 @@ class AdminService:
         q: str | None = None,
         active: bool | None = None,
         low_stock: bool = False,
+        sort: str | None = None,
         page: int = 1,
         page_size: int = 20,
     ) -> tuple[list[Book], int, dict[str, str]]:
-        """Devuelve (libros de la página, total, {author_id: nombre}). Incluye los ocultos."""
+        """Devuelve (libros de la página, total, {author_id: nombre}). Incluye los ocultos.
+
+        `sort`: "stock_asc" o "stock_desc" (con el título como desempate); cualquier otro valor
+        (incluido None) ordena por título, como antes.
+        """
         authors = {a.id: a.name for a in self._authors.list()}
         needle = fold(q.strip()) if q and q.strip() else None
 
@@ -71,7 +76,14 @@ class AdminService:
                 return False
             return True
 
-        found = sorted((b for b in self._books.list() if matches(b)), key=lambda b: fold(b.title))
+        def sort_key(book: Book) -> tuple:
+            if sort == "stock_asc":
+                return (book.stock, fold(book.title))
+            if sort == "stock_desc":
+                return (-book.stock, fold(book.title))
+            return (fold(book.title),)
+
+        found = sorted((b for b in self._books.list() if matches(b)), key=sort_key)
         start = (page - 1) * page_size
         return found[start : start + page_size], len(found), authors
 

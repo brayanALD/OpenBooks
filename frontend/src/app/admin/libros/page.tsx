@@ -23,6 +23,8 @@ export default async function AdminBooksPage({ searchParams }: Props) {
   const sp = await searchParams;
   const q = first(sp.q)?.trim().slice(0, 100) || undefined;
   const estado = first(sp.estado) ?? "";
+  const ordenRaw = first(sp.orden);
+  const orden = ordenRaw === "stock_asc" || ordenRaw === "stock_desc" ? ordenRaw : undefined;
   const page = Math.max(1, Number.parseInt(first(sp.page) ?? "1", 10) || 1);
 
   const data = await getAdminBooks({
@@ -30,6 +32,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
     page,
     active: estado === "activos" ? true : estado === "ocultos" ? false : undefined,
     low_stock: estado === "poco-stock" || undefined,
+    sort: orden,
   });
 
   // El contenedor de la tabla lleva `relative`: los textos `sr-only` son position:absolute y, sin un ancestro posicionado,
@@ -54,6 +57,13 @@ export default async function AdminBooksPage({ searchParams }: Props) {
             <option value="activos">Visibles</option>
             <option value="ocultos">Ocultos</option>
             <option value="poco-stock">Poco o ningún stock</option>
+          </Select>
+        </div>
+        <div className="w-48">
+          <Select label="Ordenar por stock" name="orden" defaultValue={orden ?? ""}>
+            <option value="">Por defecto (título)</option>
+            <option value="stock_asc">Menor a mayor</option>
+            <option value="stock_desc">Mayor a menor</option>
           </Select>
         </div>
         <Button type="submit" size="md">

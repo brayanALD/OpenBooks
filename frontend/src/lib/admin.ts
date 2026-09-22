@@ -31,7 +31,7 @@ async function adminGet<T>(path: string, query: Record<string, string | number |
 
 export const getAdminSummary = () => adminGet<AdminSummary>("/summary") as Promise<AdminSummary>;
 
-export const getAdminBooks = (query: { q?: string; active?: boolean; low_stock?: boolean; page?: number }) =>
+export const getAdminBooks = (query: { q?: string; active?: boolean; low_stock?: boolean; sort?: "stock_asc" | "stock_desc"; page?: number }) =>
   adminGet<AdminBookPage>("/books", { ...query, page_size: 15 }) as Promise<AdminBookPage>;
 
 export const getAdminBook = (id: string) => adminGet<AdminBook>(`/books/${encodeURIComponent(id)}`);

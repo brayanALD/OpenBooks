@@ -2,15 +2,15 @@ import AxeBuilder from "@axe-core/playwright";
 import { expect, test, type Page } from "@playwright/test";
 import { buyBook, loginAdmin, open, registerCustomer } from "./support/helpers";
 
-const TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "best-practice"];
+const TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa", "best-practice"];
 
 async function scan(page: Page, label: string) {
-  const { violations } = await new AxeBuilder({ page }).withTags(TAGS).analyze();
+  const { violations } = await new AxeBuilder({ page }).withTags(TAGS).options({ rules: { "target-size": { enabled: true } } }).analyze();
   const summary = violations.map((v) => `${v.id} (${v.impact}): ${v.help} → ${v.nodes.slice(0, 3).map((n) => n.target.join(" ")).join(" | ")}`);
   expect(summary, `Problemas de accesibilidad en ${label}`).toEqual([]);
 }
 
-test.describe("Accesibilidad (axe, WCAG 2.1 AA)", () => {
+test.describe("Accesibilidad (axe, WCAG 2.2 AA)", () => {
   for (const url of ["/", "/categoria/novela", "/buscar?q=garcia", "/libro/crimen-y-castigo", "/carrito", "/login", "/registro"]) {
     test(`público: ${url}`, async ({ page }) => {
       await open(page, url);

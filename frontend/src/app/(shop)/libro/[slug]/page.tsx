@@ -107,7 +107,7 @@ export default async function BookPage({ params }: Props) {
               </a>
               {book.categories.map((c) => (
                 <Link key={c.id} href={`/categoria/${c.slug}`}>
-                  <Badge className="hover:bg-brand-200">{c.name}</Badge>
+                  <Badge className="py-1 hover:bg-brand-200">{c.name}</Badge>
                 </Link>
               ))}
             </div>

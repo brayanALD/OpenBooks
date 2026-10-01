@@ -44,7 +44,7 @@ test.describe("Accesibilidad en modo oscuro (contraste WCAG AA)", () => {
 
   async function scan(page: Page, label: string) {
     expect(await theme(page), `tema en ${label}`).toBe("dark");
-    const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "best-practice"]).analyze();
+    const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa", "best-practice"]).analyze();
     const summary = violations.map((v) => `${v.id}: ${v.help} → ${v.nodes.slice(0, 3).map((n) => n.target.join(" ")).join(" | ")}`);
     expect(summary, `Problemas en ${label}`).toEqual([]);
   }

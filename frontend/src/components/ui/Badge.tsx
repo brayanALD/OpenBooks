@@ -1,11 +1,15 @@
 import { cn } from "@/lib/cn";
 
-type Tone = "neutral" | "accent" | "success";
+export type Tone = "neutral" | "accent" | "success" | "warning" | "danger" | "info";
 
+/** Un badge siempre lleva texto; el color solo refuerza. Los tonos de estado vienen de los tokens semánticos. */
 const TONES: Record<Tone, string> = {
   neutral: "bg-brand-100 text-brand-800",
   accent: "bg-accent text-white",
-  success: "bg-emerald-100 text-emerald-900",
+  success: "bg-success-soft text-success",
+  warning: "bg-warning-soft text-warning",
+  danger: "bg-danger-soft text-danger",
+  info: "bg-info-soft text-info",
 };
 
 export function Badge({

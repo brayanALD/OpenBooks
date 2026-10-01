@@ -1,11 +1,11 @@
-import { Badge } from "@/components/ui/Badge";
+import { Badge, type Tone } from "@/components/ui/Badge";
 import { ORDER_STATUS_LABEL, type OrderStatus } from "@/types/order";
 
-const TONE: Record<OrderStatus, "neutral" | "accent" | "success"> = {
-  pending: "neutral",
-  paid: "success",
-  failed: "accent",
-  shipped: "success",
+const TONE: Record<OrderStatus, Tone> = {
+  pending: "warning",
+  paid: "info",
+  failed: "danger",
+  shipped: "info",
   delivered: "success",
   cancelled: "neutral",
 };

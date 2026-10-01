@@ -8,9 +8,9 @@ import { useUIStore, type ToastItem, type ToastTone } from "@/store/ui.store";
 const DURATION_MS = 4000;
 
 const TONES: Record<ToastTone, { icon: typeof Info; style: string }> = {
-  success: { icon: CircleCheck, style: "bg-brand-900 text-white" },
-  error: { icon: CircleAlert, style: "bg-accent text-white" },
-  info: { icon: Info, style: "bg-brand-600 text-white" },
+  success: { icon: CircleCheck, style: "border-success-edge bg-success-soft text-success" },
+  error: { icon: CircleAlert, style: "border-danger-edge bg-danger-soft text-danger" },
+  info: { icon: Info, style: "border-info-edge bg-info-soft text-info" },
 };
 
 function Toast({ item }: { item: ToastItem }) {
@@ -25,7 +25,7 @@ function Toast({ item }: { item: ToastItem }) {
   return (
     <div
       className={cn(
-        "pointer-events-auto flex animate-toast-in items-center gap-3 rounded-2xl py-3 pl-4 pr-3 shadow-card-hover",
+        "pointer-events-auto flex animate-toast-in items-center gap-3 rounded-2xl border py-3 pl-4 pr-3 shadow-card-hover",
         style,
       )}
     >
@@ -35,7 +35,7 @@ function Toast({ item }: { item: ToastItem }) {
         type="button"
         onClick={() => dismiss(item.id)}
         aria-label="Cerrar aviso"
-        className="rounded-full p-1 opacity-80 transition hover:bg-white/15 hover:opacity-100"
+        className="-my-1 rounded-full p-2 transition-colors hover:bg-black/10"
       >
         <X className="size-4" aria-hidden />
       </button>

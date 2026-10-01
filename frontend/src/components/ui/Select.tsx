@@ -4,6 +4,7 @@ import { useId } from "react";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { fieldStyles } from "./Input";
+import { FieldMessage } from "./FieldMessage";
 
 type SelectProps = React.ComponentProps<"select"> & {
   label: string;
@@ -27,7 +28,7 @@ export function Select({ label, error, id, className, children, ...props }: Sele
           className={cn(
             fieldStyles,
             "appearance-none pr-10",
-            error ? "border-accent" : "border-brand-200",
+            error ? "border-danger" : "border-field",
             className,
           )}
           {...props}
@@ -39,11 +40,7 @@ export function Select({ label, error, id, className, children, ...props }: Sele
           aria-hidden
         />
       </div>
-      {error && (
-        <p id={`${selectId}-error`} className="text-sm text-accent">
-          {error}
-        </p>
-      )}
+      <FieldMessage id={`${selectId}-error`} error={error} />
     </div>
   );
 }

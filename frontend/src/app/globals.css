@@ -20,6 +20,27 @@
   --color-surface: #f2f2f2; /* original: contenedor de tarjetas */
   --color-card: #ffffff; /* fondo de tarjetas, paneles y campos */
 
+  /*
+   * Colores SEMÁNTICOS de estado. Cada uno es un trío: «soft» (fondo), el color base (texto/icono sobre «soft»,
+   * contraste ≥ 7:1) y «edge» (borde). Se usan siempre junto a un icono y un texto: el color nunca va solo.
+   * Roles del sistema: marca (brand-*) = estructura y texto · accent = acción principal y precio ·
+   * success/warning/danger/info = estado. Nada más debe usar estos tonos como decoración.
+   */
+  --color-success-soft: #e3f4ea;
+  --color-success: #14532d;
+  --color-success-edge: #86c9a1;
+  --color-warning-soft: #fdf1d6;
+  --color-warning: #6b4400;
+  --color-warning-edge: #e0b24d;
+  --color-danger-soft: #fde8e4;
+  --color-danger: #9b1c0f;
+  --color-danger-edge: #e59a8e;
+  --color-info-soft: #e6eef9;
+  --color-info: #1e3a6e;
+  --color-info-edge: #9bb5dc;
+  --color-rating: #b45309; /* estrellas rellenas: 4,8:1 sobre blanco */
+  --color-field: #8a6540; /* borde de campos y controles (WCAG 1.4.11: ≥ 3:1 sobre el fondo) */
+
   --shadow-card: 0 2px 6px rgb(46 23 8 / 0.1), 0 8px 24px rgb(46 23 8 / 0.08);
   --shadow-card-hover: 0 4px 10px rgb(46 23 8 / 0.14), 0 14px 32px rgb(46 23 8 / 0.12);
 
@@ -116,6 +137,20 @@
   --color-surface: #241910;
   --color-card: #221810;
   --bg-overlay: rgb(23 16 10 / 0.45); /* brand-50 (oscuro) con transparencia, sobre la imagen de fondo */
+  --color-success-soft: #12301f;
+  --color-success: #8fdcae;
+  --color-success-edge: #2f6b47;
+  --color-warning-soft: #3a2a0a;
+  --color-warning: #f1c46b;
+  --color-warning-edge: #7a5a1a;
+  --color-danger-soft: #3d1713;
+  --color-danger: #ffa59a;
+  --color-danger-edge: #84352c;
+  --color-info-soft: #14233d;
+  --color-info: #a9c6f5;
+  --color-info-edge: #34527f;
+  --color-rating: #f5b041;
+  --color-field: #a38362;
   --shadow-card: 0 2px 6px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.3);
   --shadow-card-hover: 0 4px 10px rgb(0 0 0 / 0.5), 0 14px 32px rgb(0 0 0 / 0.4);
 }

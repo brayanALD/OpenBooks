@@ -86,9 +86,9 @@ export function BookCard({ book, variant = "vertical", priority = false }: BookC
             <ShippingBadge free={book.free_shipping} cost={book.shipping_cost_cop} />
           </div>
           <div className="mt-2 flex gap-2">
-          <CardActions bookId={book.id} title={book.title} stock={book.stock} />
-          <QuickView book={book} />
-        </div>
+            <CardActions bookId={book.id} title={book.title} stock={book.stock} />
+            <QuickView book={book} />
+          </div>
         </div>
       </article>
     );

@@ -1,7 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { Banknote, ShoppingCart } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { useHydrated } from "@/lib/use-hydrated";
 import { MAX_QUANTITY_PER_BOOK, useCartStore } from "@/store/cart.store";
@@ -9,9 +8,8 @@ import { useUIStore } from "@/store/ui.store";
 
 type CardActionsProps = { bookId: string; title: string; stock: number; className?: string };
 
-/** Botones con solo icono (carrito y rayo) de las tarjetas: siempre una unidad, respetando stock y lo que ya hay en el carrito. */
+/** Botón de añadir al carrito de las tarjetas: una unidad, respetando stock y lo que ya hay en el carrito. «Comprar ahora» vive en la ficha. */
 export function CardActions({ bookId, title, stock, className }: CardActionsProps) {
-  const router = useRouter();
   const hydrated = useHydrated();
   const inCart = useCartStore((state) => state.items.find((i) => i.bookId === bookId)?.quantity ?? 0);
   const add = useCartStore((state) => state.add);
@@ -39,19 +37,6 @@ export function CardActions({ bookId, title, stock, className }: CardActionsProp
         }}
       >
         <ShoppingCart className="size-6" aria-hidden />
-      </Button>
-      <Button
-        size="sm"
-        variant="secondary"
-        className="size-11 !p-0"
-        aria-label={`Comprar ahora ${title}`}
-        title="Comprar ahora"
-        onClick={() => {
-          if (!full) add(bookId, 1, limit);
-          router.push("/carrito");
-        }}
-      >
-        <Banknote className="size-6" aria-hidden />
       </Button>
     </div>
   );

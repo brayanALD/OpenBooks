@@ -22,7 +22,8 @@ type CartContentsProps = {
 
 function CartSkeleton() {
   return (
-    <div className="flex flex-col gap-4 py-4" role="status" aria-label="Cargando el carrito">
+    <div className="flex flex-col gap-4 py-4" role="status" aria-busy="true">
+      <span className="sr-only">Cargando el carrito…</span>
       {[0, 1].map((i) => (
         <div key={i} className="flex gap-4">
           <Skeleton className="h-24 w-16 shrink-0" />

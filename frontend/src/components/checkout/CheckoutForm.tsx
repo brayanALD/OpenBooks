@@ -4,11 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Lock, ShoppingBag } from "lucide-react";
+import { CheckoutSkeleton } from "@/components/checkout/CheckoutSkeleton";
 import { CartItemsSummary } from "@/components/checkout/CartItemsSummary";
 import { OrderSummary } from "@/components/cart/OrderSummary";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
-import { Skeleton } from "@/components/ui/Skeleton";
+import { LoadingRegion, Skeleton } from "@/components/ui/Skeleton";
 import { postJson } from "@/lib/auth-client";
 import {
   digitsOnly,
@@ -81,7 +82,13 @@ export function CheckoutForm({ user }: { user: User }) {
   const [paying, setPaying] = useState(false);
   const [attemptKey, setAttemptKey] = useState(newAttemptKey);
 
-  if (!hydrated) return <Skeleton className="h-96 w-full" />;
+  if (!hydrated) {
+    return (
+      <LoadingRegion label="Cargando el pago…">
+        <CheckoutSkeleton />
+      </LoadingRegion>
+    );
+  }
 
   if (empty) {
     return (
@@ -283,10 +290,11 @@ export function CheckoutForm({ user }: { user: User }) {
             No pudimos cargar tu pedido. Reintentar
           </Button>
         ) : (
-          <div className="flex flex-col gap-3" role="status" aria-label="Cargando tu pedido">
+          <LoadingRegion label="Cargando tu pedido…" className="flex flex-col gap-3">
             <Skeleton className="h-16 w-full" />
             <Skeleton className="h-16 w-full" />
-          </div>
+            <Skeleton className="h-24 w-full" />
+          </LoadingRegion>
         )}
         <Button
           type="submit"

@@ -27,6 +27,19 @@ test.describe("Catálogo", () => {
     await expect(page.getByRole("heading", { level: 1 }).first()).toContainText("No encontramos");
   });
 
+  test("una categoría inexistente responde 404 aunque haya skeleton de carga", async ({ page }) => {
+    const res = await open(page, "/categoria/no-existe-esta-categoria");
+    expect(res?.status()).toBe(404);
+  });
+
+  test("los filtros secundarios están plegados y se abren solos si hay uno activo", async ({ page }) => {
+    await open(page, "/categoria/novela");
+    const more = page.locator("details", { hasText: "Más filtros" });
+    await expect(more).not.toHaveAttribute("open", "");
+    await open(page, "/categoria/novela?free_shipping=true");
+    await expect(page.locator("details", { hasText: "Más filtros" })).toHaveAttribute("open", "");
+  });
+
   test("sin desbordamiento horizontal en móvil", async ({ browser }) => {
     const context = await browser.newContext({ viewport: { width: 375, height: 800 } });
     const page = await context.newPage();

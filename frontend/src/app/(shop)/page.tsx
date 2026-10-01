@@ -1,22 +1,15 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { BookCard } from "@/components/catalog/BookCard";
-import { BookGrid } from "@/components/catalog/BookGrid";
+import { BookGrid, BookGridSkeleton } from "@/components/catalog/BookGrid";
 import { ButtonLink } from "@/components/ui/Button";
+import { Skeleton } from "@/components/ui/Skeleton";
 import { getBooks, getCategories } from "@/lib/api-client";
 import { getRecommendedBooks } from "@/lib/recommendations";
 
-export default async function HomePage() {
-  // Las cuatro consultas son independientes: se lanzan a la vez.
-  const [recommended, bestsellers, onSale, categories] = await Promise.all([
-    // Sin sesión, o con sesión pero sin compras pagadas: genéricos (destacados/más vendidos).
-    // Con compras pagadas: afines a ellas. El backend decide el modo (ver /books/recommended).
-    getRecommendedBooks(4),
-    getBooks({ bestseller: true, page_size: 5 }),
-    getBooks({ on_sale: true, sort: "price_asc", page_size: 5 }),
-    getCategories(),
-  ]);
-
+/** Portada fija (no depende de datos): se pinta al instante; las estanterías llegan después con su skeleton. */
+export default function HomePage() {
   return (
     <div className="flex flex-col gap-14">
       <section className="rounded-3xl bg-brand-600 px-6 py-12 text-center text-white shadow-card sm:px-12 sm:py-16">
@@ -36,6 +29,45 @@ export default async function HomePage() {
         </div>
       </section>
 
+      <Suspense fallback={<HomeSectionsSkeleton />}>
+        <HomeSections />
+      </Suspense>
+    </div>
+  );
+}
+
+function HomeSectionsSkeleton() {
+  return (
+    <div role="status" aria-busy="true" className="contents">
+      <span className="sr-only">Cargando libros…</span>
+      <section className="flex flex-col gap-6">
+        <Skeleton className="h-9 w-72" />
+        <div className="grid gap-4 lg:grid-cols-2">
+          <Skeleton className="h-44 rounded-2xl" />
+          <Skeleton className="hidden h-44 rounded-2xl lg:block" />
+        </div>
+      </section>
+      <section className="flex flex-col gap-6">
+        <Skeleton className="h-9 w-48" />
+        <BookGridSkeleton count={5} layout="full" />
+      </section>
+    </div>
+  );
+}
+
+async function HomeSections() {
+  // Las cuatro consultas son independientes: se lanzan a la vez.
+  const [recommended, bestsellers, onSale, categories] = await Promise.all([
+    // Sin sesión, o con sesión pero sin compras pagadas: genéricos (destacados/más vendidos).
+    // Con compras pagadas: afines a ellas. El backend decide el modo (ver /books/recommended).
+    getRecommendedBooks(4),
+    getBooks({ bestseller: true, page_size: 5 }),
+    getBooks({ on_sale: true, sort: "price_asc", page_size: 5 }),
+    getCategories(),
+  ]);
+
+  return (
+    <>
       <section aria-labelledby="recomendados">
         <h2 id="recomendados" className="mb-6 text-3xl font-bold text-brand-600">
           Productos recomendados
@@ -92,6 +124,6 @@ export default async function HomePage() {
           ))}
         </ul>
       </section>
-    </div>
+    </>
   );
 }

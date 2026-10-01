@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ImageUp } from "lucide-react";
+import { ChevronDown, ImageUp } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Textarea } from "@/components/ui/Textarea";
@@ -275,8 +275,17 @@ export function BookForm({ book, categories, authors }: Props) {
             <legend className="float-left mb-2 font-display text-2xl font-bold text-ink-muted">Visibilidad</legend>
             <div className="clear-both flex flex-col gap-4">
               {toggle("active", "Visible en la tienda", "Si lo desmarcas, el libro se oculta: no aparece, no se puede comprar y se quita de los carritos.")}
-              {toggle("featured", "Recomendado", "Aparece en «Productos recomendados» de la portada.")}
-              {toggle("bestseller", "Más vendido", "Aparece en «Más vendidos» de la portada.")}
+              {/* Destacados de la portada: secundarios, abiertos solo si ya hay alguno activo. */}
+              <details open={values.featured || values.bestseller} className="group">
+                <summary className="flex min-h-6 cursor-pointer select-none items-center gap-2 text-sm font-semibold text-ink-soft">
+                  Destacar en la portada
+                  <ChevronDown className="size-4 transition-transform group-open:rotate-180" aria-hidden />
+                </summary>
+                <div className="mt-4 flex flex-col gap-4">
+                  {toggle("featured", "Recomendado", "Aparece en «Productos recomendados» de la portada.")}
+                  {toggle("bestseller", "Más vendido", "Aparece en «Más vendidos» de la portada.")}
+                </div>
+              </details>
             </div>
           </fieldset>
         </div>

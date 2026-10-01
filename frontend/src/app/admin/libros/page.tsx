@@ -112,12 +112,15 @@ export default async function AdminBooksPage({ searchParams }: Props) {
                     {book.discount_pct > 0 && <span className="block text-xs text-action">-{book.discount_pct} %</span>}
                   </td>
                   <td className="p-3 text-right tabular-nums">
-                    <span className={book.stock === 0 ? "font-bold text-action" : book.stock <= 5 ? "font-semibold text-action" : undefined}>{book.stock}</span>
+                    <span className="inline-flex items-center justify-end gap-2">
+                      {book.stock === 0 ? <Badge tone="danger">Agotado</Badge> : book.stock <= 5 && <Badge tone="warning">Pocas</Badge>}
+                      <span className={book.stock <= 5 ? "font-bold" : undefined}>{book.stock}</span>
+                    </span>
                   </td>
                   <td className="p-3">
                     <span className="flex flex-wrap gap-1">
                       {book.active ? <Badge tone="success">Visible</Badge> : <Badge>Oculto</Badge>}
-                      {book.incomplete && <Badge>Incompleto</Badge>}
+                      {book.incomplete && <Badge tone="warning">Incompleto</Badge>}
                     </span>
                   </td>
                   <td className="p-3">

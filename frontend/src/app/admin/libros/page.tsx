@@ -41,7 +41,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-wrap items-center justify-between gap-3">
-        <h1 className="text-4xl font-bold text-brand-600">Libros</h1>
+        <h1 className="text-4xl font-bold text-ink-muted">Libros</h1>
         <ButtonLink href="/admin/libros/nuevo">
           <Plus className="size-4" aria-hidden />
           Nuevo libro
@@ -72,7 +72,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
         </Button>
       </form>
 
-      <p className="text-brand-800" aria-live="polite">
+      <p className="text-ink-soft" aria-live="polite">
         {data.total} {data.total === 1 ? "libro" : "libros"}
       </p>
 
@@ -82,7 +82,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
         <div className="relative overflow-x-auto rounded-2xl bg-card shadow-card">
           <table className="w-full min-w-[42rem] text-left">
             <caption className="sr-only">Libros del catálogo</caption>
-            <thead className="border-b border-brand-200 text-sm text-brand-800">
+            <thead className="border-b border-brand-200 text-sm text-ink-soft">
               <tr>
                 <th scope="col" className="p-3 font-semibold">Libro</th>
                 <th scope="col" className="p-3 text-right font-semibold">Precio</th>
@@ -93,7 +93,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
             </thead>
             <tbody className="divide-y divide-brand-100">
               {data.items.map((book) => (
-                <tr key={book.id} className={book.active ? undefined : "bg-brand-50 text-brand-800"}>
+                <tr key={book.id} className={book.active ? undefined : "bg-brand-50 text-ink-soft"}>
                   <td className="p-3">
                     <div className="flex items-center gap-3">
                       <span className="relative block h-14 w-10 shrink-0 overflow-hidden rounded bg-brand-100">
@@ -103,16 +103,16 @@ export default async function AdminBooksPage({ searchParams }: Props) {
                         <Link href={`/admin/libros/${book.id}`} className="line-clamp-1 font-semibold hover:underline">
                           {book.title}
                         </Link>
-                        <span className="block text-sm text-brand-800">{book.author_name}</span>
+                        <span className="block text-sm text-ink-soft">{book.author_name}</span>
                       </span>
                     </div>
                   </td>
                   <td className="p-3 text-right tabular-nums">
                     {formatCOP(book.final_price_cop)}
-                    {book.discount_pct > 0 && <span className="block text-xs text-accent">-{book.discount_pct} %</span>}
+                    {book.discount_pct > 0 && <span className="block text-xs text-action">-{book.discount_pct} %</span>}
                   </td>
                   <td className="p-3 text-right tabular-nums">
-                    <span className={book.stock === 0 ? "font-bold text-accent" : book.stock <= 5 ? "font-semibold text-accent" : undefined}>{book.stock}</span>
+                    <span className={book.stock === 0 ? "font-bold text-action" : book.stock <= 5 ? "font-semibold text-action" : undefined}>{book.stock}</span>
                   </td>
                   <td className="p-3">
                     <span className="flex flex-wrap gap-1">
@@ -122,7 +122,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
                   </td>
                   <td className="p-3">
                     <span className="flex items-center justify-end gap-1">
-                      <Link href={`/admin/libros/${book.id}`} aria-label={`Editar ${book.title}`} title="Editar" className="rounded-full p-2 text-brand-600 hover:bg-brand-100 hover:text-accent">
+                      <Link href={`/admin/libros/${book.id}`} aria-label={`Editar ${book.title}`} title="Editar" className="rounded-full p-2 text-ink-muted hover:bg-brand-100 hover:text-action">
                         <Pencil className="size-5" aria-hidden />
                       </Link>
                       <ToggleActiveButton id={book.id} title={book.title} active={book.active} />

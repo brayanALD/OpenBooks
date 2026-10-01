@@ -4,7 +4,7 @@ export type Tone = "neutral" | "accent" | "success" | "warning" | "danger" | "in
 
 /** Un badge siempre lleva texto; el color solo refuerza. Los tonos de estado vienen de los tokens semánticos. */
 const TONES: Record<Tone, string> = {
-  neutral: "bg-brand-100 text-brand-800",
+  neutral: "bg-brand-100 text-ink-soft",
   accent: "bg-accent text-white",
   success: "bg-success-soft text-success",
   warning: "bg-warning-soft text-warning",

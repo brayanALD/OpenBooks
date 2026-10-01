@@ -79,7 +79,7 @@ export function BookCard({ book, variant = "vertical", priority = false }: BookC
           <h3 className="text-xl sm:text-2xl">
             <TitleLink book={book} />
           </h3>
-          <p className="text-brand-800">{book.author.name}</p>
+          <p className="text-ink-soft">{book.author.name}</p>
           <StarRating rating={book.rating_avg} count={book.rating_count} size="sm" />
           <PriceTag {...book} size="md" className="mt-auto" />
           <div>
@@ -101,7 +101,7 @@ export function BookCard({ book, variant = "vertical", priority = false }: BookC
         <h3 className="text-base">
           <TitleLink book={book} className="line-clamp-2" />
         </h3>
-        <p className="line-clamp-1 text-sm text-brand-800">{book.author.name}</p>
+        <p className="line-clamp-1 text-sm text-ink-soft">{book.author.name}</p>
         <StarRating rating={book.rating_avg} size="sm" />
         <PriceTag {...book} className="mt-auto pt-1" />
         <div>

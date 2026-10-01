@@ -31,13 +31,13 @@ export function ReviewModeration({ reviews }: { reviews: Review[] }) {
 
   return (
     <section aria-labelledby="moderacion" className="rounded-2xl bg-card p-6 shadow-card">
-      <h2 id="moderacion" className="mb-1 font-display text-2xl font-bold text-brand-600">
+      <h2 id="moderacion" className="mb-1 font-display text-2xl font-bold text-ink-muted">
         Reseñas ({reviews.length})
       </h2>
-      <p className="mb-4 text-sm text-brand-800">Puedes eliminar cualquier reseña, real o de muestra. No se pueden editar.</p>
+      <p className="mb-4 text-sm text-ink-soft">Puedes eliminar cualquier reseña, real o de muestra. No se pueden editar.</p>
 
       {reviews.length === 0 ? (
-        <p className="text-brand-800">Este libro no tiene reseñas.</p>
+        <p className="text-ink-soft">Este libro no tiene reseñas.</p>
       ) : (
         <ul className="divide-y divide-brand-100">
           {reviews.map((review) => (
@@ -52,10 +52,10 @@ export function ReviewModeration({ reviews }: { reviews: Review[] }) {
                   ) : (
                     <Badge>De muestra</Badge>
                   )}
-                  <span className="text-sm font-normal text-brand-600">{formatDate(review.created_at)}</span>
+                  <span className="text-sm font-normal text-ink-muted">{formatDate(review.created_at)}</span>
                 </p>
                 <StarRating rating={review.rating} size="sm" className="my-1" />
-                <p className="whitespace-pre-line break-words text-brand-900">{review.comment}</p>
+                <p className="whitespace-pre-line break-words text-ink">{review.comment}</p>
               </div>
               <Button variant="ghost" size="sm" onClick={() => setTarget(review)} aria-label={`Eliminar la reseña de ${review.author_name}`}>
                 <Trash2 className="size-4" aria-hidden />
@@ -67,7 +67,7 @@ export function ReviewModeration({ reviews }: { reviews: Review[] }) {
       )}
 
       <Modal open={target !== null} onClose={() => setTarget(null)} title="¿Eliminar esta reseña?">
-        <p className="text-brand-800">
+        <p className="text-ink-soft">
           Se quitará la reseña de {target?.author_name} y cambiará la nota del libro. No se puede deshacer.
           {target?.verified && " Como es de un comprador verificado, podrá escribir otra."}
         </p>

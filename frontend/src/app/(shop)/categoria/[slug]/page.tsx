@@ -29,8 +29,8 @@ export default async function CategoryPage({ params, searchParams }: Props) {
   return (
     <div className="flex flex-col gap-6">
       <header>
-        <h1 className="text-4xl font-bold text-brand-600">{category.name}</h1>
-        {category.description && <p className="mt-2 max-w-2xl text-brand-800">{category.description}</p>}
+        <h1 className="text-4xl font-bold text-ink-muted">{category.name}</h1>
+        {category.description && <p className="mt-2 max-w-2xl text-ink-soft">{category.description}</p>}
       </header>
       {/* El Suspense va aquí y no en un loading.tsx: la categoría ya se comprobó arriba, así que un slug
           inválido responde 404 de verdad; con loading.tsx la respuesta ya habría salido como 200. */}

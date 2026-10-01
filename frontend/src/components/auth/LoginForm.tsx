@@ -73,11 +73,11 @@ export function LoginForm({ next }: LoginFormProps) {
       <Button type="submit" size="lg" loading={loading}>
         Iniciar sesión
       </Button>
-      <p className="text-center text-sm text-brand-800">
+      <p className="text-center text-sm text-ink-soft">
         ¿No tienes cuenta?{" "}
         <Link
           href={next === "/" ? "/registro" : `/registro?next=${encodeURIComponent(next)}`}
-          className="font-semibold text-accent underline underline-offset-4"
+          className="font-semibold text-action underline underline-offset-4"
         >
           Regístrate
         </Link>

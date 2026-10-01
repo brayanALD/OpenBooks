@@ -146,7 +146,7 @@ export function CartContents({ layout, onNavigate }: CartContentsProps) {
             clear();
             toast.info("Carrito vaciado.");
           }}
-          className="text-sm font-semibold text-brand-600 underline underline-offset-4 hover:text-accent"
+          className="text-sm font-semibold text-ink-muted underline underline-offset-4 hover:text-action"
         >
           Vaciar carrito
         </button>

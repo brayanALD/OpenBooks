@@ -45,7 +45,7 @@ export function OrderStatusActions({ orderId, number, status, units }: Props) {
 
   if (allowed.length === 0) {
     return (
-      <p className="text-sm text-brand-800">
+      <p className="text-sm text-ink-soft">
         {status === "delivered"
           ? "Pedido entregado: no admite más cambios."
           : status === "cancelled"
@@ -84,7 +84,7 @@ export function OrderStatusActions({ orderId, number, status, units }: Props) {
       </div>
 
       <Modal open={confirming} onClose={() => setConfirming(false)} title={`¿Cancelar el pedido ${number}?`}>
-        <p className="text-brand-800">
+        <p className="text-ink-soft">
           Se devolverán {units} {units === 1 ? "unidad" : "unidades"} al inventario. Después no se podrá enviar ni volver a
           activar. El pago es simulado, así que no se calcula ningún reembolso.
         </p>

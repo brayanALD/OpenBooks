@@ -61,11 +61,11 @@ export function FavoriteButton({ bookId, title, variant = "icon", className }: F
         aria-pressed={on}
         disabled={busy}
         className={cn(
-          "inline-flex items-center gap-2 rounded-full border-2 border-brand-600 px-5 py-2 text-[13px] font-semibold uppercase tracking-wide text-brand-600 transition hover:bg-brand-600 hover:text-white disabled:opacity-60",
+          "inline-flex items-center gap-2 rounded-full border-2 border-brand-600 px-5 py-2 text-[13px] font-semibold uppercase tracking-wide text-ink-muted transition hover:bg-brand-600 hover:text-white disabled:opacity-60",
           className,
         )}
       >
-        <Heart className={cn("size-5", on && "fill-accent text-accent")} aria-hidden />
+        <Heart className={cn("size-5", on && "fill-action text-action")} aria-hidden />
         {on ? "En tus favoritos" : "Añadir a favoritos"}
       </button>
     );
@@ -81,11 +81,11 @@ export function FavoriteButton({ bookId, title, variant = "icon", className }: F
       disabled={busy}
       // `relative z-10` lo deja por encima del enlace que cubre toda la tarjeta.
       className={cn(
-        "relative z-10 flex size-10 items-center justify-center rounded-full bg-card/90 text-brand-600 shadow transition hover:scale-110 hover:bg-card disabled:opacity-60",
+        "relative z-10 flex size-10 items-center justify-center rounded-full bg-card/90 text-ink-muted shadow transition hover:scale-110 hover:bg-card disabled:opacity-60",
         className,
       )}
     >
-      <Heart className={cn("size-5", on && "fill-accent text-accent")} aria-hidden />
+      <Heart className={cn("size-5", on && "fill-action text-action")} aria-hidden />
     </button>
   );
 }

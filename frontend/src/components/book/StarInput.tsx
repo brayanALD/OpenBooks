@@ -16,7 +16,7 @@ export function StarInput({ value, onChange, error }: StarInputProps) {
 
   return (
     <fieldset aria-describedby={error ? `${name}-error` : undefined}>
-      <legend className="mb-1 text-sm font-semibold text-brand-800">Tu valoración</legend>
+      <legend className="mb-1 text-sm font-semibold text-ink-soft">Tu valoración</legend>
       <div className="flex items-center gap-1">
         {[1, 2, 3, 4, 5].map((n) => (
           <label
@@ -33,12 +33,12 @@ export function StarInput({ value, onChange, error }: StarInputProps) {
               aria-label={`${n} ${n === 1 ? "estrella" : "estrellas"}`}
             />
             <Star
-              className={cn("size-8 transition-colors", n <= value ? "fill-rating text-rating" : "fill-brand-100 text-brand-400")}
+              className={cn("size-8 transition-colors", n <= value ? "fill-rating text-rating" : "fill-brand-100 text-ink-faint")}
               aria-hidden
             />
           </label>
         ))}
-        <span className="ml-2 text-sm font-medium text-brand-800" aria-live="polite">
+        <span className="ml-2 text-sm font-medium text-ink-soft" aria-live="polite">
           {value > 0 ? `${value} de 5` : "Elige de 1 a 5"}
         </span>
       </div>

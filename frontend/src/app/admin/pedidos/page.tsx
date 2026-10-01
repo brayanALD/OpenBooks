@@ -31,7 +31,7 @@ export default async function AdminOrdersPage({ searchParams }: { searchParams: 
   // escapan del recorte del scroll horizontal y ensanchan toda la página en móvil.
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-4xl font-bold text-brand-600">Pedidos</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Pedidos</h1>
 
       <form method="get" className="flex flex-wrap items-end gap-3 rounded-2xl bg-card p-4 shadow-card" role="search" aria-label="Buscar pedidos">
         <div className="min-w-56 flex-1">
@@ -50,7 +50,7 @@ export default async function AdminOrdersPage({ searchParams }: { searchParams: 
         <Button type="submit">Filtrar</Button>
       </form>
 
-      <p className="text-brand-800" aria-live="polite">
+      <p className="text-ink-soft" aria-live="polite">
         {data.total} {data.total === 1 ? "pedido" : "pedidos"}
       </p>
 
@@ -60,7 +60,7 @@ export default async function AdminOrdersPage({ searchParams }: { searchParams: 
         <div className="relative overflow-x-auto rounded-2xl bg-card shadow-card">
           <table className="w-full min-w-[40rem] text-left">
             <caption className="sr-only">Pedidos</caption>
-            <thead className="border-b border-brand-200 text-sm text-brand-800">
+            <thead className="border-b border-brand-200 text-sm text-ink-soft">
               <tr>
                 <th scope="col" className="p-3 font-semibold">Pedido</th>
                 <th scope="col" className="p-3 font-semibold">Cliente</th>
@@ -75,22 +75,22 @@ export default async function AdminOrdersPage({ searchParams }: { searchParams: 
                     <Link href={`/admin/pedidos/${order.id}`} className="font-display text-lg font-bold hover:underline">
                       {order.number}
                     </Link>
-                    <span className="block text-sm text-brand-800">{formatDateTime(order.created_at)}</span>
+                    <span className="block text-sm text-ink-soft">{formatDateTime(order.created_at)}</span>
                   </td>
                   <td className="p-3">
                     {order.customer ? (
                       <>
                         {order.customer.name}
-                        <span className="block text-sm text-brand-800">{order.customer.email}</span>
+                        <span className="block text-sm text-ink-soft">{order.customer.email}</span>
                       </>
                     ) : (
-                      <span className="text-brand-800">Cuenta eliminada</span>
+                      <span className="text-ink-soft">Cuenta eliminada</span>
                     )}
                   </td>
                   <td className="p-3">
                     <OrderStatusBadge status={order.status} />
                   </td>
-                  <td className="p-3 text-right font-bold tabular-nums text-accent">{formatCOP(order.total_cop)}</td>
+                  <td className="p-3 text-right font-bold tabular-nums text-action">{formatCOP(order.total_cop)}</td>
                 </tr>
               ))}
             </tbody>

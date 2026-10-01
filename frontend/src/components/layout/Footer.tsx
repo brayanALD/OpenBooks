@@ -14,14 +14,14 @@ const SOCIALS = [
 
 export function Footer() {
   return (
-    <footer className="mt-16 rounded-t-2xl bg-brand-400 text-brand-900">
+    <footer className="mt-16 rounded-t-2xl bg-brand-400 text-ink">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-8 text-center md:flex-row md:justify-between md:text-left">
         <div className="flex flex-col items-center gap-2 md:items-start">
           <Logo />
           <p className="text-sm">
             © {new Date().getFullYear()} {SITE.name}. Todos los derechos reservados.
           </p>
-          <Link href="/terminos" className="text-sm font-semibold underline underline-offset-4 hover:text-accent-dark">
+          <Link href="/terminos" className="text-sm font-semibold underline underline-offset-4 hover:text-action-strong">
             Términos y condiciones
           </Link>
         </div>

@@ -22,16 +22,16 @@ export default async function EditBookPage({ params }: { params: Promise<{ id: s
 
   return (
     <div className="flex flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/admin/libros" className="hover:underline">
           Libros
         </Link>{" "}
         › <span className="font-semibold">{book.title}</span>
       </nav>
       <header className="flex flex-wrap items-center justify-between gap-3">
-        <h1 className="text-4xl font-bold text-brand-600">Editar libro</h1>
+        <h1 className="text-4xl font-bold text-ink-muted">Editar libro</h1>
         {book.active && (
-          <Link href={`/libro/${book.slug}`} target="_blank" className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600 underline underline-offset-4 hover:text-accent">
+          <Link href={`/libro/${book.slug}`} target="_blank" className="inline-flex items-center gap-1.5 text-sm font-semibold text-ink-muted underline underline-offset-4 hover:text-action">
             Ver en la tienda
             <ExternalLink className="size-4" aria-hidden />
           </Link>

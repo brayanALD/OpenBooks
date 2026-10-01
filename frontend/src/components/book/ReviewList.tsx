@@ -5,13 +5,13 @@ import { StarRating } from "./StarRating";
 
 export function ReviewList({ reviews }: { reviews: Review[] }) {
   if (reviews.length === 0) {
-    return <p className="text-brand-800">Este libro todavía no tiene reseñas.</p>;
+    return <p className="text-ink-soft">Este libro todavía no tiene reseñas.</p>;
   }
 
   return (
     <div className="flex flex-col gap-4">
       {reviews.some((r) => r.is_demo) && (
-        <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-brand-800">
+        <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-ink-soft">
           <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
           Las reseñas sin la insignia «Compra verificada» son de muestra para desarrollo: no son de compradores reales.
         </p>
@@ -28,14 +28,14 @@ export function ReviewList({ reviews }: { reviews: Review[] }) {
                   </span>
                 )}
               </p>
-              <time dateTime={review.created_at} className="text-sm text-brand-600">
+              <time dateTime={review.created_at} className="text-sm text-ink-muted">
                 {formatDate(review.created_at)}
                 {review.updated_at && " · editada"}
               </time>
             </div>
             <StarRating rating={review.rating} size="sm" className="mt-1" />
             {/* Texto plano: React lo escapa. Los saltos de línea de quien escribe se respetan. */}
-            <p className="mt-3 whitespace-pre-line text-brand-900">{review.comment}</p>
+            <p className="mt-3 whitespace-pre-line text-ink">{review.comment}</p>
           </li>
         ))}
       </ul>

@@ -30,7 +30,7 @@ export function ToggleActiveButton({ id, title, active }: { id: string; title: s
       disabled={busy}
       aria-label={active ? `Ocultar ${title}` : `Mostrar ${title}`}
       title={active ? "Ocultar de la tienda" : "Mostrar en la tienda"}
-      className="rounded-full p-2 text-brand-600 transition-colors hover:bg-brand-100 hover:text-accent disabled:opacity-40"
+      className="rounded-full p-2 text-ink-muted transition-colors hover:bg-brand-100 hover:text-action disabled:opacity-40"
     >
       {active ? <EyeOff className="size-5" aria-hidden /> : <Eye className="size-5" aria-hidden />}
     </button>

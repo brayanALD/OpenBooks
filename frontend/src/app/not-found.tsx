@@ -13,9 +13,9 @@ export default function GlobalNotFound() {
   return (
     <main className="mx-auto flex min-h-screen max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
       <Logo />
-      <BookX className="size-12 text-brand-400" aria-hidden />
+      <BookX className="size-12 text-ink-faint" aria-hidden />
       <h1 className="text-3xl font-bold">No encontramos esa página</h1>
-      <p className="text-brand-800">Puede que el enlace tenga un error o que la página ya no exista.</p>
+      <p className="text-ink-soft">Puede que el enlace tenga un error o que la página ya no exista.</p>
       <ButtonLink href="/">Ir al inicio</ButtonLink>
     </main>
   );

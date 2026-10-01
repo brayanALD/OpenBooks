@@ -199,7 +199,7 @@ export function BookForm({ book, categories, authors }: Props) {
       <input type="checkbox" name={key} checked={values[key]} onChange={(e) => set(key, e.target.checked)} className="mt-1 size-5 rounded accent-accent" />
       <span>
         <span className="font-semibold">{label}</span>
-        <span className="block text-sm text-brand-800">{hint}</span>
+        <span className="block text-sm text-ink-soft">{hint}</span>
       </span>
     </label>
   );
@@ -213,7 +213,7 @@ export function BookForm({ book, categories, authors }: Props) {
       <div className="grid gap-8 lg:grid-cols-[1fr_16rem]">
         <div className="flex flex-col gap-8">
           <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">
-            <legend className="float-left mb-2 font-display text-2xl font-bold text-brand-600">Datos del libro</legend>
+            <legend className="float-left mb-2 font-display text-2xl font-bold text-ink-muted">Datos del libro</legend>
             <Input className="clear-both" label="Título" {...text("title")} />
             <Input label="ISBN" hint="Con o sin guiones, p. ej. 978-958-04-1234-5." {...text("isbn")} />
             <div>
@@ -226,7 +226,7 @@ export function BookForm({ book, categories, authors }: Props) {
             </div>
 
             <fieldset className="flex flex-col gap-2" aria-describedby={errors.category_ids ? "cat-error" : undefined}>
-              <legend className="mb-1 text-sm font-semibold text-brand-800">Categorías</legend>
+              <legend className="mb-1 text-sm font-semibold text-ink-soft">Categorías</legend>
               <div className="flex flex-wrap gap-x-5 gap-y-2">
                 {categories.map((category) => (
                   <label key={category.id} className="flex cursor-pointer items-center gap-2">
@@ -257,7 +257,7 @@ export function BookForm({ book, categories, authors }: Props) {
           </fieldset>
 
           <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">
-            <legend className="float-left mb-2 font-display text-2xl font-bold text-brand-600">Precio e inventario</legend>
+            <legend className="float-left mb-2 font-display text-2xl font-bold text-ink-muted">Precio e inventario</legend>
             <div className="clear-both grid gap-4 sm:grid-cols-2">
               <Input label="Precio de lista (COP)" type="number" min={0} step={1} inputMode="numeric" {...text("price_cop")} />
               <Input label="Descuento (%)" type="number" min={0} max={90} inputMode="numeric" {...text("discount_pct")} />
@@ -266,13 +266,13 @@ export function BookForm({ book, categories, authors }: Props) {
             </div>
             <p className="rounded-xl bg-brand-100 px-4 py-3" aria-live="polite">
               Precio final al cliente:{" "}
-              <strong className="text-accent">{finalPrice === null ? "—" : formatCOP(finalPrice)}</strong>
-              {isInt(price) && finalPrice !== null && finalPrice < price && <span className="text-brand-800"> (antes {formatCOP(price)})</span>}
+              <strong className="text-action">{finalPrice === null ? "—" : formatCOP(finalPrice)}</strong>
+              {isInt(price) && finalPrice !== null && finalPrice < price && <span className="text-ink-soft"> (antes {formatCOP(price)})</span>}
             </p>
           </fieldset>
 
           <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">
-            <legend className="float-left mb-2 font-display text-2xl font-bold text-brand-600">Visibilidad</legend>
+            <legend className="float-left mb-2 font-display text-2xl font-bold text-ink-muted">Visibilidad</legend>
             <div className="clear-both flex flex-col gap-4">
               {toggle("active", "Visible en la tienda", "Si lo desmarcas, el libro se oculta: no aparece, no se puede comprar y se quita de los carritos.")}
               {toggle("featured", "Recomendado", "Aparece en «Productos recomendados» de la portada.")}
@@ -283,7 +283,7 @@ export function BookForm({ book, categories, authors }: Props) {
 
         <aside aria-label="Portada y estado" className="flex flex-col gap-3 lg:sticky lg:top-4 lg:self-start">
           <div className="rounded-2xl bg-card p-4 shadow-card">
-            <p className="mb-2 text-sm font-semibold text-brand-800">Portada</p>
+            <p className="mb-2 text-sm font-semibold text-ink-soft">Portada</p>
             <div className="relative mx-auto aspect-[2/3] w-full max-w-44 overflow-hidden rounded-xl bg-brand-100">
               <Image src={shownCover} alt="Portada actual del libro" fill sizes="176px" className="object-contain p-1" unoptimized={shownCover.startsWith("/media/")} />
             </div>
@@ -292,8 +292,8 @@ export function BookForm({ book, categories, authors }: Props) {
               <ImageUp className="size-4" aria-hidden />
               {uploading ? "Subiendo…" : "Cambiar portada"}
             </Button>
-            <p className="mt-2 text-xs text-brand-800">JPG, PNG o WebP, hasta 5 MB.</p>
-            {cover && <p className="mt-1 text-xs font-semibold text-brand-600">Portada nueva: se guarda al guardar el libro.</p>}
+            <p className="mt-2 text-xs text-ink-soft">JPG, PNG o WebP, hasta 5 MB.</p>
+            {cover && <p className="mt-1 text-xs font-semibold text-ink-muted">Portada nueva: se guarda al guardar el libro.</p>}
             {uploadError && (
               <Alert tone="danger" live className="mt-2 p-3">
                 {uploadError}
@@ -304,7 +304,7 @@ export function BookForm({ book, categories, authors }: Props) {
           <Button type="submit" size="lg" loading={saving} className="w-full">
             {book ? "Guardar cambios" : "Crear libro"}
           </Button>
-          <Link href="/admin/libros" className="text-center text-sm font-semibold text-brand-600 underline underline-offset-4 hover:text-accent">
+          <Link href="/admin/libros" className="text-center text-sm font-semibold text-ink-muted underline underline-offset-4 hover:text-action">
             Cancelar
           </Link>
         </aside>

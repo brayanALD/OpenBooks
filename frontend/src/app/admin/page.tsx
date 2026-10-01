@@ -32,7 +32,7 @@ export default async function AdminDashboard() {
 
   return (
     <div className="flex flex-col gap-8">
-      <h1 className="text-4xl font-bold text-brand-600">Resumen</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Resumen</h1>
 
       <section aria-labelledby="inventario" className="flex flex-col gap-3">
         <h2 id="inventario" className="text-2xl font-bold">

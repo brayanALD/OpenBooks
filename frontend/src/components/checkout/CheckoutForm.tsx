@@ -186,8 +186,8 @@ export function CheckoutForm({ user }: { user: User }) {
         )}
 
         <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">
-          <legend className="float-left mb-2 font-display text-2xl font-bold text-brand-600">Envío</legend>
-          <p className="clear-both text-sm text-brand-800">Precargado con los datos de tu cuenta. Puedes cambiarlos solo para este pedido.</p>
+          <legend className="float-left mb-2 font-display text-2xl font-bold text-ink-muted">Envío</legend>
+          <p className="clear-both text-sm text-ink-soft">Precargado con los datos de tu cuenta. Puedes cambiarlos solo para este pedido.</p>
           <Input label="Nombre de quien recibe" autoComplete="name" {...field("shipping", "recipient_name")} onChange={(e) => editShipping("recipient_name", e.target.value)} />
           <Input label="Dirección" autoComplete="street-address" {...field("shipping", "line")} onChange={(e) => editShipping("line", e.target.value)} />
           <div className="grid gap-4 sm:grid-cols-2">
@@ -198,8 +198,8 @@ export function CheckoutForm({ user }: { user: User }) {
         </fieldset>
 
         <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">
-          <legend className="float-left mb-2 font-display text-2xl font-bold text-brand-600">Pago</legend>
-          <p className="clear-both flex items-center gap-2 rounded-xl bg-brand-100 px-3 py-2 text-sm text-brand-800">
+          <legend className="float-left mb-2 font-display text-2xl font-bold text-ink-muted">Pago</legend>
+          <p className="clear-both flex items-center gap-2 rounded-xl bg-brand-100 px-3 py-2 text-sm text-ink-soft">
             <Lock className="size-4 shrink-0" aria-hidden />
             Pago simulado: no se cobra nada real y la tarjeta no se guarda.
           </p>
@@ -233,12 +233,12 @@ export function CheckoutForm({ user }: { user: User }) {
           </div>
 
           <details className="rounded-xl border border-brand-200 p-3 text-sm">
-            <summary className="cursor-pointer font-semibold text-brand-800">Tarjetas de prueba</summary>
+            <summary className="cursor-pointer font-semibold text-ink-soft">Tarjetas de prueba</summary>
             <ul className="mt-3 flex flex-col gap-1.5">
               {TEST_CARDS.map((test) => (
                 <li key={test.number} className="flex flex-wrap items-center justify-between gap-2">
                   <span>
-                    <code className="font-mono">{test.number}</code> <span className="text-brand-800">— {test.result}</span>
+                    <code className="font-mono">{test.number}</code> <span className="text-ink-soft">— {test.result}</span>
                   </span>
                   <button
                     type="button"
@@ -246,14 +246,14 @@ export function CheckoutForm({ user }: { user: User }) {
                       setCard({ number: test.number, holder: card.holder || "ANA PEREZ", expiry: card.expiry || "12/35", cvc: card.cvc || "123" });
                       setErrors((current) => ({ ...current, number: "", holder: "", expiry: "", cvc: "" }));
                     }}
-                    className="font-semibold text-accent underline underline-offset-4"
+                    className="font-semibold text-action underline underline-offset-4"
                   >
                     Usar
                   </button>
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-brand-800">Cualquier fecha futura y cualquier CVC de 3 dígitos.</p>
+            <p className="mt-3 text-ink-soft">Cualquier fecha futura y cualquier CVC de 3 dígitos.</p>
           </details>
         </fieldset>
 
@@ -268,9 +268,9 @@ export function CheckoutForm({ user }: { user: User }) {
           <>
             <CartItemsSummary lines={lines} quantityOf={(id) => items.find((i) => i.bookId === id)?.quantity ?? 0} />
             {data.has_issues && (
-              <p className="rounded-xl bg-brand-100 p-3 text-sm text-brand-800" role="status">
+              <p className="rounded-xl bg-brand-100 p-3 text-sm text-ink-soft" role="status">
                 Algunos libros ya no están disponibles como los pediste.{" "}
-                <Link href="/carrito" className="font-semibold text-accent underline underline-offset-4">
+                <Link href="/carrito" className="font-semibold text-action underline underline-offset-4">
                   Revisa tu carrito
                 </Link>
                 .

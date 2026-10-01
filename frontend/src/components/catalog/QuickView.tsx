@@ -18,7 +18,7 @@ export function QuickView({ book }: { book: BookSummary }) {
         aria-label={`Vista rápida de ${book.title}`}
         title="Vista rápida"
         // `relative z-10` lo deja por encima del enlace que cubre toda la tarjeta.
-        className="relative z-10 flex size-11 items-center justify-center rounded-full border-2 border-brand-600 text-brand-600 transition hover:bg-brand-600 hover:text-white"
+        className="relative z-10 flex size-11 items-center justify-center rounded-full border-2 border-brand-600 text-ink-muted transition hover:bg-brand-600 hover:text-white"
       >
         <Eye className="size-6" aria-hidden />
       </button>

@@ -5,7 +5,7 @@ import { cn } from "@/lib/cn";
 import { FieldMessage } from "./FieldMessage";
 
 export const fieldStyles =
-  "w-full rounded-xl border bg-card px-4 py-2.5 text-base text-brand-900 placeholder:text-brand-600/80 " +
+  "w-full rounded-xl border bg-card px-4 py-2.5 text-base text-ink placeholder:text-ink-muted/80 " +
   "transition-colors focus-visible:outline-accent disabled:cursor-not-allowed disabled:bg-surface";
 
 type InputProps = React.ComponentProps<"input"> & {
@@ -21,7 +21,7 @@ export function Input({ label, hint, error, id, className, ...props }: InputProp
 
   return (
     <div className="flex flex-col gap-1.5">
-      <label htmlFor={inputId} className="text-sm font-semibold text-brand-800">
+      <label htmlFor={inputId} className="text-sm font-semibold text-ink-soft">
         {label}
       </label>
       <input

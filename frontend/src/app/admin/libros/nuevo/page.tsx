@@ -12,13 +12,13 @@ export default async function NewBookPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/admin/libros" className="hover:underline">
           Libros
         </Link>{" "}
         › <span className="font-semibold">Nuevo</span>
       </nav>
-      <h1 className="text-4xl font-bold text-brand-600">Nuevo libro</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Nuevo libro</h1>
       <BookForm categories={categories} authors={authors} />
     </div>
   );

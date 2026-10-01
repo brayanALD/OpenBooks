@@ -43,7 +43,7 @@ export async function Listing({ basePath, searchParams, fixed }: ListingProps) {
 
       <section aria-live="polite">
         <h2 className="sr-only">Resultados</h2>
-        <p className="mb-4 text-brand-800">
+        <p className="mb-4 text-ink-soft">
           {result.total === 0
             ? "Sin resultados"
             : `${result.total} ${result.total === 1 ? "libro" : "libros"}`}

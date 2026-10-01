@@ -48,10 +48,10 @@ export function CartItemRow({ line, quantity, onQuantityChange, onRemove, onNavi
         >
           {book.title}
         </Link>
-        <p className="text-sm text-brand-800">{book.author.name}</p>
-        <p className="text-sm text-brand-800">
+        <p className="text-sm text-ink-soft">{book.author.name}</p>
+        <p className="text-sm text-ink-soft">
           {formatCOP(line.unit_price_cop)} c/u
-          {book.discount_pct > 0 && <span className="ml-1 font-semibold text-accent">(-{book.discount_pct} %)</span>}
+          {book.discount_pct > 0 && <span className="ml-1 font-semibold text-action">(-{book.discount_pct} %)</span>}
         </p>
         {line.issue && (
           <p className="text-sm font-semibold text-danger" role="status">
@@ -66,7 +66,7 @@ export function CartItemRow({ line, quantity, onQuantityChange, onRemove, onNavi
             label={`Cantidad de ${book.title}`}
             disabled={soldOut}
           />
-          <span className={soldOut ? "text-sm text-brand-600 line-through" : "font-bold text-accent"}>
+          <span className={soldOut ? "text-sm text-ink-muted line-through" : "font-bold text-action"}>
             {formatCOP(soldOut ? 0 : lineTotal)}
           </span>
         </div>
@@ -76,7 +76,7 @@ export function CartItemRow({ line, quantity, onQuantityChange, onRemove, onNavi
         type="button"
         onClick={onRemove}
         aria-label={`Quitar ${book.title} del carrito`}
-        className="-mr-2 -mt-1 h-fit rounded-full p-2 text-brand-600 transition-colors hover:bg-brand-100 hover:text-accent"
+        className="-mr-2 -mt-1 h-fit rounded-full p-2 text-ink-muted transition-colors hover:bg-brand-100 hover:text-action"
       >
         <Trash2 className="size-5" aria-hidden />
       </button>

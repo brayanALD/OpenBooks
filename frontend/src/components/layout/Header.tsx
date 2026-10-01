@@ -12,7 +12,7 @@ export async function Header() {
 
   return (
     // Texto oscuro sobre el marrón claro original: el blanco no llega a contraste AA (3,7:1).
-    <header className="bg-brand-400 text-brand-900">
+    <header className="bg-brand-400 text-ink">
       {/* Tres columnas solo desde lg: a 768 px logo + buscador + acciones no caben en una fila. */}
       <div className="mx-auto grid max-w-6xl grid-cols-[1fr_auto] items-center gap-x-4 gap-y-3 px-4 py-3 lg:grid-cols-[auto_1fr_auto] lg:gap-x-8 lg:py-4">
         <Logo className="col-start-1 row-start-1" />

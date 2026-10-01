@@ -27,7 +27,7 @@ export default async function OrderDetailPage({ params, searchParams }: Props) {
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/cuenta" className="hover:underline">
           Mi cuenta
         </Link>{" "}
@@ -55,8 +55,8 @@ export default async function OrderDetailPage({ params, searchParams }: Props) {
 
       <header className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h1 className="text-4xl font-bold text-brand-600">Pedido {order.number}</h1>
-          <p className="text-brand-800">{formatDateTime(order.created_at)}</p>
+          <h1 className="text-4xl font-bold text-ink-muted">Pedido {order.number}</h1>
+          <p className="text-ink-soft">{formatDateTime(order.created_at)}</p>
         </div>
         <OrderStatusBadge status={order.status} />
       </header>
@@ -73,27 +73,27 @@ export default async function OrderDetailPage({ params, searchParams }: Props) {
               </span>
               <span className="flex min-w-0 flex-1 flex-col">
                 <span className="font-display font-bold leading-snug">{item.title}</span>
-                <span className="text-sm text-brand-800">{item.author_name}</span>
-                <span className="text-sm text-brand-800">
+                <span className="text-sm text-ink-soft">{item.author_name}</span>
+                <span className="text-sm text-ink-soft">
                   {item.quantity} × {formatCOP(item.unit_price_cop)}
                 </span>
               </span>
-              <span className="font-bold text-accent">{formatCOP(item.line_total_cop)}</span>
+              <span className="font-bold text-action">{formatCOP(item.line_total_cop)}</span>
             </li>
           ))}
         </ul>
         <dl className="flex flex-col gap-2 border-t border-brand-200 py-4">
-          <div className="flex justify-between text-brand-800">
+          <div className="flex justify-between text-ink-soft">
             <dt>Subtotal</dt>
             <dd>{formatCOP(order.subtotal_cop)}</dd>
           </div>
-          <div className="flex justify-between text-brand-800">
+          <div className="flex justify-between text-ink-soft">
             <dt>Envío</dt>
             <dd>{order.shipping_cop === 0 ? "Gratis" : formatCOP(order.shipping_cop)}</dd>
           </div>
           <div className="flex justify-between text-xl font-bold">
             <dt>Total</dt>
-            <dd className="text-accent">{formatCOP(order.total_cop)}</dd>
+            <dd className="text-action">{formatCOP(order.total_cop)}</dd>
           </div>
         </dl>
       </section>
@@ -106,8 +106,8 @@ export default async function OrderDetailPage({ params, searchParams }: Props) {
           <p className="font-semibold">{shipping.recipient_name}</p>
           <p>{shipping.line}</p>
           <p>{shipping.city}</p>
-          {shipping.notes && <p className="text-brand-800">{shipping.notes}</p>}
-          {shipping.phone && <p className="text-brand-800">Cel. {shipping.phone}</p>}
+          {shipping.notes && <p className="text-ink-soft">{shipping.notes}</p>}
+          {shipping.phone && <p className="text-ink-soft">Cel. {shipping.phone}</p>}
         </section>
 
         <section aria-labelledby="pago" className="rounded-2xl bg-card p-5 shadow-card">
@@ -115,10 +115,10 @@ export default async function OrderDetailPage({ params, searchParams }: Props) {
             Pago
           </h2>
           <p>{payment.method ?? "—"}</p>
-          <p className="text-brand-800">
+          <p className="text-ink-soft">
             {payment.status === "approved" ? "Aprobado" : payment.status === "declined" ? "Rechazado" : "En proceso"}
           </p>
-          {payment.reference && <p className="break-all text-xs text-brand-600">Ref. {payment.reference}</p>}
+          {payment.reference && <p className="break-all text-xs text-ink-muted">Ref. {payment.reference}</p>}
         </section>
       </div>
     </div>

@@ -24,7 +24,7 @@ export default async function SearchPage({ searchParams }: Props) {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-4xl font-bold text-brand-600">{q ? `Resultados para «${q}»` : "Todos los libros"}</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">{q ? `Resultados para «${q}»` : "Todos los libros"}</h1>
       <Listing basePath="/buscar" searchParams={sp} fixed={{ q }} />
     </div>
   );

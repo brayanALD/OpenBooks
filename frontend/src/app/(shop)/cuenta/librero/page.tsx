@@ -16,16 +16,16 @@ export default async function LibraryPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/cuenta" className="hover:underline">
           Mi cuenta
         </Link>{" "}
         › <span className="font-semibold">Mi librero</span>
       </nav>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="text-4xl font-bold text-brand-600">Mi librero</h1>
+        <h1 className="text-4xl font-bold text-ink-muted">Mi librero</h1>
         {total > 0 && (
-          <p className="text-brand-800">
+          <p className="text-ink-soft">
             {total} {total === 1 ? "libro" : "libros"}
           </p>
         )}

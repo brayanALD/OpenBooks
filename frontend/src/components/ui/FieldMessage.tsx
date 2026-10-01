@@ -8,7 +8,7 @@ import { cn } from "@/lib/cn";
 export function FieldMessage({ id, error, hint }: { id: string; error?: string; hint?: string }) {
   if (!error && !hint) return null;
   return (
-    <p id={id} className={cn("flex items-start gap-1.5 text-sm", error ? "font-medium text-danger" : "text-brand-600")}>
+    <p id={id} className={cn("flex items-start gap-1.5 text-sm", error ? "font-medium text-danger" : "text-ink-muted")}>
       {error && <CircleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />}
       <span>{error ?? hint}</span>
     </p>

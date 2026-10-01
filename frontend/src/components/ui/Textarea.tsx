@@ -14,7 +14,7 @@ export function Textarea({ label, hint, error, id, className, ...props }: Textar
 
   return (
     <div className="flex flex-col gap-1.5">
-      <label htmlFor={textareaId} className="text-sm font-semibold text-brand-800">
+      <label htmlFor={textareaId} className="text-sm font-semibold text-ink-soft">
         {label}
       </label>
       <textarea

@@ -21,9 +21,9 @@ export function EmptyState({ icon: Icon, title, description, children, tone = "e
       role={error ? "alert" : undefined}
       className={cn("mx-auto flex w-full max-w-xl flex-col items-center gap-4 rounded-2xl bg-card p-10 text-center shadow-card", className)}
     >
-      <Icon className={cn("size-12", error ? "text-danger" : "text-brand-400")} aria-hidden />
+      <Icon className={cn("size-12", error ? "text-danger" : "text-ink-faint")} aria-hidden />
       <Title className="font-display text-2xl font-bold">{title}</Title>
-      {description && <p className="text-brand-800">{description}</p>}
+      {description && <p className="text-ink-soft">{description}</p>}
       {children}
     </div>
   );

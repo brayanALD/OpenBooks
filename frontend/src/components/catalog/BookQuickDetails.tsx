@@ -56,7 +56,7 @@ export function BookQuickDetails({ book, onAdded }: { book: BookSummary; onAdded
       </div>
 
       <div className="flex min-w-0 flex-col gap-3">
-        <p className="text-brand-800">{book.author.name}</p>
+        <p className="text-ink-soft">{book.author.name}</p>
         <StarRating rating={book.rating_avg} count={book.rating_count} size="sm" />
         <PriceTag {...book} />
         <div>
@@ -64,7 +64,7 @@ export function BookQuickDetails({ book, onAdded }: { book: BookSummary; onAdded
         </div>
 
         {state.status === "loading" && (
-          <p className="flex items-center gap-2 text-sm text-brand-800" role="status">
+          <p className="flex items-center gap-2 text-sm text-ink-soft" role="status">
             <LoaderCircle className="size-4 animate-spin" aria-hidden /> Cargando la descripción…
           </p>
         )}
@@ -86,7 +86,7 @@ export function BookQuickDetails({ book, onAdded }: { book: BookSummary; onAdded
                 {detail.description}
               </div>
             )}
-            {facts.length > 0 && <p className="text-sm text-brand-800">{facts.join(" · ")}</p>}
+            {facts.length > 0 && <p className="text-sm text-ink-soft">{facts.join(" · ")}</p>}
           </>
         )}
 
@@ -94,7 +94,7 @@ export function BookQuickDetails({ book, onAdded }: { book: BookSummary; onAdded
 
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
           <FavoriteButton bookId={book.id} title={book.title} variant="text" />
-          <Link href={`/libro/${book.slug}`} className="text-sm font-semibold text-accent underline underline-offset-4">
+          <Link href={`/libro/${book.slug}`} className="text-sm font-semibold text-action underline underline-offset-4">
             Ver ficha completa
           </Link>
         </div>

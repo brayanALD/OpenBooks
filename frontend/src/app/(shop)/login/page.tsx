@@ -16,15 +16,15 @@ export default async function LoginPage({ searchParams }: Props) {
 
   return (
     <div className="mx-auto flex max-w-md flex-col gap-6">
-      <h1 className="text-4xl font-bold text-brand-600">Iniciar sesión</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Iniciar sesión</h1>
       {params.reason === "checkout" && (
-        <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-brand-800" role="status">
+        <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-ink-soft" role="status">
           <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
           Inicia sesión para finalizar tu compra. Tu carrito se conserva.
         </p>
       )}
       {params.reason === "favoritos" && (
-        <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-brand-800" role="status">
+        <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-ink-soft" role="status">
           <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
           Inicia sesión para guardar libros en tus favoritos.
         </p>

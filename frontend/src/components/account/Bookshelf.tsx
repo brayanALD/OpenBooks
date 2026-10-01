@@ -73,8 +73,8 @@ export function Bookshelf({ items, unavailable }: { items: BookSummary[]; unavai
                 unoptimized={selected.book.cover.startsWith("/media/")}
               />
             </div>
-            <p className="text-brand-800">por {selected.book.author_name}</p>
-            <p className="rounded-xl bg-brand-100 px-4 py-3 text-sm text-brand-800">
+            <p className="text-ink-soft">por {selected.book.author_name}</p>
+            <p className="rounded-xl bg-brand-100 px-4 py-3 text-sm text-ink-soft">
               Ya no está disponible en la tienda: el vendedor lo retiró del catálogo, pero sigue siendo tuyo.
             </p>
           </div>

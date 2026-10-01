@@ -109,9 +109,9 @@ export function ReviewComposer({ slug, mine }: Props) {
     return (
       <div className={box}>
         <h3 className="text-xl font-bold">¿Lo has leído?</h3>
-        <p className="text-brand-800">Las reseñas las escriben quienes compraron el libro.</p>
+        <p className="text-ink-soft">Las reseñas las escriben quienes compraron el libro.</p>
         <p>
-          <Link href={`/login?next=${encodeURIComponent(`/libro/${slug}`)}`} className="font-semibold text-accent underline underline-offset-4">
+          <Link href={`/login?next=${encodeURIComponent(`/libro/${slug}`)}`} className="font-semibold text-action underline underline-offset-4">
             Inicia sesión
           </Link>{" "}
           para dejar la tuya.
@@ -143,7 +143,7 @@ export function ReviewComposer({ slug, mine }: Props) {
               <span className="inline-flex items-center gap-1 text-sm font-semibold text-success">
                 <BadgeCheck className="size-4" aria-hidden /> Compra verificada
               </span>
-              <span className="text-sm text-brand-600">
+              <span className="text-sm text-ink-muted">
                 {formatDate(mine.review.created_at)}
                 {mine.review.updated_at && " · editada"}
               </span>
@@ -158,7 +158,7 @@ export function ReviewComposer({ slug, mine }: Props) {
               </Button>
             </div>
             <Modal open={confirming} onClose={() => setConfirming(false)} title="¿Eliminar tu reseña?">
-              <p className="text-brand-800">Dejará de verse y cambiará la nota del libro. Podrás escribir otra después.</p>
+              <p className="text-ink-soft">Dejará de verse y cambiará la nota del libro. Podrás escribir otra después.</p>
               <div className="mt-6 flex flex-wrap justify-end gap-3">
                 <Button variant="ghost" onClick={() => setConfirming(false)} disabled={busy}>
                   No, volver
@@ -178,7 +178,7 @@ export function ReviewComposer({ slug, mine }: Props) {
     return (
       <div className={box}>
         <h3 className="text-xl font-bold">¿Lo has leído?</h3>
-        <p className="text-brand-800">Solo pueden reseñar quienes compraron este libro. Cuando lo compres, podrás dejar aquí tu opinión.</p>
+        <p className="text-ink-soft">Solo pueden reseñar quienes compraron este libro. Cuando lo compres, podrás dejar aquí tu opinión.</p>
       </div>
     );
   }

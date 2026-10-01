@@ -10,7 +10,7 @@ export default async function CheckoutPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-4xl font-bold text-brand-600">Finalizar compra</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Finalizar compra</h1>
       <CheckoutForm user={user} />
     </div>
   );

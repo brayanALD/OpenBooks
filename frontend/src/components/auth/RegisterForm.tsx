@@ -96,7 +96,7 @@ export function RegisterForm({ next }: { next: string }) {
       )}
 
       <fieldset className="flex flex-col gap-4">
-        <legend className="mb-2 font-display text-xl font-bold text-brand-600">Tus datos</legend>
+        <legend className="mb-2 font-display text-xl font-bold text-ink-muted">Tus datos</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <Input label="Nombre" autoComplete="given-name" {...field("first_name")} />
           <Input label="Apellidos" autoComplete="family-name" {...field("last_name")} />
@@ -113,14 +113,14 @@ export function RegisterForm({ next }: { next: string }) {
       </fieldset>
 
       <fieldset className="flex flex-col gap-4">
-        <legend className="mb-2 font-display text-xl font-bold text-brand-600">Dirección de envío</legend>
+        <legend className="mb-2 font-display text-xl font-bold text-ink-muted">Dirección de envío</legend>
         <Input label="Dirección" autoComplete="street-address" hint="Calle, número, apartamento…" {...field("address_line")} />
         <Input label="Ciudad" autoComplete="address-level2" {...field("city")} />
         <Input label="Indicaciones (opcional)" hint="Torre, portería, referencias…" {...field("notes")} />
       </fieldset>
 
       <fieldset className="flex flex-col gap-4">
-        <legend className="mb-2 font-display text-xl font-bold text-brand-600">Contraseña</legend>
+        <legend className="mb-2 font-display text-xl font-bold text-ink-muted">Contraseña</legend>
         <Input label="Contraseña" type="password" autoComplete="new-password" hint="Mínimo 8 caracteres." {...field("password")} />
         <Input label="Repite la contraseña" type="password" autoComplete="new-password" {...field("password_confirm")} />
       </fieldset>
@@ -128,11 +128,11 @@ export function RegisterForm({ next }: { next: string }) {
       <Button type="submit" size="lg" loading={loading}>
         Crear cuenta
       </Button>
-      <p className="text-center text-sm text-brand-800">
+      <p className="text-center text-sm text-ink-soft">
         ¿Ya tienes cuenta?{" "}
         <Link
           href={next === "/" ? "/login" : `/login?next=${encodeURIComponent(next)}`}
-          className="font-semibold text-accent underline underline-offset-4"
+          className="font-semibold text-action underline underline-offset-4"
         >
           Inicia sesión
         </Link>

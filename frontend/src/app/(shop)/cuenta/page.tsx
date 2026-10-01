@@ -28,8 +28,8 @@ export default async function AccountPage() {
     <div className="mx-auto flex max-w-2xl flex-col gap-8">
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <h1 className="text-4xl font-bold text-brand-600">Hola, {user.first_name}</h1>
-          <p className="mt-1 text-brand-800">Esta es tu cuenta de Open Books.</p>
+          <h1 className="text-4xl font-bold text-ink-muted">Hola, {user.first_name}</h1>
+          <p className="mt-1 text-ink-soft">Esta es tu cuenta de Open Books.</p>
         </div>
         <div className="flex flex-wrap gap-3">
           {user.role === "admin" && (
@@ -50,7 +50,7 @@ export default async function AccountPage() {
             .filter(([, value]) => value)
             .map(([label, value]) => (
               <div key={label} className="contents">
-                <dt className="font-semibold text-brand-800">{label}</dt>
+                <dt className="font-semibold text-ink-soft">{label}</dt>
                 <dd className="break-words">{value}</dd>
               </div>
             ))}
@@ -63,13 +63,13 @@ export default async function AccountPage() {
             Mis pedidos
           </h2>
           {orders.length > 0 && (
-            <Link href="/cuenta/pedidos" className="text-sm font-semibold text-accent underline underline-offset-4">
+            <Link href="/cuenta/pedidos" className="text-sm font-semibold text-action underline underline-offset-4">
               Ver todos ({orders.length})
             </Link>
           )}
         </div>
         {recent.length === 0 ? (
-          <p className="text-brand-800">Aquí aparecerá el historial de tus compras.</p>
+          <p className="text-ink-soft">Aquí aparecerá el historial de tus compras.</p>
         ) : (
           <ul className="divide-y divide-brand-200">
             {recent.map((order) => (
@@ -79,9 +79,9 @@ export default async function AccountPage() {
                     <span className="flex items-center gap-2 font-semibold">
                       {order.number} <OrderStatusBadge status={order.status} />
                     </span>
-                    <span className="text-sm text-brand-800">{formatDateTime(order.created_at)}</span>
+                    <span className="text-sm text-ink-soft">{formatDateTime(order.created_at)}</span>
                   </span>
-                  <span className="font-bold text-accent">{formatCOP(order.total_cop)}</span>
+                  <span className="font-bold text-action">{formatCOP(order.total_cop)}</span>
                 </Link>
               </li>
             ))}
@@ -94,11 +94,11 @@ export default async function AccountPage() {
           <h2 id="favoritos" className="text-2xl font-bold">
             Mis favoritos
           </h2>
-          <Link href="/cuenta/favoritos" className="text-sm font-semibold text-accent underline underline-offset-4">
+          <Link href="/cuenta/favoritos" className="text-sm font-semibold text-action underline underline-offset-4">
             Ver mi lista
           </Link>
         </div>
-        <p className="mt-2 text-brand-800">Los libros que guardaste con el corazón para verlos más tarde.</p>
+        <p className="mt-2 text-ink-soft">Los libros que guardaste con el corazón para verlos más tarde.</p>
       </section>
 
       <section aria-labelledby="librero" className="rounded-2xl bg-card p-6 shadow-card">
@@ -106,11 +106,11 @@ export default async function AccountPage() {
           <h2 id="librero" className="text-2xl font-bold">
             Mi librero
           </h2>
-          <Link href="/cuenta/librero" className="text-sm font-semibold text-accent underline underline-offset-4">
+          <Link href="/cuenta/librero" className="text-sm font-semibold text-action underline underline-offset-4">
             Ver mi librero
           </Link>
         </div>
-        <p className="mt-2 text-brand-800">Los libros que has comprado, todos en un mismo lugar.</p>
+        <p className="mt-2 text-ink-soft">Los libros que has comprado, todos en un mismo lugar.</p>
       </section>
     </div>
   );

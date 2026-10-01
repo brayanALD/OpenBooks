@@ -20,7 +20,7 @@ export default async function AdminOrderPage({ params }: { params: Promise<{ id:
 
   return (
     <div className="flex max-w-4xl flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/admin/pedidos" className="hover:underline">
           Pedidos
         </Link>{" "}
@@ -29,8 +29,8 @@ export default async function AdminOrderPage({ params }: { params: Promise<{ id:
 
       <header className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h1 className="text-4xl font-bold text-brand-600">Pedido {order.number}</h1>
-          <p className="text-brand-800">{formatDateTime(order.created_at)}</p>
+          <h1 className="text-4xl font-bold text-ink-muted">Pedido {order.number}</h1>
+          <p className="text-ink-soft">{formatDateTime(order.created_at)}</p>
         </div>
         <OrderStatusBadge status={order.status} />
       </header>
@@ -56,26 +56,26 @@ export default async function AdminOrderPage({ params }: { params: Promise<{ id:
                 <Link href={`/admin/libros/${item.book_id}`} className="font-display font-bold hover:underline">
                   {item.title}
                 </Link>
-                <span className="block text-sm text-brand-800">
+                <span className="block text-sm text-ink-soft">
                   {item.author_name} · {item.quantity} × {formatCOP(item.unit_price_cop)}
                 </span>
               </span>
-              <span className="font-bold tabular-nums text-accent">{formatCOP(item.line_total_cop)}</span>
+              <span className="font-bold tabular-nums text-action">{formatCOP(item.line_total_cop)}</span>
             </li>
           ))}
         </ul>
         <dl className="flex flex-col gap-1.5 border-t border-brand-200 py-4">
-          <div className="flex justify-between text-brand-800">
+          <div className="flex justify-between text-ink-soft">
             <dt>Subtotal</dt>
             <dd className="tabular-nums">{formatCOP(order.subtotal_cop)}</dd>
           </div>
-          <div className="flex justify-between text-brand-800">
+          <div className="flex justify-between text-ink-soft">
             <dt>Envío</dt>
             <dd className="tabular-nums">{order.shipping_cop === 0 ? "Gratis" : formatCOP(order.shipping_cop)}</dd>
           </div>
           <div className="flex justify-between text-xl font-bold">
             <dt>Total</dt>
-            <dd className="tabular-nums text-accent">{formatCOP(order.total_cop)}</dd>
+            <dd className="tabular-nums text-action">{formatCOP(order.total_cop)}</dd>
           </div>
         </dl>
       </section>
@@ -88,10 +88,10 @@ export default async function AdminOrderPage({ params }: { params: Promise<{ id:
           {customer ? (
             <>
               <p className="font-semibold">{customer.name}</p>
-              <p className="break-all text-brand-800">{customer.email}</p>
+              <p className="break-all text-ink-soft">{customer.email}</p>
             </>
           ) : (
-            <p className="text-brand-800">Cuenta eliminada</p>
+            <p className="text-ink-soft">Cuenta eliminada</p>
           )}
         </section>
         <section aria-labelledby="envio" className="rounded-2xl bg-card p-5 shadow-card">
@@ -101,17 +101,17 @@ export default async function AdminOrderPage({ params }: { params: Promise<{ id:
           <p className="font-semibold">{shipping.recipient_name}</p>
           <p>{shipping.line}</p>
           <p>{shipping.city}</p>
-          {shipping.notes && <p className="text-brand-800">{shipping.notes}</p>}
-          {shipping.phone && <p className="text-brand-800">Cel. {shipping.phone}</p>}
+          {shipping.notes && <p className="text-ink-soft">{shipping.notes}</p>}
+          {shipping.phone && <p className="text-ink-soft">Cel. {shipping.phone}</p>}
         </section>
         <section aria-labelledby="pago" className="rounded-2xl bg-card p-5 shadow-card">
           <h2 id="pago" className="mb-2 font-display text-xl font-bold">
             Pago
           </h2>
           <p>{payment.method ?? "—"}</p>
-          <p className="text-brand-800">{payment.status === "approved" ? "Aprobado" : payment.status === "declined" ? "Rechazado" : "En proceso"}</p>
+          <p className="text-ink-soft">{payment.status === "approved" ? "Aprobado" : payment.status === "declined" ? "Rechazado" : "En proceso"}</p>
           {payment.failure_reason && <p className="text-sm font-medium text-danger">{payment.failure_reason}</p>}
-          {payment.reference && <p className="break-all text-xs text-brand-600">Ref. {payment.reference}</p>}
+          {payment.reference && <p className="break-all text-xs text-ink-muted">Ref. {payment.reference}</p>}
         </section>
       </div>
     </div>

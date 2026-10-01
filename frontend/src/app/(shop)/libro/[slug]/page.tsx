@@ -56,7 +56,7 @@ export default async function BookPage({ params }: Props) {
     <article className="flex flex-col gap-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(bookJsonLd(book)) }} />
 
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <ol className="flex flex-wrap items-center gap-1">
           <li>
             <Link href="/" className="hover:underline">
@@ -100,7 +100,7 @@ export default async function BookPage({ params }: Props) {
         <div className="flex flex-col gap-5">
           <header className="flex flex-col gap-2">
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl">{book.title}</h1>
-            <p className="text-xl text-brand-800">por {book.author.name}</p>
+            <p className="text-xl text-ink-soft">por {book.author.name}</p>
             <div className="flex flex-wrap items-center gap-3">
               <a href="#resenas" className="hover:opacity-80">
                 <StarRating rating={book.rating_avg} count={book.rating_count} />
@@ -128,10 +128,10 @@ export default async function BookPage({ params }: Props) {
           </div>
 
           {specs.length > 0 && (
-            <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-brand-900">
+            <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-ink">
               {specs.map(([label, value]) => (
                 <div key={label} className="contents">
-                  <dt className="font-semibold text-brand-800">{label}</dt>
+                  <dt className="font-semibold text-ink-soft">{label}</dt>
                   <dd>{value}</dd>
                 </div>
               ))}
@@ -139,7 +139,7 @@ export default async function BookPage({ params }: Props) {
           )}
 
           {book.incomplete && (
-            <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-brand-800">
+            <p className="flex items-start gap-2 rounded-xl bg-brand-100 p-3 text-sm text-ink-soft">
               <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
               Ficha en preparación: aún faltan la editorial, el número de páginas y la descripción de este libro.
             </p>
@@ -149,13 +149,13 @@ export default async function BookPage({ params }: Props) {
 
       {intro && (
         <section aria-labelledby="descripcion" className="max-w-3xl">
-          <h2 id="descripcion" className="mb-3 text-3xl font-bold text-brand-600">
+          <h2 id="descripcion" className="mb-3 text-3xl font-bold text-ink-muted">
             Descripción
           </h2>
           <p className="leading-relaxed">{intro}</p>
           {more.length > 0 && (
             <details className="group mt-3">
-              <summary className="cursor-pointer text-sm font-semibold uppercase tracking-wide text-accent group-open:mb-3">
+              <summary className="cursor-pointer text-sm font-semibold uppercase tracking-wide text-action group-open:mb-3">
                 Ver más
               </summary>
               <div className="flex flex-col gap-3 leading-relaxed">
@@ -169,7 +169,7 @@ export default async function BookPage({ params }: Props) {
       )}
 
       <section id="resenas" aria-labelledby="titulo-resenas" className="max-w-3xl scroll-mt-4">
-        <h2 id="titulo-resenas" className="mb-4 text-3xl font-bold text-brand-600">
+        <h2 id="titulo-resenas" className="mb-4 text-3xl font-bold text-ink-muted">
           Reseñas
         </h2>
         <div className="flex flex-col gap-6">
@@ -181,7 +181,7 @@ export default async function BookPage({ params }: Props) {
 
       {related.length > 0 && (
         <section aria-labelledby="relacionados">
-          <h2 id="relacionados" className="mb-4 text-3xl font-bold text-brand-600">
+          <h2 id="relacionados" className="mb-4 text-3xl font-bold text-ink-muted">
             También te puede interesar
           </h2>
           <ul className="grid grid-cols-3 gap-4 sm:grid-cols-6">

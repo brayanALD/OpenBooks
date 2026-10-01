@@ -15,16 +15,16 @@ export default async function FavoritesPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/cuenta" className="hover:underline">
           Mi cuenta
         </Link>{" "}
         › <span className="font-semibold">Mis favoritos</span>
       </nav>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="text-4xl font-bold text-brand-600">Mis favoritos</h1>
+        <h1 className="text-4xl font-bold text-ink-muted">Mis favoritos</h1>
         {books.length > 0 && (
-          <p className="text-brand-800">
+          <p className="text-ink-soft">
             {books.length} {books.length === 1 ? "libro" : "libros"}
           </p>
         )}

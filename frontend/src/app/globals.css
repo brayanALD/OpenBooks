@@ -15,6 +15,17 @@
   --color-brand-800: #4a2a12;
   --color-brand-900: #2e1708; /* texto principal */
 
+  /*
+   * TEXTO: cuatro niveles de jerarquía que se reasignan solos en modo oscuro (no hay que parchear clases).
+   * ink = principal · ink-soft = secundario · ink-muted = terciario/ayudas · ink-faint = solo iconos decorativos.
+   */
+  --color-ink: #2e1708;
+  --color-ink-soft: #4a2a12;
+  --color-ink-muted: #754c24;
+  --color-ink-faint: #a67c52;
+
+  --color-action: #7c210b; /* la acción principal usada COMO TEXTO o icono (enlaces, precio): se aclara en oscuro */
+  --color-action-strong: #5e1808;
   --color-accent: #7c210b; /* original: botones de compra, precio */
   --color-accent-dark: #5e1808;
   --color-surface: #f2f2f2; /* original: contenedor de tarjetas */
@@ -82,7 +93,7 @@
   }
 
   body {
-    @apply text-brand-900 font-sans antialiased;
+    @apply text-ink font-sans antialiased;
     /* Reemplaza el fondo crema plano por la imagen; el overlay (mismo tono que --color-brand-50)
        mantiene el contraste del texto y se recalcula solo en modo oscuro más abajo. */
     background-color: var(--color-brand-50);
@@ -124,11 +135,17 @@
 
 /*
  * Modo oscuro. Se activa con <html data-theme="dark"> (ver ThemeToggle y el script de layout.tsx).
- * Las variables de fondo se reasignan; el texto, que en la escala «brand» comparte tono con fondos que sí deben
- * seguir oscuros (botones, chips), se corrige clase a clase. Sin @layer: así ganan a las utilidades de Tailwind.
+ * Las variables de fondo se reasignan; el texto usa los tokens `ink-*` y `action`.
+ * Los pocos tonos «brand» que quedan como texto sobre fondos fijos se corrigen clase a clase. Sin @layer: así ganan a las utilidades de Tailwind.
  */
 :root[data-theme="dark"] {
   color-scheme: dark;
+  --color-action: #f0a184;
+  --color-action-strong: #f7bba5;
+  --color-ink: #f3e9dc;
+  --color-ink-soft: #d9c6ae;
+  --color-ink-muted: #dcb98a;
+  --color-ink-faint: #a98a63;
   --color-brand-50: #17100a; /* fondo de página */
   --color-brand-100: #2b1f15; /* paneles, chips y hover suaves */
   --color-brand-200: #45331f; /* bordes y separadores */
@@ -155,15 +172,6 @@
   --shadow-card-hover: 0 4px 10px rgb(0 0 0 / 0.5), 0 14px 32px rgb(0 0 0 / 0.4);
 }
 
-:root[data-theme="dark"] .text-brand-900 { color: #f3e9dc; }
-:root[data-theme="dark"] .text-brand-800 { color: #d9c6ae; }
-:root[data-theme="dark"] .text-brand-600 { color: #dcb98a; }
-:root[data-theme="dark"] .text-brand-400 { color: #a98a63; }
-:root[data-theme="dark"] .text-accent,
-:root[data-theme="dark"] .hover\:text-accent:hover,
-:root[data-theme="dark"] .hover\:text-accent-dark:hover { color: #f0a184; }
-:root[data-theme="dark"] .fill-accent { fill: #f0a184; }
-:root[data-theme="dark"] .placeholder\:text-brand-600\/80::placeholder { color: rgb(217 198 174 / 0.7); }
 /* El logo va sobre la cabecera/pie (brand-400), que en oscuro es un marrón muy oscuro. */
 :root[data-theme="dark"] .logo-link { color: #f3e9dc; }
 /* Estos textos van sobre fondos que siguen siendo oscuros en los dos modos (chip del panel, etc.). */
@@ -177,4 +185,3 @@
 :root[data-theme="dark"] ::selection { background: #5a4028; }
 :root[data-theme="dark"] .fill-brand-100 { fill: #3a2a1c; }
 :root[data-theme="dark"] .bg-brand-900 { background-color: #0f0905; }
-:root[data-theme="dark"] body { color: #f3e9dc; }

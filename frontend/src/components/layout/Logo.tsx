@@ -29,7 +29,7 @@ export function Logo({ className }: { className?: string }) {
       href="/"
       aria-label={`${SITE.name}, ir al inicio`}
       // Marrón oscuro sobre la cabecera clara; en modo oscuro la cabecera también lo es y globals.css lo pasa a crema
-      // (`.logo-link`). No usa `text-brand-900` porque ese tono se reasigna para el resto del texto.
+      // (`.logo-link`). No usa `text-ink` porque ese tono se reasigna para el resto del texto.
       className={cn("logo-link inline-flex items-center gap-2.5 text-[#2e1708]", className)}
     >
       <LogoMark />

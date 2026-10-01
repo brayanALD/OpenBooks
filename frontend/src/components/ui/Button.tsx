@@ -8,10 +8,10 @@ type Size = "sm" | "md" | "lg";
 const VARIANTS: Record<Variant, string> = {
   primary: "bg-accent text-white hover:bg-accent-dark",
   secondary: "bg-brand-600 text-white hover:bg-brand-800",
-  outline: "border-2 border-brand-600 text-brand-600 hover:bg-brand-600 hover:text-white",
-  ghost: "text-brand-600 hover:bg-brand-100",
+  outline: "border-2 border-brand-600 text-ink-muted hover:bg-brand-600 hover:text-white",
+  ghost: "text-ink-muted hover:bg-brand-100",
   // Para fondos oscuros (hero, banners).
-  light: "bg-brand-50 text-brand-900 hover:bg-card",
+  light: "bg-brand-50 text-ink hover:bg-card",
 };
 
 const SIZES: Record<Size, string> = {

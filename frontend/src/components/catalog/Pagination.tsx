@@ -48,7 +48,7 @@ export function Pagination({ page, pages, basePath, query }: PaginationProps) {
 
       {windowed(page, pages).map((n, i) =>
         n === null ? (
-          <span key={`gap-${i}`} className={cn(item, "text-brand-600")} aria-hidden>
+          <span key={`gap-${i}`} className={cn(item, "text-ink-muted")} aria-hidden>
             …
           </span>
         ) : n === page ? (

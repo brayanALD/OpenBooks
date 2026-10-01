@@ -24,7 +24,7 @@ export function StarRating({ rating, count, size = "md", className }: StarRating
   const dimension = size === "sm" ? "h-4 w-[5rem]" : "h-5 w-[6.25rem]";
 
   if (rating === null) {
-    return <span className={cn("text-sm text-brand-600", className)}>Sin reseñas</span>;
+    return <span className={cn("text-sm text-ink-muted", className)}>Sin reseñas</span>;
   }
 
   const label = `${formatRating(rating)} de 5 estrellas${count !== undefined ? `, ${count} reseñas` : ""}`;
@@ -36,9 +36,9 @@ export function StarRating({ rating, count, size = "md", className }: StarRating
           <Stars className={cn("h-full text-rating", size === "sm" ? "w-[5rem]" : "w-[6.25rem]")} />
         </span>
       </span>
-      <span className="text-sm font-medium text-brand-800" aria-hidden>
+      <span className="text-sm font-medium text-ink-soft" aria-hidden>
         {formatRating(rating)}
-        {count !== undefined && <span className="text-brand-600"> ({count})</span>}
+        {count !== undefined && <span className="text-ink-muted"> ({count})</span>}
       </span>
     </span>
   );

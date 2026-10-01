@@ -38,7 +38,7 @@ export function Modal({ open, onClose, title, children, wide = false }: ModalPro
         if (event.target === ref.current) onClose();
       }}
       className={cn(
-        "m-auto max-h-[calc(100dvh-2rem)] overflow-y-auto rounded-3xl bg-brand-50 p-0 text-brand-900 shadow-card-hover backdrop:bg-brand-900/50 backdrop:backdrop-blur-sm",
+        "m-auto max-h-[calc(100dvh-2rem)] overflow-y-auto rounded-3xl bg-brand-50 p-0 text-ink shadow-card-hover backdrop:bg-brand-900/50 backdrop:backdrop-blur-sm",
         wide ? "w-[min(46rem,calc(100vw-2rem))]" : "w-[min(32rem,calc(100vw-2rem))]",
       )}
     >
@@ -51,7 +51,7 @@ export function Modal({ open, onClose, title, children, wide = false }: ModalPro
             type="button"
             onClick={onClose}
             aria-label="Cerrar"
-            className="-m-2 rounded-full p-2 text-brand-600 transition-colors hover:bg-brand-100"
+            className="-m-2 rounded-full p-2 text-ink-muted transition-colors hover:bg-brand-100"
           >
             <X className="size-5" aria-hidden />
           </button>

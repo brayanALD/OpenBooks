@@ -15,7 +15,7 @@ export function SearchBar({ className, defaultValue }: { className?: string; def
         defaultValue={defaultValue}
         placeholder="Buscar libros, autores…"
         autoComplete="off"
-        className="min-w-0 flex-1 rounded-full border border-brand-900/15 bg-card px-5 py-2.5 text-base text-brand-900 placeholder:text-brand-600/80"
+        className="min-w-0 flex-1 rounded-full border border-brand-900/15 bg-card px-5 py-2.5 text-base text-ink placeholder:text-ink-muted/80"
       />
       <button
         type="submit"

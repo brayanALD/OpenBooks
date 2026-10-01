@@ -69,7 +69,7 @@ async function HomeSections() {
   return (
     <>
       <section aria-labelledby="recomendados">
-        <h2 id="recomendados" className="mb-6 text-3xl font-bold text-brand-600">
+        <h2 id="recomendados" className="mb-6 text-3xl font-bold text-ink-muted">
           Productos recomendados
         </h2>
         <ul className="grid gap-4 lg:grid-cols-2">
@@ -83,7 +83,7 @@ async function HomeSections() {
 
       <section aria-labelledby="mas-vendidos">
         <div className="mb-6 flex items-end justify-between gap-4">
-          <h2 id="mas-vendidos" className="text-3xl font-bold text-brand-600">
+          <h2 id="mas-vendidos" className="text-3xl font-bold text-ink-muted">
             Más vendidos
           </h2>
         </div>
@@ -91,15 +91,15 @@ async function HomeSections() {
       </section>
 
       <section aria-labelledby="descuentos">
-        <h2 id="descuentos" className="mb-1 text-3xl font-bold text-brand-600">
+        <h2 id="descuentos" className="mb-1 text-3xl font-bold text-ink-muted">
           Libros en descuento
         </h2>
-        <p className="mb-6 text-brand-800">Con envío gratuito.</p>
+        <p className="mb-6 text-ink-soft">Con envío gratuito.</p>
         <BookGrid books={onSale.items} />
       </section>
 
       <section aria-labelledby="categorias">
-        <h2 id="categorias" className="mb-6 text-3xl font-bold text-brand-600">
+        <h2 id="categorias" className="mb-6 text-3xl font-bold text-ink-muted">
           Explora por categoría
         </h2>
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -111,12 +111,12 @@ async function HomeSections() {
               >
                 <span>
                   <span className="block font-display text-xl font-bold">{name}</span>
-                  <span className="text-sm text-brand-800">
+                  <span className="text-sm text-ink-soft">
                     {book_count} {book_count === 1 ? "libro" : "libros"}
                   </span>
                 </span>
                 <ArrowRight
-                  className="size-5 text-accent transition-transform group-hover:translate-x-1"
+                  className="size-5 text-action transition-transform group-hover:translate-x-1"
                   aria-hidden
                 />
               </Link>

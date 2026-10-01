@@ -15,12 +15,12 @@ export function CartItemsSummary({ lines, quantityOf }: { lines: CartLine[]; qua
             </span>
             <span className="flex min-w-0 flex-1 flex-col">
               <span className="line-clamp-2 font-display text-sm font-bold leading-snug">{line.book.title}</span>
-              <span className="text-sm text-brand-800">
+              <span className="text-sm text-ink-soft">
                 {quantity} × {formatCOP(line.unit_price_cop)}
               </span>
               {line.issue && <span className="text-xs font-semibold text-danger">No disponible en esta cantidad</span>}
             </span>
-            <span className="text-sm font-bold text-accent">{formatCOP(line.line_total_cop)}</span>
+            <span className="text-sm font-bold text-action">{formatCOP(line.line_total_cop)}</span>
           </li>
         );
       })}

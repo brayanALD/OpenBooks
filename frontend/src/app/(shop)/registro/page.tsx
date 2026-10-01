@@ -14,7 +14,7 @@ export default async function RegisterPage({ searchParams }: Props) {
 
   return (
     <div className="mx-auto flex max-w-xl flex-col gap-6">
-      <h1 className="text-4xl font-bold text-brand-600">Crear cuenta</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Crear cuenta</h1>
       <div className="rounded-2xl bg-card p-6 shadow-card sm:p-8">
         <RegisterForm next={next} />
       </div>

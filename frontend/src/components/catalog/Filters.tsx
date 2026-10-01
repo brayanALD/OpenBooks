@@ -48,7 +48,7 @@ export function Filters({ action, values, activeCount, hidden = {} }: FiltersPro
         </Select>
 
         <fieldset className="flex flex-col gap-2">
-          <legend className="mb-1 text-sm font-semibold text-brand-800">Precio (COP)</legend>
+          <legend className="mb-1 text-sm font-semibold text-ink-soft">Precio (COP)</legend>
           <div className="grid grid-cols-2 gap-2">
             <Input label="Mínimo" name="min_price" type="number" min={0} step={1000} inputMode="numeric" defaultValue={values.min_price} />
             <Input label="Máximo" name="max_price" type="number" min={0} step={1000} inputMode="numeric" defaultValue={values.max_price} />
@@ -56,9 +56,9 @@ export function Filters({ action, values, activeCount, hidden = {} }: FiltersPro
         </fieldset>
 
         <fieldset className="flex flex-col gap-2">
-          <legend className="mb-1 text-sm font-semibold text-brand-800">Mostrar</legend>
+          <legend className="mb-1 text-sm font-semibold text-ink-soft">Mostrar</legend>
           {CHECKBOXES.map(({ name, label, key }) => (
-            <label key={name} className="flex cursor-pointer items-center gap-2.5 text-brand-900">
+            <label key={name} className="flex cursor-pointer items-center gap-2.5 text-ink">
               <input
                 type="checkbox"
                 name={name}
@@ -75,7 +75,7 @@ export function Filters({ action, values, activeCount, hidden = {} }: FiltersPro
           <Button type="submit" size="sm">
             Aplicar
           </Button>
-          <Link href={clearHref} className="text-sm font-semibold text-brand-600 underline underline-offset-4 hover:text-accent">
+          <Link href={clearHref} className="text-sm font-semibold text-ink-muted underline underline-offset-4 hover:text-action">
             Limpiar
           </Link>
         </div>

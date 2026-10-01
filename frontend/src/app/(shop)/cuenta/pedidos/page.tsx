@@ -16,13 +16,13 @@ export default async function OrdersPage() {
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-6">
-      <nav aria-label="Ruta de navegación" className="text-sm text-brand-800">
+      <nav aria-label="Ruta de navegación" className="text-sm text-ink-soft">
         <Link href="/cuenta" className="hover:underline">
           Mi cuenta
         </Link>{" "}
         › <span className="font-semibold">Mis pedidos</span>
       </nav>
-      <h1 className="text-4xl font-bold text-brand-600">Mis pedidos</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Mis pedidos</h1>
 
       {orders.length === 0 ? (
         <EmptyState icon={PackageOpen} title="Todavía no tienes pedidos" description="Cuando compres, aquí verás el estado de cada pedido.">
@@ -41,15 +41,15 @@ export default async function OrdersPage() {
                     <span className="font-display text-xl font-bold">{order.number}</span>
                     <OrderStatusBadge status={order.status} />
                   </span>
-                  <span className="text-sm text-brand-800">{formatDateTime(order.created_at)}</span>
-                  <span className="truncate text-sm text-brand-800">
+                  <span className="text-sm text-ink-soft">{formatDateTime(order.created_at)}</span>
+                  <span className="truncate text-sm text-ink-soft">
                     {order.items.reduce((sum, i) => sum + i.quantity, 0)} artículos · {order.items[0]?.title}
                     {order.items.length > 1 && ` y ${order.items.length - 1} más`}
                   </span>
                 </span>
                 <span className="flex shrink-0 items-center gap-2">
-                  <span className="font-bold text-accent">{formatCOP(order.total_cop)}</span>
-                  <ChevronRight className="size-5 text-brand-600" aria-hidden />
+                  <span className="font-bold text-action">{formatCOP(order.total_cop)}</span>
+                  <ChevronRight className="size-5 text-ink-muted" aria-hidden />
                 </span>
               </Link>
             </li>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function CartPage() {
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-4xl font-bold text-brand-600">Tu carrito</h1>
+      <h1 className="text-4xl font-bold text-ink-muted">Tu carrito</h1>
       <CartContents layout="page" />
     </div>
   );

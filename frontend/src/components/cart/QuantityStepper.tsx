@@ -13,7 +13,7 @@ type QuantityStepperProps = {
 };
 
 const button =
-  "grid size-9 place-items-center rounded-full text-brand-800 transition-colors hover:bg-brand-100 disabled:pointer-events-none disabled:opacity-30";
+  "grid size-9 place-items-center rounded-full text-ink-soft transition-colors hover:bg-brand-100 disabled:pointer-events-none disabled:opacity-30";
 
 export function QuantityStepper({ value, max, onChange, label, disabled }: QuantityStepperProps) {
   return (

@@ -17,7 +17,7 @@ export function Select({ label, error, id, className, children, ...props }: Sele
 
   return (
     <div className="flex flex-col gap-1.5">
-      <label htmlFor={selectId} className="text-sm font-semibold text-brand-800">
+      <label htmlFor={selectId} className="text-sm font-semibold text-ink-soft">
         {label}
       </label>
       <div className="relative">
@@ -36,7 +36,7 @@ export function Select({ label, error, id, className, children, ...props }: Sele
           {children}
         </select>
         <ChevronDown
-          className="pointer-events-none absolute right-3 top-1/2 size-5 -translate-y-1/2 text-brand-600"
+          className="pointer-events-none absolute right-3 top-1/2 size-5 -translate-y-1/2 text-ink-muted"
           aria-hidden
         />
       </div>

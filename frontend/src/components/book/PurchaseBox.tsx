@@ -27,7 +27,7 @@ export function PurchaseBox({ bookId, stock, onAdded }: PurchaseBoxProps) {
 
   if (stock <= 0) {
     return (
-      <div className="rounded-2xl bg-brand-100 p-4 text-brand-800">
+      <div className="rounded-2xl bg-brand-100 p-4 text-ink-soft">
         <p className="font-semibold">Agotado por ahora</p>
         <p className="text-sm">Vuelve pronto: este libro no tiene unidades disponibles.</p>
       </div>
@@ -54,7 +54,7 @@ export function PurchaseBox({ bookId, stock, onAdded }: PurchaseBoxProps) {
       )}
 
       {room === 0 ? (
-        <div className="flex flex-col items-start gap-3 rounded-2xl bg-brand-100 p-4 text-brand-800">
+        <div className="flex flex-col items-start gap-3 rounded-2xl bg-brand-100 p-4 text-ink-soft">
           <p className="text-sm font-semibold">
             Ya tienes en el carrito todas las unidades que puedes pedir ({limit}).
           </p>
@@ -74,7 +74,7 @@ export function PurchaseBox({ bookId, stock, onAdded }: PurchaseBoxProps) {
             </Select>
           </div>
           {hydrated && inCart > 0 && (
-            <p className="text-sm text-brand-800">Ya tienes {inCart} en el carrito.</p>
+            <p className="text-sm text-ink-soft">Ya tienes {inCart} en el carrito.</p>
           )}
           <div className="flex flex-wrap gap-3">
             <Button

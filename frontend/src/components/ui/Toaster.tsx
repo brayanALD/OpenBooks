@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { CircleAlert, CircleCheck, Info, X } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { useUIStore, type ToastItem, type ToastTone } from "@/store/ui.store";
 
-const DURATION_MS = 4000;
+/** Los avisos de éxito o información se cierran solos (pausan con el puntero o el foco); un error se queda hasta cerrarlo. */
+const DURATION_MS = 6000;
 
 const TONES: Record<ToastTone, { icon: typeof Info; style: string }> = {
   success: { icon: CircleCheck, style: "border-success-edge bg-success-soft text-success" },
@@ -17,13 +18,23 @@ function Toast({ item }: { item: ToastItem }) {
   const dismiss = useUIStore((state) => state.dismiss);
   const { icon: Icon, style } = TONES[item.tone];
 
+  const [paused, setPaused] = useState(false);
+  const persistent = item.tone === "error";
+
   useEffect(() => {
+    if (persistent || paused) return;
     const timer = setTimeout(() => dismiss(item.id), DURATION_MS);
     return () => clearTimeout(timer);
-  }, [item.id, dismiss]);
+  }, [item.id, dismiss, persistent, paused]);
 
   return (
     <div
+      // Un error interrumpe al lector de pantalla (alert); el resto se anuncia con calma por el contenedor (status).
+      role={persistent ? "alert" : undefined}
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocus={() => setPaused(true)}
+      onBlur={() => setPaused(false)}
       className={cn(
         "pointer-events-auto flex animate-toast-in items-center gap-3 rounded-2xl border py-3 pl-4 pr-3 shadow-card-hover",
         style,

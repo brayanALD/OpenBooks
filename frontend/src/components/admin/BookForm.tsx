@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { CircleAlert, ImageUp } from "lucide-react";
+import { ImageUp } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Textarea } from "@/components/ui/Textarea";
@@ -12,6 +12,8 @@ import { requestJson } from "@/lib/auth-client";
 import { formatCOP } from "@/lib/format";
 import { toast } from "@/store/ui.store";
 import type { AdminBook, CoverUpload } from "@/types/admin";
+import { Alert } from "@/components/ui/Alert";
+import { FieldMessage } from "@/components/ui/FieldMessage";
 
 type Props = {
   book?: AdminBook; // sin libro = crear
@@ -205,10 +207,7 @@ export function BookForm({ book, categories, authors }: Props) {
   return (
     <form onSubmit={onSubmit} noValidate className="flex flex-col gap-8">
       {formError && (
-        <p role="alert" className="flex items-start gap-2 rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-white">
-          <CircleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
-          {formError}
-        </p>
+        <Alert tone="danger" live>{formError}</Alert>
       )}
 
       <div className="grid gap-8 lg:grid-cols-[1fr_16rem]">
@@ -245,9 +244,7 @@ export function BookForm({ book, categories, authors }: Props) {
                 ))}
               </div>
               {errors.category_ids && (
-                <p id="cat-error" className="text-sm text-accent">
-                  {errors.category_ids}
-                </p>
+                <FieldMessage id="cat-error" error={errors.category_ids} />
               )}
             </fieldset>
 
@@ -298,9 +295,9 @@ export function BookForm({ book, categories, authors }: Props) {
             <p className="mt-2 text-xs text-brand-800">JPG, PNG o WebP, hasta 5 MB.</p>
             {cover && <p className="mt-1 text-xs font-semibold text-brand-600">Portada nueva: se guarda al guardar el libro.</p>}
             {uploadError && (
-              <p role="alert" className="mt-2 text-sm font-semibold text-accent">
+              <Alert tone="danger" live className="mt-2 p-3">
                 {uploadError}
-              </p>
+              </Alert>
             )}
           </div>
 

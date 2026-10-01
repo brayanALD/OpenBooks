@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, TriangleAlert } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Select } from "@/components/ui/Select";
 import { useHydrated } from "@/lib/use-hydrated";
@@ -46,7 +46,12 @@ export function PurchaseBox({ bookId, stock, onAdded }: PurchaseBoxProps) {
 
   return (
     <div className="flex flex-col gap-4">
-      {stock <= 5 && <p className="text-sm font-semibold text-accent">¡Quedan solo {stock} unidades!</p>}
+      {stock <= 5 && (
+        <p className="flex items-center gap-1.5 text-sm font-semibold text-warning">
+          <TriangleAlert className="size-4 shrink-0" aria-hidden />
+          ¡Quedan solo {stock} {stock === 1 ? "unidad" : "unidades"}!
+        </p>
+      )}
 
       {room === 0 ? (
         <div className="flex flex-col items-start gap-3 rounded-2xl bg-brand-100 p-4 text-brand-800">

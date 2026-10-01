@@ -13,6 +13,7 @@ import {
   type Errors,
   type RegisterValues,
 } from "@/lib/validation";
+import { Alert } from "@/components/ui/Alert";
 
 const EMPTY: RegisterValues = {
   first_name: "",
@@ -89,9 +90,9 @@ export function RegisterForm({ next }: { next: string }) {
   return (
     <form onSubmit={onSubmit} noValidate className="flex flex-col gap-8">
       {formError && (
-        <p role="alert" className="rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-white">
+        <Alert tone="danger" live>
           {formError}
-        </p>
+        </Alert>
       )}
 
       <fieldset className="flex flex-col gap-4">

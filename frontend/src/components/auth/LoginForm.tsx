@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { mergeGuestCart, postJson, type SessionResult } from "@/lib/auth-client";
 import { EMAIL_PATTERN } from "@/lib/validation";
+import { Alert } from "@/components/ui/Alert";
 
 type LoginFormProps = { next: string };
 
@@ -47,9 +48,9 @@ export function LoginForm({ next }: LoginFormProps) {
   return (
     <form onSubmit={onSubmit} noValidate className="flex flex-col gap-5">
       {formError && (
-        <p role="alert" className="rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-white">
+        <Alert tone="danger" live>
           {formError}
-        </p>
+        </Alert>
       )}
       <Input
         label="Correo electrónico"

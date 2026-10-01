@@ -110,7 +110,7 @@ export default async function AdminOrderPage({ params }: { params: Promise<{ id:
           </h2>
           <p>{payment.method ?? "—"}</p>
           <p className="text-brand-800">{payment.status === "approved" ? "Aprobado" : payment.status === "declined" ? "Rechazado" : "En proceso"}</p>
-          {payment.failure_reason && <p className="text-sm text-accent">{payment.failure_reason}</p>}
+          {payment.failure_reason && <p className="text-sm font-medium text-danger">{payment.failure_reason}</p>}
           {payment.reference && <p className="break-all text-xs text-brand-600">Ref. {payment.reference}</p>}
         </section>
       </div>

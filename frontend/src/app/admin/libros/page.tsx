@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Pencil, Plus } from "lucide-react";
+import { Pencil, Plus, SearchX } from "lucide-react";
 import { ToggleActiveButton } from "@/components/admin/ToggleActiveButton";
 import { Pagination } from "@/components/catalog/Pagination";
 import { Badge } from "@/components/ui/Badge";
@@ -11,6 +11,7 @@ import { Select } from "@/components/ui/Select";
 import { getAdminBooks, requireAdmin } from "@/lib/admin";
 import { formatCOP } from "@/lib/format";
 import { flattenParams, type RawSearchParams } from "@/lib/listing";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 export const metadata: Metadata = { title: "Libros" };
 
@@ -76,7 +77,7 @@ export default async function AdminBooksPage({ searchParams }: Props) {
       </p>
 
       {data.items.length === 0 ? (
-        <p className="rounded-2xl bg-card p-8 text-center text-brand-800 shadow-card">No hay libros con esos criterios.</p>
+        <EmptyState icon={SearchX} title="No hay libros con esos criterios" />
       ) : (
         <div className="relative overflow-x-auto rounded-2xl bg-card shadow-card">
           <table className="w-full min-w-[42rem] text-left">

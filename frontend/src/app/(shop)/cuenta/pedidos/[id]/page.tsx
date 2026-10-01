@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CircleAlert, PartyPopper } from "lucide-react";
 import { OrderStatusBadge } from "@/components/checkout/OrderStatusBadge";
 import { ButtonLink } from "@/components/ui/Button";
 import { formatCOP, formatDateTime } from "@/lib/format";
 import { getMyOrder } from "@/lib/orders";
 import { requireUser } from "@/lib/session";
+import { Alert } from "@/components/ui/Alert";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -39,25 +39,18 @@ export default async function OrderDetailPage({ params, searchParams }: Props) {
       </nav>
 
       {justPlaced && order.status === "paid" && (
-        <div role="status" className="flex items-start gap-3 rounded-2xl bg-emerald-100 p-5 text-emerald-900">
-          <PartyPopper className="mt-0.5 size-6 shrink-0" aria-hidden />
-          <div>
-            <p className="font-display text-2xl font-bold">¡Gracias por tu compra!</p>
-            <p>Recibimos tu pago y estamos preparando tu pedido.</p>
-          </div>
-        </div>
+        <Alert tone="success" live title="¡Gracias por tu compra!" className="text-base">
+          Recibimos tu pago y estamos preparando tu pedido.
+        </Alert>
       )}
 
       {order.status === "failed" && (
-        <div role="alert" className="flex flex-col items-start gap-3 rounded-2xl bg-accent p-5 text-white">
-          <p className="flex items-start gap-2 font-semibold">
-            <CircleAlert className="mt-0.5 size-5 shrink-0" aria-hidden />
-            El pago no se completó: {payment.failure_reason ?? "no se pudo procesar."} No se te cobró nada.
-          </p>
-          <ButtonLink href="/checkout" variant="light" size="sm">
+        <Alert tone="danger" live title="El pago no se completó">
+          <p>{payment.failure_reason ?? "No se pudo procesar."} No se te cobró nada.</p>
+          <ButtonLink href="/checkout" size="sm" className="mt-3">
             Volver a intentarlo
           </ButtonLink>
-        </div>
+        </Alert>
       )}
 
       <header className="flex flex-wrap items-center justify-between gap-3">

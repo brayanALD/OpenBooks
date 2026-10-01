@@ -14,7 +14,7 @@ export function OrderSummary({ cart, stale }: { cart: CartValidation; stale: boo
       </div>
       <div className="flex justify-between text-brand-800">
         <dt>Envío</dt>
-        <dd className={cart.shipping_cop === 0 ? "font-semibold text-emerald-800" : undefined}>
+        <dd className={cart.shipping_cop === 0 ? "font-semibold text-success" : undefined}>
           {cart.shipping_cop === 0 ? "Gratis" : formatCOP(cart.shipping_cop)}
         </dd>
       </div>

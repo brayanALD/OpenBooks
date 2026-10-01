@@ -8,6 +8,7 @@ import { Modal } from "@/components/ui/Modal";
 import { requestJson } from "@/lib/auth-client";
 import { toast } from "@/store/ui.store";
 import { NEXT_STATUSES } from "@/types/admin";
+import { Alert } from "@/components/ui/Alert";
 
 type Target = "shipped" | "delivered" | "cancelled";
 
@@ -57,9 +58,9 @@ export function OrderStatusActions({ orderId, number, status, units }: Props) {
   return (
     <div className="flex flex-col gap-3">
       {error && (
-        <p role="alert" className="rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-white">
+        <Alert tone="danger" live>
           {error}
-        </p>
+        </Alert>
       )}
       <div className="flex flex-wrap gap-3">
         {allowed.includes("shipped") && (

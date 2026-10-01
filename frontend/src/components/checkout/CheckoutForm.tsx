@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { CircleAlert, Lock, ShoppingBag } from "lucide-react";
+import { Lock, ShoppingBag } from "lucide-react";
 import { CartItemsSummary } from "@/components/checkout/CartItemsSummary";
 import { OrderSummary } from "@/components/cart/OrderSummary";
 import { Button, ButtonLink } from "@/components/ui/Button";
@@ -27,6 +27,8 @@ import { useCartStore } from "@/store/cart.store";
 import { toast } from "@/store/ui.store";
 import type { Order } from "@/types/order";
 import type { User } from "@/types/user";
+import { Alert } from "@/components/ui/Alert";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 type Shipping = { recipient_name: string; phone: string; line: string; city: string; notes: string };
 
@@ -83,12 +85,9 @@ export function CheckoutForm({ user }: { user: User }) {
 
   if (empty) {
     return (
-      <div className="mx-auto flex max-w-md flex-col items-center gap-4 rounded-2xl bg-card p-10 text-center shadow-card">
-        <ShoppingBag className="size-12 text-brand-400" aria-hidden />
-        <p className="font-display text-2xl font-bold">Tu carrito está vacío</p>
-        <p className="text-brand-800">Añade algún libro para poder pagar.</p>
+      <EmptyState icon={ShoppingBag} title="Tu carrito está vacío" description="Añade algún libro para poder pagar.">
         <ButtonLink href="/buscar">Ver el catálogo</ButtonLink>
-      </div>
+      </EmptyState>
     );
   }
 
@@ -183,10 +182,7 @@ export function CheckoutForm({ user }: { user: User }) {
     <div className="grid gap-8 lg:grid-cols-[1fr_24rem] lg:items-start">
       <form id="checkout-form" onSubmit={onSubmit} noValidate className="flex flex-col gap-8">
         {formError && (
-          <p role="alert" className="flex items-start gap-2 rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-white">
-            <CircleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
-            {formError}
-          </p>
+          <Alert tone="danger" live>{formError}</Alert>
         )}
 
         <fieldset className="flex flex-col gap-4 rounded-2xl bg-card p-6 shadow-card">

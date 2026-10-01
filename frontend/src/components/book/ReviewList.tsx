@@ -23,7 +23,7 @@ export function ReviewList({ reviews }: { reviews: Review[] }) {
               <p className="flex flex-wrap items-center gap-2 font-semibold">
                 {review.author_name}
                 {review.verified && (
-                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-900">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-success-soft px-2 py-0.5 text-xs font-semibold text-success">
                     <BadgeCheck className="size-3.5" aria-hidden /> Compra verificada
                   </span>
                 )}

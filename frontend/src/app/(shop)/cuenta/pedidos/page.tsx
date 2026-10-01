@@ -6,6 +6,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { formatCOP, formatDateTime } from "@/lib/format";
 import { getMyOrders } from "@/lib/orders";
 import { requireUser } from "@/lib/session";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 export const metadata: Metadata = { title: "Mis pedidos", robots: { index: false, follow: false } };
 
@@ -24,11 +25,9 @@ export default async function OrdersPage() {
       <h1 className="text-4xl font-bold text-brand-600">Mis pedidos</h1>
 
       {orders.length === 0 ? (
-        <div className="flex flex-col items-center gap-4 rounded-2xl bg-card p-10 text-center shadow-card">
-          <PackageOpen className="size-12 text-brand-400" aria-hidden />
-          <p className="font-display text-2xl font-bold">Todavía no tienes pedidos</p>
+        <EmptyState icon={PackageOpen} title="Todavía no tienes pedidos" description="Cuando compres, aquí verás el estado de cada pedido.">
           <ButtonLink href="/buscar">Ver el catálogo</ButtonLink>
-        </div>
+        </EmptyState>
       ) : (
         <ul className="flex flex-col gap-3">
           {orders.map((order) => (

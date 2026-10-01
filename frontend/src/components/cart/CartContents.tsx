@@ -11,6 +11,7 @@ import { useCartStore } from "@/store/cart.store";
 import { toast } from "@/store/ui.store";
 import { CartItemRow } from "./CartItemRow";
 import { OrderSummary } from "./OrderSummary";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 type CartContentsProps = {
   /** drawer: panel lateral con pie fijo · page: dos columnas en /carrito */
@@ -49,26 +50,32 @@ export function CartContents({ layout, onNavigate }: CartContentsProps) {
 
   if (empty) {
     return (
-      <div className="flex flex-1 flex-col items-center justify-center gap-4 px-6 py-16 text-center">
-        <ShoppingBag className="size-12 text-brand-400" aria-hidden />
-        <p className="font-display text-2xl font-bold">Tu carrito está vacío</p>
-        <p className="text-brand-800">Explora el catálogo y añade los libros que quieras leer.</p>
+      <EmptyState
+        icon={ShoppingBag}
+        title="Tu carrito está vacío"
+        description="Explora el catálogo y añade los libros que quieras leer."
+        className="my-auto max-w-none bg-transparent shadow-none"
+      >
         <ButtonLink href="/buscar" onClick={onNavigate}>
           Ver el catálogo
         </ButtonLink>
-      </div>
+      </EmptyState>
     );
   }
 
   if (!data) {
     return failed ? (
-      <div className="flex flex-col items-center gap-4 px-6 py-12 text-center">
-        <CircleAlert className="size-10 text-accent" aria-hidden />
-        <p className="text-brand-800">No pudimos cargar tu carrito. Comprueba tu conexión e inténtalo de nuevo.</p>
+      <EmptyState
+        tone="error"
+        icon={CircleAlert}
+        title="No pudimos cargar tu carrito"
+        description="Comprueba tu conexión e inténtalo de nuevo."
+        className="max-w-none bg-transparent shadow-none"
+      >
         <Button variant="outline" size="sm" onClick={retry}>
           Reintentar
         </Button>
-      </div>
+      </EmptyState>
     ) : (
       <CartSkeleton />
     );

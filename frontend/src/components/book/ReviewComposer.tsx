@@ -13,6 +13,7 @@ import { toast } from "@/store/ui.store";
 import type { MyReview, Review } from "@/types/catalog";
 import { StarInput } from "./StarInput";
 import { StarRating } from "./StarRating";
+import { Alert } from "@/components/ui/Alert";
 
 const MIN = 10;
 const MAX = 2000;
@@ -67,9 +68,9 @@ function ReviewForm({ slug, existing, onDone }: { slug: string; existing: Review
   return (
     <form onSubmit={submit} noValidate className="flex flex-col gap-4">
       {formError && (
-        <p role="alert" className="rounded-xl bg-accent px-4 py-3 text-sm font-semibold text-white">
+        <Alert tone="danger" live>
           {formError}
-        </p>
+        </Alert>
       )}
       <StarInput value={rating} onChange={(v) => { setRating(v); setErrors((e) => ({ ...e, rating: undefined })); }} error={errors.rating} />
       <Textarea
@@ -139,7 +140,7 @@ export function ReviewComposer({ slug, mine }: Props) {
           <>
             <div className="flex flex-wrap items-center gap-3">
               <StarRating rating={mine.review.rating} size="sm" />
-              <span className="inline-flex items-center gap-1 text-sm font-semibold text-emerald-800">
+              <span className="inline-flex items-center gap-1 text-sm font-semibold text-success">
                 <BadgeCheck className="size-4" aria-hidden /> Compra verificada
               </span>
               <span className="text-sm text-brand-600">
@@ -185,7 +186,7 @@ export function ReviewComposer({ slug, mine }: Props) {
   return (
     <div className={box}>
       <h3 className="text-xl font-bold">Deja tu reseña</h3>
-      <p className="flex items-center gap-1 text-sm font-semibold text-emerald-800">
+      <p className="flex items-center gap-1 text-sm font-semibold text-success">
         <BadgeCheck className="size-4" aria-hidden /> Compraste este libro: tu reseña llevará la insignia «Compra verificada».
       </p>
       <ReviewForm slug={slug} existing={null} onDone={() => undefined} />

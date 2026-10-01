@@ -1,3 +1,4 @@
+import { SearchX } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { OrderStatusBadge } from "@/components/checkout/OrderStatusBadge";
@@ -9,6 +10,7 @@ import { getAdminOrders, requireAdmin } from "@/lib/admin";
 import { formatCOP, formatDateTime } from "@/lib/format";
 import { flattenParams, type RawSearchParams } from "@/lib/listing";
 import { ORDER_STATUS_LABEL } from "@/types/order";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 export const metadata: Metadata = { title: "Pedidos" };
 
@@ -53,7 +55,7 @@ export default async function AdminOrdersPage({ searchParams }: { searchParams: 
       </p>
 
       {data.items.length === 0 ? (
-        <p className="rounded-2xl bg-card p-8 text-center text-brand-800 shadow-card">No hay pedidos con esos criterios.</p>
+        <EmptyState icon={SearchX} title="No hay pedidos con esos criterios" />
       ) : (
         <div className="relative overflow-x-auto rounded-2xl bg-card shadow-card">
           <table className="w-full min-w-[40rem] text-left">

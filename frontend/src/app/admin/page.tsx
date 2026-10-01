@@ -9,16 +9,16 @@ export const metadata: Metadata = { title: "Resumen" };
 
 function Stat({ label, value, href, Icon, tone = "normal" }: { label: string; value: string | number; href?: string; Icon: typeof Library; tone?: "normal" | "warn" }) {
   const body = (
-    <div className={`flex items-center gap-4 rounded-2xl p-5 shadow-card ${tone === "warn" && Number(value) > 0 ? "bg-accent text-white" : "bg-card"}`}>
-      <Icon className="size-8 shrink-0 opacity-80" aria-hidden />
+    <div className={`flex items-center gap-4 rounded-2xl p-5 shadow-card ${tone === "warn" && Number(value) > 0 ? "border border-warning-edge bg-warning-soft text-warning" : "bg-card"}`}>
+      <Icon className="size-8 shrink-0" aria-hidden />
       <div>
         <p className="text-3xl font-bold leading-none">{value}</p>
-        <p className="mt-1 text-sm opacity-90">{label}</p>
+        <p className="mt-1 text-sm">{label}</p>
       </div>
     </div>
   );
   return href ? (
-    <Link href={href} className="block transition hover:-translate-y-0.5">
+    <Link href={href} className="block rounded-2xl transition hover:-translate-y-0.5">
       {body}
     </Link>
   ) : (

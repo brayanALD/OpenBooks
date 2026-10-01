@@ -10,6 +10,7 @@ import { ShippingBadge } from "@/components/book/ShippingBadge";
 import { StarRating } from "@/components/book/StarRating";
 import type { BookDetail, BookSummary } from "@/types/catalog";
 import { FavoriteButton } from "./FavoriteButton";
+import { Alert } from "@/components/ui/Alert";
 
 type State = { status: "loading" | "error" } | { status: "ready"; detail: BookDetail };
 
@@ -68,9 +69,9 @@ export function BookQuickDetails({ book, onAdded }: { book: BookSummary; onAdded
           </p>
         )}
         {state.status === "error" && (
-          <p className="text-sm text-accent" role="alert">
+          <Alert tone="warning" live className="p-3">
             No pudimos cargar la descripción. Puedes verla en la ficha completa.
-          </p>
+          </Alert>
         )}
         {detail && (
           <>

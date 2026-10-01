@@ -3,6 +3,7 @@
 import { useId } from "react";
 import { Star } from "lucide-react";
 import { cn } from "@/lib/cn";
+import { FieldMessage } from "@/components/ui/FieldMessage";
 
 type StarInputProps = { value: number; onChange: (value: number) => void; error?: string };
 
@@ -32,7 +33,7 @@ export function StarInput({ value, onChange, error }: StarInputProps) {
               aria-label={`${n} ${n === 1 ? "estrella" : "estrellas"}`}
             />
             <Star
-              className={cn("size-8 transition-colors", n <= value ? "fill-amber-500 text-amber-500" : "fill-brand-100 text-brand-400")}
+              className={cn("size-8 transition-colors", n <= value ? "fill-rating text-rating" : "fill-brand-100 text-brand-400")}
               aria-hidden
             />
           </label>
@@ -42,9 +43,9 @@ export function StarInput({ value, onChange, error }: StarInputProps) {
         </span>
       </div>
       {error && (
-        <p id={`${name}-error`} className="mt-1 text-sm text-accent">
-          {error}
-        </p>
+        <div className="mt-1">
+          <FieldMessage id={`${name}-error`} error={error} />
+        </div>
       )}
     </fieldset>
   );

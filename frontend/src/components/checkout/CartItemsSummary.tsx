@@ -18,7 +18,7 @@ export function CartItemsSummary({ lines, quantityOf }: { lines: CartLine[]; qua
               <span className="text-sm text-brand-800">
                 {quantity} × {formatCOP(line.unit_price_cop)}
               </span>
-              {line.issue && <span className="text-xs font-semibold text-accent">No disponible en esta cantidad</span>}
+              {line.issue && <span className="text-xs font-semibold text-danger">No disponible en esta cantidad</span>}
             </span>
             <span className="text-sm font-bold text-accent">{formatCOP(line.line_total_cop)}</span>
           </li>

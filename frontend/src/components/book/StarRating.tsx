@@ -33,7 +33,7 @@ export function StarRating({ rating, count, size = "md", className }: StarRating
       <span role="img" aria-label={label} className={cn("relative inline-block", dimension)}>
         <Stars className="h-full text-brand-200" />
         <span className="absolute inset-y-0 left-0 overflow-hidden" style={{ width: `${(rating / 5) * 100}%` }}>
-          <Stars className={cn("h-full text-amber-500", size === "sm" ? "w-[5rem]" : "w-[6.25rem]")} />
+          <Stars className={cn("h-full text-rating", size === "sm" ? "w-[5rem]" : "w-[6.25rem]")} />
         </span>
       </span>
       <span className="text-sm font-medium text-brand-800" aria-hidden>

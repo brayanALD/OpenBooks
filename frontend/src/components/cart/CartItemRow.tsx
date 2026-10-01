@@ -54,7 +54,7 @@ export function CartItemRow({ line, quantity, onQuantityChange, onRemove, onNavi
           {book.discount_pct > 0 && <span className="ml-1 font-semibold text-accent">(-{book.discount_pct} %)</span>}
         </p>
         {line.issue && (
-          <p className="text-sm font-semibold text-accent" role="status">
+          <p className="text-sm font-semibold text-danger" role="status">
             {ISSUE_TEXT[line.issue](line.max_quantity)}
           </p>
         )}

@@ -6,6 +6,7 @@ import { Skeleton } from "@/components/ui/Skeleton";
 import { BookGrid, BookGridSkeleton } from "./BookGrid";
 import { Filters } from "./Filters";
 import { Pagination } from "./Pagination";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 type ListingProps = {
   /** Ruta de la página (los filtros y la paginación navegan a ella). */
@@ -55,17 +56,15 @@ export async function Listing({ basePath, searchParams, fixed }: ListingProps) {
             <Pagination page={result.page} pages={result.pages} basePath={basePath} query={flattenParams(searchParams)} />
           </>
         ) : (
-          <div className="flex flex-col items-center gap-4 rounded-2xl bg-card px-6 py-14 text-center shadow-card">
-            <SearchX className="size-10 text-brand-400" aria-hidden />
-            <p className="max-w-sm text-lg text-brand-800">
-              {page > 1
-                ? "Esta página no existe."
-                : "No encontramos libros con esos criterios. Prueba con otros filtros o palabras."}
-            </p>
+          <EmptyState
+            icon={SearchX}
+            title={page > 1 ? "Esta página no existe" : "No encontramos libros"}
+            description={page > 1 ? undefined : "Prueba con otros filtros o palabras."}
+          >
             <ButtonLink href={basePath} variant="outline" size="sm">
               Quitar filtros
             </ButtonLink>
-          </div>
+          </EmptyState>
         )}
       </section>
     </div>

@@ -5,6 +5,7 @@ import { BookGrid } from "@/components/catalog/BookGrid";
 import { ButtonLink } from "@/components/ui/Button";
 import { requireUser } from "@/lib/session";
 import { getMyFavorites } from "@/lib/wishlist";
+import { EmptyState } from "@/components/ui/EmptyState";
 
 export const metadata: Metadata = { title: "Mis favoritos", robots: { index: false, follow: false } };
 
@@ -30,12 +31,9 @@ export default async function FavoritesPage() {
       </div>
 
       {books.length === 0 ? (
-        <div className="mx-auto flex max-w-xl flex-col items-center gap-4 rounded-2xl bg-card p-10 text-center shadow-card">
-          <Heart className="size-12 text-brand-400" aria-hidden />
-          <p className="font-display text-2xl font-bold">Todavía no tienes favoritos</p>
-          <p className="text-brand-800">Toca el corazón de un libro para guardarlo aquí y encontrarlo después.</p>
+        <EmptyState icon={Heart} title="Todavía no tienes favoritos" description="Toca el corazón de un libro para guardarlo aquí y encontrarlo después.">
           <ButtonLink href="/buscar">Ver el catálogo</ButtonLink>
-        </div>
+        </EmptyState>
       ) : (
         <>
           <h2 className="sr-only">Libros guardados</h2>

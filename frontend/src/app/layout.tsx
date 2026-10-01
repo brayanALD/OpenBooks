@@ -1,18 +1,23 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import localFont from "next/font/local";
 import { Toaster } from "@/components/ui/Toaster";
 import { SITE_URL } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
-const inter = Inter({
+// Fuentes autoalojadas (Inter y Playfair Display, licencia OFL): sin peticiones a Google al compilar ni al visitar.
+const inter = localFont({
+  src: "./fonts/Inter-latin.woff2",
   variable: "--font-inter",
-  subsets: ["latin"],
+  weight: "100 900",
+  display: "swap",
 });
 
-const playfair = Playfair_Display({
+const playfair = localFont({
+  src: "./fonts/PlayfairDisplay-latin.woff2",
   variable: "--font-playfair",
-  subsets: ["latin"],
+  weight: "400 900",
+  display: "swap",
 });
 
 export const metadata: Metadata = {

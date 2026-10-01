@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { X } from "lucide-react";
+import { useDialog } from "@/lib/use-dialog";
 import { useUIStore } from "@/store/ui.store";
 import { CartContents } from "./CartContents";
 
@@ -10,15 +11,8 @@ import { CartContents } from "./CartContents";
 export function CartDrawer() {
   const open = useUIStore((state) => state.cartOpen);
   const closeCart = useUIStore((state) => state.closeCart);
-  const ref = useRef<HTMLDialogElement>(null);
+  const ref = useDialog(open);
   const pathname = usePathname();
-
-  useEffect(() => {
-    const dialog = ref.current;
-    if (!dialog) return;
-    if (open && !dialog.open) dialog.showModal();
-    if (!open && dialog.open) dialog.close();
-  }, [open]);
 
   // Navegar (p. ej. a la ficha de un libro) cierra el panel.
   useEffect(() => {

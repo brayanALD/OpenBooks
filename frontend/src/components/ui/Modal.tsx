@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useId, useRef } from "react";
+import { useId } from "react";
 import { X } from "lucide-react";
 import { cn } from "@/lib/cn";
+import { useDialog } from "@/lib/use-dialog";
 
 type ModalProps = {
   open: boolean;
@@ -18,15 +19,8 @@ type ModalProps = {
  * Se cierra con Escape, con la X o al hacer clic en el fondo.
  */
 export function Modal({ open, onClose, title, children, wide = false }: ModalProps) {
-  const ref = useRef<HTMLDialogElement>(null);
+  const ref = useDialog(open);
   const titleId = useId();
-
-  useEffect(() => {
-    const dialog = ref.current;
-    if (!dialog) return;
-    if (open && !dialog.open) dialog.showModal();
-    if (!open && dialog.open) dialog.close();
-  }, [open]);
 
   return (
     <dialog

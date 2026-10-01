@@ -164,6 +164,8 @@
 :root[data-theme="dark"] .hover\:text-accent-dark:hover { color: #f0a184; }
 :root[data-theme="dark"] .fill-accent { fill: #f0a184; }
 :root[data-theme="dark"] .placeholder\:text-brand-600\/80::placeholder { color: rgb(217 198 174 / 0.7); }
+/* El logo va sobre la cabecera/pie (brand-400), que en oscuro es un marrón muy oscuro. */
+:root[data-theme="dark"] .logo-link { color: #f3e9dc; }
 /* Estos textos van sobre fondos que siguen siendo oscuros en los dos modos (chip del panel, etc.). */
 :root[data-theme="dark"] .text-brand-50 { color: #faf5ee; }
 :root[data-theme="dark"] .text-brand-100 { color: #f2e8da; }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ChevronDown, Heart, Library } from "lucide-react";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { ButtonLink } from "@/components/ui/Button";
 import { OrderStatusBadge } from "@/components/checkout/OrderStatusBadge";
@@ -41,22 +42,6 @@ export default async function AccountPage() {
         </div>
       </header>
 
-      <section aria-labelledby="datos" className="rounded-2xl bg-card p-6 shadow-card">
-        <h2 id="datos" className="mb-4 text-2xl font-bold">
-          Tus datos
-        </h2>
-        <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2">
-          {rows
-            .filter(([, value]) => value)
-            .map(([label, value]) => (
-              <div key={label} className="contents">
-                <dt className="font-semibold text-ink-soft">{label}</dt>
-                <dd className="break-words">{value}</dd>
-              </div>
-            ))}
-        </dl>
-      </section>
-
       <section aria-labelledby="pedidos" className="rounded-2xl bg-card p-6 shadow-card">
         <div className="mb-4 flex items-baseline justify-between gap-4">
           <h2 id="pedidos" className="text-2xl font-bold">
@@ -89,28 +74,48 @@ export default async function AccountPage() {
         )}
       </section>
 
-      <section aria-labelledby="favoritos" className="rounded-2xl bg-card p-6 shadow-card">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 id="favoritos" className="text-2xl font-bold">
-            Mis favoritos
-          </h2>
-          <Link href="/cuenta/favoritos" className="text-sm font-semibold text-action underline underline-offset-4">
-            Ver mi lista
-          </Link>
-        </div>
-        <p className="mt-2 text-ink-soft">Los libros que guardaste con el corazón para verlos más tarde.</p>
-      </section>
+      <nav aria-label="Accesos de la cuenta" className="grid gap-4 sm:grid-cols-2">
+        <Link
+          href="/cuenta/favoritos"
+          className="flex items-center gap-3 rounded-2xl bg-card p-5 font-display text-xl font-bold shadow-card transition duration-200 hover:-translate-y-0.5 hover:shadow-card-hover"
+        >
+          <Heart className="size-6 text-action" aria-hidden />
+          Mis favoritos
+        </Link>
+        <Link
+          href="/cuenta/librero"
+          className="flex items-center gap-3 rounded-2xl bg-card p-5 font-display text-xl font-bold shadow-card transition duration-200 hover:-translate-y-0.5 hover:shadow-card-hover"
+        >
+          <Library className="size-6 text-action" aria-hidden />
+          Mi librero
+        </Link>
+      </nav>
 
-      <section aria-labelledby="librero" className="rounded-2xl bg-card p-6 shadow-card">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 id="librero" className="text-2xl font-bold">
-            Mi librero
-          </h2>
-          <Link href="/cuenta/librero" className="text-sm font-semibold text-action underline underline-offset-4">
-            Ver mi librero
-          </Link>
-        </div>
-        <p className="mt-2 text-ink-soft">Los libros que has comprado, todos en un mismo lugar.</p>
+      <section aria-labelledby="datos" className="rounded-2xl bg-card p-6 shadow-card">
+        <details className="group">
+          <summary className="flex cursor-pointer select-none items-center justify-between gap-3">
+            <h2 id="datos" className="text-2xl font-bold">
+              Tus datos
+            </h2>
+            <span className="flex items-center gap-1 text-sm font-semibold text-ink-muted">
+              <span className="group-open:hidden">Ver</span>
+              <span className="hidden group-open:inline">Ocultar</span>
+              <ChevronDown className="size-4 transition-transform group-open:rotate-180" aria-hidden />
+            </span>
+          </summary>
+          <div className="mt-4">
+          <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2">
+            {rows
+              .filter(([, value]) => value)
+              .map(([label, value]) => (
+                <div key={label} className="contents">
+                  <dt className="font-semibold text-ink-soft">{label}</dt>
+                  <dd className="break-words">{value}</dd>
+                </div>
+              ))}
+          </dl>
+          </div>
+        </details>
       </section>
     </div>
   );

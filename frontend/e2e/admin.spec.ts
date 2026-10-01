@@ -21,6 +21,7 @@ test.describe("Administración", () => {
 
     await open(page, "/admin/libros/nuevo");
     await page.getByLabel("Título").fill(title);
+    await page.getByLabel("ISBN").fill("978-958-00-0000-0");
     await page.getByLabel("Autor").fill("Autora E2E");
     await page.getByLabel("Novela").check();
     await page.getByLabel("Editorial").fill("Editorial E2E");
